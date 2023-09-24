@@ -1,5 +1,5 @@
 # Survival-ReImagined
-![Minecraft:Survival ReImagined](https://www.mediafire.com/view/xueg22s9piarqxa/minecraft_title_sunset.png/file)
+![Minecraft:Survival ReImagined](minecraft_title_sunset.png)
 
 
 
