@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " I ",
+        "iLi",
+        " i "
+    ],
+    "key": {
+        "I": {
+            "item": "minecraft:iron_block"
+        },
+        "i": {
+            "item": "minecraft:iron_ingot"
+        },
+        "L": {
+            "item": "minecraft:leather_boots"
+        }
+    },
+    "result": {
+        "item": "minecraft:iron_boots",
+        "count": 1
+    },
+    "group": "upgrade_boots"
+}

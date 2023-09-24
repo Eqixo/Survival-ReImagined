@@ -1,0 +1,25 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:snow_block"
+      },
+      "title": "Hard To Walk Through",
+      "description": [
+        "",
+        {
+          "text": "A thick layer of snow makes it harder to walk in cold biomes",
+          "color": "light_green"
+        }
+      ],
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": true
+    },
+    "parent": "minecraft:hardersurvival/i_cant_stand_you",
+    "criteria": {
+      "snow_block": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }

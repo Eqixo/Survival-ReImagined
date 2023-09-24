@@ -1,0 +1,142 @@
+{
+    "display": {
+		"icon": {
+			"item": "minecraft:leather_chestplate"
+		},
+		"title": "First of Many",
+		"description": [
+			"",
+			{
+				"text":"Craft your first armor piece",
+				"color":"light_green"
+			}
+		],
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+	},
+    "parent": "minecraft:hardersurvival/good_luck",
+    "criteria": {
+        "crafted_helmet": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": { 
+                "recipe_id": "leather_helmet",
+                "ingredients": [
+                    {
+                        "items": [
+                            "minecraft:leather"
+                        ]
+                    }
+                ]
+            }
+        },
+        "dropped_helmet": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": { 
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:leather_helmet"
+                        ]
+                    }
+                ]
+            }
+        },
+        "crafted_chestplate": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": { 
+                "recipe_id": "leather_chestplate",
+                "ingredients": [
+                    {
+                        "items": [
+                            "minecraft:leather"
+                        ]
+                    }
+                ]
+            }
+        },
+        "dropped_chestplate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": { 
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:leather_chestplate"
+                        ]
+                    }
+                ]
+            }
+        },
+        "crafted_leggings": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": { 
+                "recipe_id": "leather_leggings",
+                "ingredients": [
+                    {
+                        "items": [
+                            "minecraft:leather"
+                        ]
+                    }
+                ]
+            }
+        },
+        "dropped_leggings": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": { 
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:leather_leggings"
+                        ]
+                    }
+                ]
+            }
+        },
+        "crafted_boots": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": { 
+                "recipe_id": "leather_boots",
+                "ingredients": [
+                    {
+                        "items": [
+                            "minecraft:leather"
+                        ]
+                    }
+                ]
+            }
+        },
+        "dropped_boots": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": { 
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:leather_boots"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "crafted_helmet",
+            "crafted_chestplate",
+            "crafted_leggings",
+            "crafted_boots",
+            "dropped_helmet",
+            "dropped_chestplate",
+            "dropped_leggings",
+            "dropped_boots"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "minecraft:iron_helmet",
+            "minecraft:iron_chestplate",
+            "minecraft:iron_leggings",
+            "minecraft:iron_boots"
+        ]
+    }
+}

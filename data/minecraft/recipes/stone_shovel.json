@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " _ ",
+        "SWS"
+    ],
+    "key": {
+        "_": {
+            "item": "minecraft:stone_slab"
+        },
+        "S": {
+            "item": "minecraft:string"
+        },
+        "W": {
+            "item": "minecraft:wooden_shovel"
+        }
+    },
+    "result": {
+        "item": "minecraft:stone_shovel",
+        "count": 1
+    },
+    "group": "upgrade_shovel"
+}

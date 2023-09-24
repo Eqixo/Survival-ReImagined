@@ -1,0 +1,23 @@
+{
+    "feature": "hardersurvival:plains/lakes/lake_small",
+    "placement": [
+        {
+            "chance": 16,
+            "type": "rarity_filter"
+        },
+        {
+          "type": "minecraft:biome"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "max_water_depth": 0,
+          "type": "minecraft:surface_water_depth_filter"
+        },
+        {
+          "heightmap": "WORLD_SURFACE_WG",
+          "type": "minecraft:heightmap"
+        }
+    ]
+}

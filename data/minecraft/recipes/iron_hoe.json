@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "_S",
+        " W"
+    ],
+    "key": {
+        "_": {
+            "item": "minecraft:iron_ingot"
+        },
+        "S": {
+            "item": "minecraft:string"
+        },
+        "W": {
+            "item": "minecraft:stone_hoe"
+        }
+    },
+    "result": {
+        "item": "minecraft:iron_hoe",
+        "count": 1
+    },
+    "group": "upgrade_hoe"
+}

@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#I#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:gold_ingot"
+        },
+        "I": {
+            "item": "minecraft:iron_boots"
+        }
+    },
+    "result": {
+        "item": "minecraft:golden_boots",
+        "count": 1
+    },
+    "group": "upgrade_boots"
+}

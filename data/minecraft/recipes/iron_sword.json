@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " _ ",
+        " S ",
+        "DWD"
+    ],
+    "key": {
+        "_": {
+            "item": "minecraft:iron_ingot"
+        },
+        "S": {
+            "item": "minecraft:iron_block"
+        },
+        "D": {
+            "item": "minecraft:string"
+        },
+        "W": {
+            "item": "minecraft:stone_sword"
+        }
+    },
+    "result": {
+        "item": "minecraft:iron_sword",
+        "count": 1
+    },
+    "group": "upgrade_sword"
+}

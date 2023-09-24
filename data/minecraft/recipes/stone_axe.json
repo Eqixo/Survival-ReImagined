@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "_SY",
+        " W "
+    ],
+    "key": {
+        "_": {
+            "item": "minecraft:stone_slab"
+        },
+        "S": {
+            "item": "minecraft:string"
+        },
+        "Y": {
+            "item": "minecraft:stone"
+        },
+        "W": {
+            "item": "minecraft:wooden_axe"
+        }
+    },
+    "result": {
+        "item": "minecraft:stone_axe",
+        "count": 1
+    },
+    "group": "upgrade_axe"
+}

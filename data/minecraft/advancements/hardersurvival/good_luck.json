@@ -1,0 +1,24 @@
+{
+    "display": {
+		"icon": {
+			"item": "minecraft:crafting_table"
+		},
+        "description": [
+            "",
+            {
+                "text": "You're going to need it",
+                "color": "light_green"
+            }
+        ],
+		"title": "Good Luck !",
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false
+	},
+    "parent": "minecraft:hardersurvival/root",
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

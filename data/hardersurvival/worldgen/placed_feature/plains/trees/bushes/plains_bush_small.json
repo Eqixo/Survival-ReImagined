@@ -1,0 +1,60 @@
+{
+    "feature": "hardersurvival:plains/trees/bushes/plains_bush_small",
+    "placement": [
+        {
+          "chance": 2,
+          "type": "rarity_filter"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "max_water_depth": 0,
+          "type": "minecraft:surface_water_depth_filter"
+        },
+        {
+          "heightmap": "WORLD_SURFACE",
+          "type": "minecraft:heightmap"
+        },
+        {
+			  "type": "minecraft:block_predicate_filter",
+			  "predicate": {
+				  "type": "minecraft:all_of",
+				  "predicates": [
+				  	  {
+				  		  "type": "minecraft:replaceable"
+		          },
+              {
+                "type": "minecraft:matching_blocks",
+                "blocks": "#dirt",
+                "offset": [1, -1, 0]
+              },
+              {
+                "type": "minecraft:matching_blocks",
+                "blocks": "#dirt",
+                "offset": [-1, -1, 0]
+              },
+              {
+                "type": "minecraft:matching_blocks",
+                "blocks": "#dirt",
+                "offset": [0, -1, 1]
+              },
+              {
+                "type": "minecraft:matching_blocks",
+                "blocks": "#dirt",
+                "offset": [0, -1, -1]
+              },
+              {
+                "type": "minecraft:would_survive",
+                "state": {
+                  "Name": "minecraft:fern"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "minecraft:biome"
+        }
+    ]
+}

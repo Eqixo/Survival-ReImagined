@@ -1,0 +1,91 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "_SO",
+        " / ",
+        " / "
+    ],
+    "key": {
+        "_": [
+            {
+                "item": "minecraft:oak_slab"
+            },
+            {
+                "item": "minecraft:spruce_slab"
+            },
+            {
+                "item": "minecraft:dark_oak_slab"
+            },
+            {
+                "item": "minecraft:birch_slab"
+            },
+            {
+                "item": "minecraft:mangrove_slab"
+            },
+            {
+                "item": "minecraft:cherry_slab"
+            },
+            {
+                "item": "minecraft:jungle_slab"
+            },
+            {
+                "item": "minecraft:acacia_slab"
+            },
+            {
+                "item": "minecraft:bamboo_slab"
+            },
+            {
+                "item": "minecraft:warped_slab"
+            },
+            {
+                "item": "minecraft:crimson_slab"
+            }
+        ],
+        "S": {
+            "item": "minecraft:string"
+        },
+        "O": [
+            {
+                "item": "minecraft:oak_planks"
+            },
+            {
+                "item": "minecraft:spruce_planks"
+            },
+            {
+                "item": "minecraft:dark_oak_planks"
+            },
+            {
+                "item": "minecraft:birch_planks"
+            },
+            {
+                "item": "minecraft:mangrove_planks"
+            },
+            {
+                "item": "minecraft:cherry_planks"
+            },
+            {
+                "item": "minecraft:jungle_planks"
+            },
+            {
+                "item": "minecraft:acacia_planks"
+            },
+            {
+                "item": "minecraft:bamboo_planks"
+            },
+            {
+                "item": "minecraft:warped_planks"
+            },
+            {
+                "item": "minecraft:crimson_planks"
+            }
+        ],
+        "/": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "minecraft:wooden_axe",
+        "count": 1
+    },
+    "group": "upgrade_axe"
+}

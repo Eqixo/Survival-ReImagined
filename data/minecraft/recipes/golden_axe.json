@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#S#",
+        " /#",
+        " I "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:gold_ingot"
+        },
+        "S": {
+            "item": "minecraft:string"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        },
+        "I": {
+            "item": "minecraft:iron_axe"
+        }
+    },
+    "result": {
+        "item": "minecraft:golden_axe",
+        "count": 1
+    },
+    "group": "upgrade_axe"
+}

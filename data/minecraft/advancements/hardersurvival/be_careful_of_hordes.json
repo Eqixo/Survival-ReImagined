@@ -1,0 +1,31 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:zombie_head"
+      },
+      "title": "Be careful of hordes",
+      "description": [
+        "",
+        {
+          "text": "Hordes may come quick when one of them is attacked.",
+          "color": "#FF0000"
+        }
+      ],
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": true
+    },
+    "parent": "minecraft:hardersurvival/pretty_strong_huh",
+    "criteria": {
+      "punched_zombie": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:zombie"
+          }
+        }
+      }
+    },
+    "rewards": {}
+  }

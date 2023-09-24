@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " _ ",
+        " S ",
+        "DWD"
+    ],
+    "key": {
+        "_": {
+            "item": "minecraft:stone_slab"
+        },
+        "S": {
+            "item": "minecraft:stone"
+        },
+        "D": {
+            "item": "minecraft:string"
+        },
+        "W": {
+            "item": "minecraft:wooden_sword"
+        }
+    },
+    "result": {
+        "item": "minecraft:stone_sword",
+        "count": 1
+    },
+    "group": "upgrade_sword"
+}

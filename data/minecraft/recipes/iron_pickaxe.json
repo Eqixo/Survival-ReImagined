@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "_S_",
+        "EWE"
+    ],
+    "key": {
+        "_": {
+            "item": "minecraft:iron_ingot"
+        },
+        "S": {
+            "item": "minecraft:iron_block"
+        },
+        "E": {
+            "item": "minecraft:string"
+        },
+        "W": {
+            "item": "minecraft:stone_pickaxe"
+        }
+    },
+    "result": {
+        "item": "minecraft:iron_pickaxe",
+        "count": 1
+    },
+    "group": "upgrade_pickaxe"
+}

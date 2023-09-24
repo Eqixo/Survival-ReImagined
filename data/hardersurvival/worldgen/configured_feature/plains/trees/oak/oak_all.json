@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "chance": 0.3,
+        "feature": "hardersurvival:plains/trees/oak/oak_medium"
+      }
+    ],
+    "default": "hardersurvival:plains/trees/oak/oak_tall"
+  }
+}

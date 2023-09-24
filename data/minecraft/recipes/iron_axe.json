@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "_SY",
+        " W "
+    ],
+    "key": {
+        "_": {
+            "item": "minecraft:iron_ingot"
+        },
+        "S": {
+            "item": "minecraft:string"
+        },
+        "Y": {
+            "item": "minecraft:iron_block"
+        },
+        "W": {
+            "item": "minecraft:stone_axe"
+        }
+    },
+    "result": {
+        "item": "minecraft:iron_axe",
+        "count": 1
+    },
+    "group": "upgrade_axe"
+}

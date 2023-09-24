@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "iIi",
+        "iLi",
+        "i i"
+    ],
+    "key": {
+        "i": {
+            "item": "minecraft:iron_ingot"
+        },
+        "I": {
+            "item": "minecraft:iron_block"
+        },
+        "L": {
+            "item": "minecraft:leather_leggings"
+        }
+    },
+    "result": {
+        "item": "minecraft:iron_leggings",
+        "count": 1
+    },
+    "group": "upgrade_leggings"
+}

@@ -1,0 +1,86 @@
+{
+    "display": {
+		"icon": {
+			"item": "minecraft:golden_chestplate"
+		},
+		"title": "Wrong Material...",
+		"description": [
+			"",
+			{
+				"text":"Gold is not an upgrade.",
+				"color":"gold"
+			}
+		],
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+	},
+    "parent": "minecraft:hardersurvival/from_scraps_to_steel",
+    "criteria": {
+        "crafted_helmet": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": { 
+                "recipe_id": "golden_helmet",
+                "ingredients": [
+                    {
+                        "items": [
+                            "minecraft:gold_ingot",
+                            "minecraft:iron_helmet"
+                        ]
+                    }
+                ]
+            }
+        },
+        "crafted_chestplate": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": { 
+                "recipe_id": "golden_chestplate",
+                "ingredients": [
+                    {
+                        "items": [
+                            "minecraft:gold_ingot",
+                            "minecraft:iron_chestplate"
+                        ]
+                    }
+                ]
+            }
+        },
+        "crafted_leggings": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": { 
+                "recipe_id": "golden_leggings",
+                "ingredients": [
+                    {
+                        "items": [
+                            "minecraft:gold_ingot",
+                            "minecraft:iron_leggings"
+                        ]
+                    }
+                ]
+            }
+        },
+        "crafted_boots": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": { 
+                "recipe_id": "golden_boots",
+                "ingredients": [
+                    {
+                        "items": [
+                            "minecraft:gold_ingot",
+                            "minecraft:iron_boots"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "crafted_helmet",
+            "crafted_chestplate",
+            "crafted_leggings",
+            "crafted_boots"
+        ]
+    ]
+}
