@@ -27,7 +27,7 @@
     ["minecraft:lake_lava_underground"],
     [
       "minecraft:amethyst_geode",
-      "hardersurvival:taiga/forest_rocks/forest_rock_all"
+      "survival_reimagined:taiga/forest_rocks/forest_rock_all"
     ],
     ["minecraft:monster_room", "minecraft:monster_room_deep"],
     [],
@@ -57,9 +57,9 @@
     ["minecraft:spring_water"],
     [
       "minecraft:glow_lichen",
-      "hardersurvival:plains/trees/birch/old_growth/birch_tree_old",
-      "hardersurvival:plains/vegetation/patch_grass",
-      "hardersurvival:water_biomes/vegetation/patch_vegetation_underwater",
+      "survival_reimagined:plains/trees/birch/old_growth/birch_tree_old",
+      "survival_reimagined:plains/vegetation/patch_grass",
+      "survival_reimagined:water_biomes/vegetation/patch_vegetation_underwater",
       "minecraft:patch_sugar_cane"
     ],
     ["minecraft:freeze_top_layer"]

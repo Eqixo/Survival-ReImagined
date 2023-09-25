@@ -1,0 +1,142 @@
+{
+    "display": {
+		"icon": {
+			"item": "minecraft:netherite_chestplate",
+            "nbt": "{Enchantments:[{id:\"protection\"}]}"
+		},
+		"title": "Netherite-Boosted Armor",
+		"description": [
+			"",
+			{
+				"text":"Upgrade a piece of diamond armor to netherite",
+				"color":"light_green"
+			}
+		],
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true
+	},
+    "parent": "minecraft:survival_reimagined/shimmering_ascension",
+    "criteria": {
+        "crafted_helmet": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": { 
+                "recipe_id": "netherite_helmet_smithing",
+                "ingredients": [
+                    {
+                        "items": [
+                            "minecraft:netherite_ingot",
+                            "minecraft:netherite_helmet",
+                            "minecraft:netherite_upgrade_smithing_template"
+                        ]
+                    }
+                ]
+            }
+        },
+        "dropped_helmet": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": { 
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:netherite_helmet"
+                        ]
+                    }
+                ]
+            }
+        },
+        "crafted_chestplate": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": { 
+                "recipe_id": "netherite_chestplate_smithing",
+                "ingredients": [
+                    {
+                        "items": [
+                            "minecraft:netherite_ingot",
+                            "minecraft:netherite_chestplate",
+                            "minecraft:netherite_upgrade_smithing_template"
+                        ]
+                    }
+                ]
+            }
+        },
+        "dropped_chestplate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": { 
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:netherite_chestplate"
+                        ]
+                    }
+                ]
+            }
+        },
+        "crafted_leggings": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": { 
+                "recipe_id": "netherite_leggings_smithing",
+                "ingredients": [
+                    {
+                        "items": [
+                            "minecraft:netherite_ingot",
+                            "minecraft:netherite_leggings",
+                            "minecraft:netherite_upgrade_smithing_template"
+                        ]
+                    }
+                ]
+            }
+        },
+        "dropped_leggings": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": { 
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:netherite_leggings"
+                        ]
+                    }
+                ]
+            }
+        },
+        "crafted_boots": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": { 
+                "recipe_id": "netherite_boots_smithing",
+                "ingredients": [
+                    {
+                        "items": [
+                            "minecraft:netherite_ingot",
+                            "minecraft:netherite_boots",
+                            "minecraft:netherite_upgrade_smithing_template"
+                        ]
+                    }
+                ]
+            }
+        },
+        "dropped_boots": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": { 
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:netherite_boots"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "crafted_helmet",
+            "crafted_chestplate",
+            "crafted_leggings",
+            "crafted_boots",
+            "dropped_helmet",
+            "dropped_chestplate",
+            "dropped_leggings",
+            "dropped_boots"
+        ]
+    ]
+}

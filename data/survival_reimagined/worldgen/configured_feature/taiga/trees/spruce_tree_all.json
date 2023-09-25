@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "chance": 0.3,
+        "feature": "survival_reimagined:taiga/trees/spruce_tree_medium"
+      },
+      {
+        "chance": 0.075,
+        "feature": "survival_reimagined:taiga/trees/spruce_tree_small"
+      }
+    ],
+    "default": "survival_reimagined:taiga/trees/spruce_tree_tall"
+  }
+}

@@ -41,7 +41,7 @@
       "minecraft:ore_diorite_lower",
       "minecraft:underwater_magma",
       "minecraft:disk_sand",
-      "hardersurvival:water_biomes/vegetation/patch_vegetation_underwater"
+      "survival_reimagined:water_biomes/vegetation/patch_vegetation_underwater"
     ],
     [],
     [

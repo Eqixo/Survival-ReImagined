@@ -71,12 +71,12 @@
     [],
     [
       "minecraft:glow_lichen",
-      "hardersurvival:plains/trees/bushes/plains_bush_small",
-      "hardersurvival:plains/trees/bushes/plains_bush_normal",
-      "hardersurvival:plains/trees/plains_tiny_birch",
-      "hardersurvival:plains/trees/plains_tiny_oak",
-      "hardersurvival:plains/vegetation/patch_grass",
-      "hardersurvival:water_biomes/vegetation/patch_vegetation_underwater",
+      "survival_reimagined:plains/trees/bushes/plains_bush_small",
+      "survival_reimagined:plains/trees/bushes/plains_bush_normal",
+      "survival_reimagined:plains/trees/plains_tiny_birch",
+      "survival_reimagined:plains/trees/plains_tiny_oak",
+      "survival_reimagined:plains/vegetation/patch_grass",
+      "survival_reimagined:water_biomes/vegetation/patch_vegetation_underwater",
       "minecraft:flower_meadow"
     ],
     [

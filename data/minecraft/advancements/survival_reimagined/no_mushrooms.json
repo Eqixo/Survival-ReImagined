@@ -1,0 +1,38 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:red_mushroom"
+      },
+      "title": "No Mushrooms ?",
+      "description": [
+        "",
+        {
+          "text": "Only regeneration effect.\n\n",
+          "color": "#FF0000"
+        },
+        {
+          "text": "- Suspicious stew",
+          "color": "gold"
+        }
+      ],
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": true
+    },
+    "parent": "minecraft:survival_reimagined/gold_shortage",
+    "criteria": {
+      "regeneration_stew": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": [
+              "minecraft:suspicious_stew"
+            ],
+            "nbt": "{Effects:[{EffectId:10}]}"
+          }
+        }
+      }
+    },
+    "rewards": {}
+  }

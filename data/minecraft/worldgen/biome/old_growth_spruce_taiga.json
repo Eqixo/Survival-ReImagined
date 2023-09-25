@@ -29,7 +29,7 @@
     ],
     [
       "minecraft:amethyst_geode",
-      "hardersurvival:taiga/forest_rocks/forest_rock_all"
+      "survival_reimagined:taiga/forest_rocks/forest_rock_all"
     ],
     [
       "minecraft:monster_room",
@@ -63,13 +63,13 @@
     ],
     [
       "minecraft:glow_lichen",
-      "hardersurvival:taiga/trees/bushes/spruce_bush_small",
-      "hardersurvival:taiga/trees/bushes/spruce_bush_normal",
-      "hardersurvival:taiga/trees/old_growth/spruce_tree_old",
-      "hardersurvival:taiga/vegetation/patch_berry_bushes",
-      "hardersurvival:taiga/vegetation/patch_grass_taiga",
-      "hardersurvival:taiga/vegetation/patch_mushrooms",
-      "hardersurvival:water_biomes/vegetation/patch_vegetation_underwater",
+      "survival_reimagined:taiga/trees/bushes/spruce_bush_small",
+      "survival_reimagined:taiga/trees/bushes/spruce_bush_normal",
+      "survival_reimagined:taiga/trees/old_growth/spruce_tree_old",
+      "survival_reimagined:taiga/vegetation/patch_berry_bushes",
+      "survival_reimagined:taiga/vegetation/patch_grass_taiga",
+      "survival_reimagined:taiga/vegetation/patch_mushrooms",
+      "survival_reimagined:water_biomes/vegetation/patch_vegetation_underwater",
       "minecraft:patch_sugar_cane"
     ],
     [

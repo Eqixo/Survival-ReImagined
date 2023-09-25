@@ -63,12 +63,12 @@
     ],
     [
       "minecraft:glow_lichen",
-      "hardersurvival:taiga/trees/bushes/spruce_bush_small",
-      "hardersurvival:taiga/trees/bushes/spruce_bush_normal",
-      "hardersurvival:plains/trees/plains_tiny_birch",
-      "hardersurvival:plains/trees/plains_tiny_spruce",
-      "hardersurvival:plains/vegetation/patch_grass",
-      "hardersurvival:water_biomes/vegetation/patch_vegetation_underwater",
+      "survival_reimagined:taiga/trees/bushes/spruce_bush_small",
+      "survival_reimagined:taiga/trees/bushes/spruce_bush_normal",
+      "survival_reimagined:plains/trees/plains_tiny_birch",
+      "survival_reimagined:plains/trees/plains_tiny_spruce",
+      "survival_reimagined:plains/vegetation/patch_grass",
+      "survival_reimagined:water_biomes/vegetation/patch_vegetation_underwater",
       "minecraft:patch_pumpkin"
     ],
     [

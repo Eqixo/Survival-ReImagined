@@ -1,0 +1,75 @@
+{
+	"feature": "survival_reimagined:taiga/forest_rocks/forest_rock_all",
+	"placement": [
+		{
+      "chance": 4,
+      "type": "rarity_filter"
+    },
+    {
+      "xz_spread": 16,
+      "y_spread": -2,
+      "type": "random_offset"
+    },
+    {
+      "heightmap": "WORLD_SURFACE_WG",
+      "type": "minecraft:heightmap"
+    },
+    {
+      "max_water_depth": 0,
+      "type": "minecraft:surface_water_depth_filter"
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:all_of",
+        "predicates": [
+          {
+            "blocks": "minecraft:air",
+            "type": "minecraft:matching_blocks"
+          },
+          {
+            "type": "minecraft:replaceable",
+            "offset": [1,0,0]
+          },
+          {
+            "type": "minecraft:replaceable",
+            "offset": [-1,0,0]
+          },
+          {
+            "type": "minecraft:replaceable",
+            "offset": [0,0,1]
+          },
+          {
+            "type": "minecraft:replaceable",
+            "offset": [0,0,-1]
+          },
+          {
+            "type": "minecraft:replaceable",
+            "offset": [1,0,1]
+          },
+          {
+            "type": "minecraft:replaceable",
+            "offset": [-1,0,-1]
+          },
+          {
+            "type": "minecraft:replaceable",
+            "offset": [1,0,-1]
+          },
+          {
+            "type": "minecraft:replaceable",
+            "offset": [-1,0,1]
+          },
+				  {
+				  	"type": "minecraft:would_survive",
+				  	"state": {
+				  		"Name": "minecraft:fern"
+				  	}
+				  }
+        ]
+      }
+    },
+		{
+		"type": "minecraft:biome"
+		}
+	]
+}

@@ -34,8 +34,8 @@
     ["minecraft:spring_water"],
     [
       "minecraft:glow_lichen",
-      "hardersurvival:plains/vegetation/patch_grass",
-      "hardersurvival:water_biomes/vegetation/patch_vegetation_underwater"
+      "survival_reimagined:plains/vegetation/patch_grass",
+      "survival_reimagined:water_biomes/vegetation/patch_vegetation_underwater"
     ],
     ["minecraft:freeze_top_layer"]
   ],

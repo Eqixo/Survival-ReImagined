@@ -59,11 +59,11 @@
     [],
     [
       "minecraft:glow_lichen",
-      "hardersurvival:taiga/trees/bushes/spruce_bush_normal",
-      "hardersurvival:taiga/trees/spruce_tree_all",
-      "hardersurvival:snowy_taiga/vegetation/patch_grass_snowy_taiga",
-      "hardersurvival:taiga/forest_rocks/forest_rock_all",
-      "hardersurvival:water_biomes/vegetation/patch_vegetation_underwater"
+      "survival_reimagined:taiga/trees/bushes/spruce_bush_normal",
+      "survival_reimagined:taiga/trees/spruce_tree_all",
+      "survival_reimagined:snowy_taiga/vegetation/patch_grass_snowy_taiga",
+      "survival_reimagined:taiga/forest_rocks/forest_rock_all",
+      "survival_reimagined:water_biomes/vegetation/patch_vegetation_underwater"
     ],
     [
       "minecraft:freeze_top_layer"

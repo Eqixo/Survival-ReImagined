@@ -45,8 +45,8 @@
     ],
     [
       "minecraft:glow_lichen",
-      "hardersurvival:taiga/vegetation/patch_grass_taiga",
-      "hardersurvival:water_biomes/vegetation/patch_vegetation_underwater"
+      "survival_reimagined:taiga/vegetation/patch_grass_taiga",
+      "survival_reimagined:water_biomes/vegetation/patch_vegetation_underwater"
     ],
     [
       "minecraft:freeze_top_layer"
