@@ -1,8 +1,8 @@
 {
   "has_precipitation": true,
-  "precipitation": "rain",
-  "temperature": 0.19,
-  "downfall": 0.8,
+  "precipitation": "none",
+  "temperature": 2.0,
+  "downfall": 0.0,
   "effects": {
     "mood_sound": {
       "sound": "minecraft:ambient.cave",
@@ -10,7 +10,7 @@
       "block_search_extent": 8,
       "offset": 2.0
     },
-    "sky_color": 7972607,
+    "sky_color": 7254527,
     "fog_color": 12638463,
     "water_color": 4159204,
     "water_fog_color": 329011
@@ -24,18 +24,29 @@
   },
   "features": [
     [],
-    ["minecraft:lake_lava_underground"],
     [
-      "minecraft:amethyst_geode",
-      "survival_reimagined:taiga/forest_rocks/forest_rock_all"
+      "minecraft:lake_lava_underground",
+      "minecraft:lake_lava_surface"
     ],
-    ["minecraft:monster_room", "minecraft:monster_room_deep"],
+    [
+      "minecraft:amethyst_geode"
+    ],
+    [
+      "minecraft:monster_room",
+      "minecraft:monster_room_deep"
+    ],
     [],
     [],
     [
+      "minecraft:ore_dirt",
+      "minecraft:ore_gravel",
+      "minecraft:ore_granite_upper",
       "minecraft:ore_granite_lower",
+      "minecraft:ore_diorite_upper",
       "minecraft:ore_diorite_lower",
+      "minecraft:ore_andesite_upper",
       "minecraft:ore_andesite_lower",
+      "minecraft:ore_tuff",
       "minecraft:ore_coal_upper",
       "minecraft:ore_coal_lower",
       "minecraft:ore_iron_upper",
@@ -51,18 +62,29 @@
       "minecraft:ore_lapis",
       "minecraft:ore_lapis_buried",
       "minecraft:ore_copper",
-      "minecraft:underwater_magma"
+      "minecraft:underwater_magma",
+      "minecraft:disk_sand",
+      "minecraft:disk_clay",
+      "minecraft:disk_gravel"
     ],
-    [],
     [],
     [
-      "minecraft:glow_lichen",
-      "survival_reimagined:plains/trees/birch/old_growth/birch_tree_old",
-      "survival_reimagined:plains/vegetation/patch_grass",
-      "survival_reimagined:water_biomes/vegetation/patch_vegetation_underwater",
-      "minecraft:patch_sugar_cane"
+      "minecraft:spring_water",
+      "minecraft:spring_lava"
     ],
-    ["minecraft:freeze_top_layer"]
+    [
+      "minecraft:glow_lichen",
+      "minecraft:trees_windswept_savanna",
+      "minecraft:flower_default",
+      "minecraft:patch_grass_normal",
+      "minecraft:brown_mushroom_normal",
+      "minecraft:red_mushroom_normal",
+      "minecraft:patch_sugar_cane",
+      "minecraft:patch_pumpkin"
+    ],
+    [
+      "minecraft:freeze_top_layer"
+    ]
   ],
   "spawners": {
     "monster": [
@@ -141,10 +163,16 @@
         "maxCount": 4
       },
       {
-        "type": "minecraft:wolf",
-        "weight": 5,
-        "minCount": 4,
-        "maxCount": 4
+        "type": "minecraft:horse",
+        "weight": 1,
+        "minCount": 2,
+        "maxCount": 6
+      },
+      {
+        "type": "minecraft:donkey",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 1
       }
     ],
     "ambient": [

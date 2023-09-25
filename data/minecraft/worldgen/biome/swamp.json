@@ -2,7 +2,7 @@
   "has_precipitation": true,
   "precipitation": "rain",
   "temperature": 0.19,
-  "downfall": 0.8,
+  "downfall": 0.9,
   "effects": {
     "mood_sound": {
       "sound": "minecraft:ambient.cave",
@@ -10,7 +10,7 @@
       "block_search_extent": 8,
       "offset": 2.0
     },
-    "sky_color": 7972607,
+    "sky_color": 7907327,
     "fog_color": 12638463,
     "water_color": 4159204,
     "water_fog_color": 329011
@@ -25,17 +25,17 @@
   "features": [
     [],
     ["minecraft:lake_lava_underground"],
+    ["minecraft:amethyst_geode"],
     [
-      "minecraft:amethyst_geode",
-      "survival_reimagined:taiga/forest_rocks/forest_rock_all"
+      "minecraft:fossil_upper",
+      "minecraft:fossil_lower",
+      "minecraft:monster_room",
+      "minecraft:monster_room_deep"
     ],
-    ["minecraft:monster_room", "minecraft:monster_room_deep"],
     [],
     [],
     [
       "minecraft:ore_granite_lower",
-      "minecraft:ore_diorite_lower",
-      "minecraft:ore_andesite_lower",
       "minecraft:ore_coal_upper",
       "minecraft:ore_coal_lower",
       "minecraft:ore_iron_upper",
@@ -57,39 +57,18 @@
     [],
     [
       "minecraft:glow_lichen",
-      "survival_reimagined:plains/trees/birch/old_growth/birch_tree_old",
-      "survival_reimagined:plains/vegetation/patch_grass",
-      "survival_reimagined:water_biomes/vegetation/patch_vegetation_underwater",
-      "minecraft:patch_sugar_cane"
+      "minecraft:flower_swamp",
+      "minecraft:patch_waterlily",
+      "minecraft:patch_sugar_cane_swamp",
+      "survival_reimagined:swamp/trees/oak_all",
+      "survival_reimagined:swamp/vegetation/patch_grass_swamp",
+      "survival_reimagined:taiga/vegetation/patch_mushrooms",
+      "survival_reimagined:water_biomes/vegetation/patch_vegetation_underwater"
     ],
     ["minecraft:freeze_top_layer"]
   ],
   "spawners": {
     "monster": [
-      {
-        "type": "minecraft:spider",
-        "weight": 100,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:zombie",
-        "weight": 95,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:zombie_villager",
-        "weight": 5,
-        "minCount": 1,
-        "maxCount": 1
-      },
-      {
-        "type": "minecraft:skeleton",
-        "weight": 100,
-        "minCount": 4,
-        "maxCount": 4
-      },
       {
         "type": "minecraft:creeper",
         "weight": 100,
@@ -101,35 +80,11 @@
         "weight": 100,
         "minCount": 4,
         "maxCount": 4
-      },
-      {
-        "type": "minecraft:enderman",
-        "weight": 10,
-        "minCount": 1,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:witch",
-        "weight": 5,
-        "minCount": 1,
-        "maxCount": 1
       }
     ],
     "creature": [
       {
-        "type": "minecraft:sheep",
-        "weight": 12,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
         "type": "minecraft:pig",
-        "weight": 10,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:chicken",
         "weight": 10,
         "minCount": 4,
         "maxCount": 4
@@ -141,10 +96,10 @@
         "maxCount": 4
       },
       {
-        "type": "minecraft:wolf",
-        "weight": 5,
-        "minCount": 4,
-        "maxCount": 4
+        "type": "minecraft:frog",
+        "weight": 10,
+        "minCount": 2,
+        "maxCount": 5
       }
     ],
     "ambient": [
