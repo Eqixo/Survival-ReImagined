@@ -24,7 +24,7 @@ Welcome to Survival ReImagined, a Minecraft datapack designed to make your survi
 
 ## Compatibility
 
-Survival ReImagined is compatible with Minecraft Java Edition [VERSION].
+Survival ReImagined is compatible with Minecraft Java Edition 1.20.1.
 
 **Note**: Make sure to back up your world before installing this datapacks (in case you want to add this datapack to an already existing wold), as it will modify gameplay significantly.
 
