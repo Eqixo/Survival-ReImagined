@@ -35,11 +35,11 @@ If you encounter any issues, have suggestions, or want to contribute to the deve
 ## Credits
 
 - [Eqixo](https://github.com/Eqixo) - Creator and Developer
-- [Deus Vultte](https://github.com/DeusVultte) - Co-Creator and Crash-Tester
+- [Deus Vulve](https://github.com/DeusVulve) - Co-Creator and Crash-Tester
 - Special thanks to all contributors for their valuable input and support.
 
 > \- Hoping to make a datapack that makes Minecraft a better game to play, even for experienced players. -***Eqixo***
 
-> \- As the updates deceive more and more players, the community needs to make up for this. This is why this project started. -***Deus Vultte***
+> \- As the updates deceive more and more players, the community needs to make up for this. This is why this project started. -***Deus Vulve***
 
 ## Enjoy the Challenge !
