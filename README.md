@@ -38,8 +38,8 @@ If you encounter any issues, have suggestions, or want to contribute to the deve
 - [Deus Vulve](https://github.com/DeusVulve) - Co-Creator and Crash-Tester
 - Special thanks to all contributors for their valuable input and support.
 
-> \- Hoping to make a datapack that makes Minecraft a better game to play, even for experienced players. -***Eqixo***
+> \- Hoping to make a datapack that makes Minecraft a better game to play, even for experienced players. -***[Eqixo](https://github.com/Eqixo)***
 
-> \- As the updates deceive more and more players, the community needs to make up for this. This is why this project started. -***Deus Vulve***
+> \- As the updates deceive more and more players, the community needs to make up for this. This is why this project started. -***[Deus Vulve](https://github.com/DeusVulve)***
 
 ## Enjoy the Challenge !
