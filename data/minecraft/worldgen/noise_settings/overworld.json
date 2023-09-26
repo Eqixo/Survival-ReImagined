@@ -843,63 +843,6 @@
                 "then_run": {
                   "sequence": [
                     {
-                      "if_true": {
-                        "biome_is": [
-                          "minecraft:frozen_ocean",
-                          "minecraft:deep_frozen_ocean"
-                        ],
-                        "type": "minecraft:biome"
-                      },
-                      "then_run": {
-                        "if_true": {
-                          "type": "minecraft:hole"
-                        },
-                        "then_run": {
-                          "sequence": [
-                            {
-                              "if_true": {
-                                "offset": 0,
-                                "surface_depth_multiplier": 0,
-                                "add_stone_depth": false,
-                                "type": "minecraft:water"
-                              },
-                              "then_run": {
-                                "result_state": {
-                                  "Name": "minecraft:air"
-                                },
-                                "type": "minecraft:block"
-                              },
-                              "type": "minecraft:condition"
-                            },
-                            {
-                              "if_true": {
-                                "type": "minecraft:temperature"
-                              },
-                              "then_run": {
-                                "result_state": {
-                                  "Name": "minecraft:ice"
-                                },
-                                "type": "minecraft:block"
-                              },
-                              "type": "minecraft:condition"
-                            },
-                            {
-                              "result_state": {
-                                "Properties": {
-                                  "level": "0"
-                                },
-                                "Name": "minecraft:water"
-                              },
-                              "type": "minecraft:block"
-                            }
-                          ],
-                          "type": "minecraft:sequence"
-                        },
-                        "type": "minecraft:condition"
-                      },
-                      "type": "minecraft:condition"
-                    },
-                    {
                       "sequence": [
                         {
                           "if_true": {
@@ -1170,7 +1113,6 @@
                             {
                               "if_true": {
                                 "biome_is": [
-                                  "minecraft:warm_ocean",
                                   "minecraft:beach",
                                   "minecraft:snowy_beach"
                                 ],
@@ -1602,63 +1544,6 @@
                         {
                           "if_true": {
                             "biome_is": [
-                              "minecraft:frozen_river",
-                              "minecraft:river",
-                              "minecraft:frozen_ocean",
-                              "minecraft:cold_ocean",
-                              "minecraft:lukewarm_ocean",
-                              "minecraft:warm_ocean",
-                              "minecraft:ocean",
-                              "minecraft:deep_lukewarm_ocean",
-                              "minecraft:deep_ocean",
-                              "minecraft:deep_cold_ocean",
-                              "minecraft:deep_frozen_ocean"
-                            ],
-                            "type": "minecraft:biome"
-                          },
-                          "then_run": {
-                            "sequence": [
-                              {
-                                "if_true": {
-                                  "noise": "minecraft:surface",
-                                  "min_threshold": -1.7976931348623157e308,
-                                  "max_threshold": 1.7976931348623157e308,
-                                  "type": "minecraft:noise_threshold"
-                                },
-                                "then_run": {
-                                  "sequence": [
-                                    {
-                                      "if_true": {
-                                        "random_name": "minecraft:riverbank_ground_sand",
-                                        "true_at_and_below": {
-                                          "absolute": 60
-                                        },
-                                        "false_at_and_above": {
-                                          "absolute": 64
-                                        },
-                                        "type": "minecraft:vertical_gradient"
-                                      },
-                                      "then_run": {
-                                        "type": "minecraft:block",
-                                        "result_state": {
-                                          "Name": "minecraft:sand"
-                                        }
-                                      },
-                                      "type": "condition"
-                                    }
-                                  ],
-                                  "type": "sequence"
-                                },
-                                "type": "minecraft:condition"
-                              }
-                            ],
-                            "type": "minecraft:sequence"
-                          },
-                          "type": "minecraft:condition"
-                        },
-                        {
-                          "if_true": {
-                            "biome_is": [
                               "minecraft:old_growth_pine_taiga",
                               "minecraft:old_growth_spruce_taiga"
                             ],
@@ -1795,41 +1680,6 @@
               },
               "then_run": {
                 "sequence": [
-                  {
-                    "if_true": {
-                      "offset": 0,
-                      "add_surface_depth": false,
-                      "secondary_depth_range": 0,
-                      "surface_type": "floor",
-                      "type": "minecraft:stone_depth"
-                    },
-                    "then_run": {
-                      "if_true": {
-                        "biome_is": [
-                          "minecraft:frozen_ocean",
-                          "minecraft:deep_frozen_ocean"
-                        ],
-                        "type": "minecraft:biome"
-                      },
-                      "then_run": {
-                        "if_true": {
-                          "type": "minecraft:hole"
-                        },
-                        "then_run": {
-                          "result_state": {
-                            "Properties": {
-                              "level": "0"
-                            },
-                            "Name": "minecraft:water"
-                          },
-                          "type": "minecraft:block"
-                        },
-                        "type": "minecraft:condition"
-                      },
-                      "type": "minecraft:condition"
-                    },
-                    "type": "minecraft:condition"
-                  },
                   {
                     "if_true": {
                       "offset": 0,
@@ -2065,7 +1915,6 @@
                             {
                               "if_true": {
                                 "biome_is": [
-                                  "minecraft:warm_ocean",
                                   "minecraft:beach",
                                   "minecraft:snowy_beach"
                                 ],
@@ -2186,7 +2035,6 @@
                   {
                     "if_true": {
                       "biome_is": [
-                        "minecraft:warm_ocean",
                         "minecraft:beach",
                         "minecraft:snowy_beach"
                       ],
@@ -2265,44 +2113,6 @@
                     "type": "minecraft:condition"
                   },
                   {
-                    "if_true": {
-                      "biome_is": [
-                        "minecraft:warm_ocean",
-                        "minecraft:lukewarm_ocean",
-                        "minecraft:deep_lukewarm_ocean"
-                      ],
-                      "type": "minecraft:biome"
-                    },
-                    "then_run": {
-                      "sequence": [
-                        {
-                          "if_true": {
-                            "offset": 0,
-                            "add_surface_depth": false,
-                            "secondary_depth_range": 0,
-                            "surface_type": "ceiling",
-                            "type": "minecraft:stone_depth"
-                          },
-                          "then_run": {
-                            "result_state": {
-                              "Name": "minecraft:sandstone"
-                            },
-                            "type": "minecraft:block"
-                          },
-                          "type": "minecraft:condition"
-                        },
-                        {
-                          "result_state": {
-                            "Name": "minecraft:sand"
-                          },
-                          "type": "minecraft:block"
-                        }
-                      ],
-                      "type": "minecraft:sequence"
-                    },
-                    "type": "minecraft:condition"
-                  },
-                  {
                     "sequence": [
                       {
                         "if_true": {
@@ -2322,7 +2132,7 @@
                       },
                       {
                         "result_state": {
-                          "Name": "minecraft:gravel"
+                          "Name": "minecraft:sand"
                         },
                         "type": "minecraft:block"
                       }
