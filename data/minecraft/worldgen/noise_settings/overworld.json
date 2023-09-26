@@ -1604,6 +1604,10 @@
                             "biome_is": [
                               "minecraft:frozen_river",
                               "minecraft:river",
+                              "minecraft:frozen_ocean",
+                              "minecraft:cold_ocean",
+                              "minecraft:lukewarm_ocean",
+                              "minecraft:warm_ocean",
                               "minecraft:ocean",
                               "minecraft:deep_lukewarm_ocean",
                               "minecraft:deep_ocean",
