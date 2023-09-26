@@ -15,4 +15,9 @@ scoreboard objectives add rottingTime dummy
 
 function survival_reimagined:buffs/buff_all_selector
 function survival_reimagined:rotting
-function survival_reimagined:effects
+function survival_reimagined:debuff_effects/effects
+function survival_reimagined:particles/walking_particles
+function survival_reimagined:particles/running_particles
+function survival_reimagined:other/leaves/through_leaves
+function survival_reimagined:other/leaves/leaves_advancement
+function survival_reimagined:other/snow/snow_advancement

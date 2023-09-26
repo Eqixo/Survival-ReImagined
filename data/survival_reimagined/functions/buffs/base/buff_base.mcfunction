@@ -10,4 +10,4 @@ execute if entity @s[type=#survival_reimagined:40hp] run data merge entity @s {A
 tag @s add buffed
 
 # Redirect to give it armor
-function survival_reimagined:random_armor
+function survival_reimagined:random_armors/random_armor_selector
