@@ -1,0 +1,24 @@
+{
+  "config": {
+    "hat_state": {
+      "Name": "minecraft:red_mushroom_block"
+    },
+    "decor_state": {
+      "Name": "minecraft:pearlescent_froglight"
+    },
+    "planted": false,
+    "valid_base_block": {
+      "Name": "minecraft:mycelium"
+    },
+    "stem_state": {
+      "Properties": {
+        "axis": "y"
+      },
+      "Name": "minecraft:mushroom_stem"
+    },
+    "replaceable_blocks": {
+        "type": "true"
+    }
+  },
+  "type": "minecraft:huge_fungus"
+}

@@ -1,6 +1,6 @@
 {
     "config": {
-      "tries": 1240,
+      "tries": 96,
       "xz_spread": 16,
       "y_spread": 8,
       "feature": {
@@ -10,15 +10,21 @@
               "entries": [
                 {
                   "data": {
-                    "Name": "minecraft:tall_grass"
+                    "Name": "minecraft:brown_mushroom"
                   },
-                  "weight": 9
+                  "weight": 5
+                },
+                {
+                  "data": {
+                    "Name": "minecraft:red_mushroom"
+                  },
+                  "weight": 5
                 },
                 {
                   "data": {
                     "Name": "minecraft:short_grass"
                   },
-                  "weight": 5
+                  "weight": 2
                 },
                 {
                   "data": {

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "chance": 0.3,
+        "feature": "survival_reimagined:mushroom_fields/vegetation/medium_red_mushroom"
+      },
+      {
+        "chance": 0.5,
+        "feature": "survival_reimagined:mushroom_fields/vegetation/huge_red_mushroom"
+      },
+      {
+        "chance": 0.3,
+        "feature": "survival_reimagined:mushroom_fields/vegetation/medium_brown_mushroom"
+      }
+    ],
+    "default": "survival_reimagined:mushroom_fields/vegetation/huge_brown_mushroom"
+  }
+}

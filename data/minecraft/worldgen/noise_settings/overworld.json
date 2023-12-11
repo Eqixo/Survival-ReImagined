@@ -1622,13 +1622,79 @@
                             "type": "minecraft:biome"
                           },
                           "then_run": {
-                            "result_state": {
-                              "Properties": {
-                                "snowy": "false"
+                            "sequence": [
+                              {
+                                "if_true": {
+                                  "random_name": "minecraft:mushroom_fields_soil_podzol",
+                                  "true_at_and_below": {
+                                    "absolute": -1536
+                                  },
+                                  "false_at_and_above": {
+                                    "absolute": 128
+                                  },
+                                  "type": "minecraft:vertical_gradient"
+                                },
+                                "then_run": {
+                                  "type": "minecraft:block",
+                                  "result_state": {
+                                    "Name": "minecraft:podzol"
+                                  }
+                                },
+                                "type": "condition"
                               },
-                              "Name": "minecraft:mycelium"
-                            },
-                            "type": "minecraft:block"
+                              {
+                                "if_true": {
+                                  "random_name": "minecraft:mushroom_fields_soil_rooted_dirt",
+                                  "true_at_and_below": {
+                                    "absolute": -64
+                                  },
+                                  "false_at_and_above": {
+                                    "absolute": 128
+                                  },
+                                  "type": "minecraft:vertical_gradient"
+                                },
+                                "then_run": {
+                                  "type": "minecraft:block",
+                                  "result_state": {
+                                    "Name": "minecraft:rooted_dirt"
+                                  }
+                                },
+                                "type": "condition"
+                              },
+                              {
+                                "if_true": {
+                                  "random_name": "minecraft:mushroom_fields_soil_coarse_dirt",
+                                  "true_at_and_below": {
+                                    "absolute": -1024
+                                  },
+                                  "false_at_and_above": {
+                                    "absolute": 128
+                                  },
+                                  "type": "minecraft:vertical_gradient"
+                                },
+                                "then_run": {
+                                  "type": "minecraft:block",
+                                  "result_state": {
+                                    "Name": "minecraft:podzol"
+                                  }
+                                },
+                                "type": "condition"
+                              },
+                              {
+                                "if_true": {
+                                    "type": "minecraft:biome",
+                                    "biome_is": ["minecraft:mushroom_fields"]
+                                },
+                                "then_run": {
+                                  "type": "minecraft:block",
+                                      "result_state": {
+                                        "Name": "minecraft:mycelium"
+                                      }
+                                },
+                            "type": "minecraft:condition"
+                              }
+                            ],
+                            "type": "minecraft:sequence"
                           },
                           "type": "minecraft:condition"
                         },
