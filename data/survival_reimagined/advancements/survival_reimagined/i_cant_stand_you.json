@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:oak_leaves"
+    },
+    "title": "I Can't Stand You !",
+    "description": {
+      "text": "Leaves are not what they were...",
+      "color": "#00FF00"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "minecraft:survival_reimagined/root",
+  "criteria": {
+    "oak_leaves": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

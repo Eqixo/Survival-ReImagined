@@ -1,0 +1,147 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:diamond_pickaxe",
+      "nbt": "{Enchantments:[{id:\"efficiency\"}]}"
+    },
+    "title": "Elevated to Diamond",
+    "description": {
+      "text": "Upgrade from iron tools to diamond",
+      "color": "#00FF00"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "minecraft:survival_reimagined/stone_to_steel",
+  "criteria": {
+    "crafted_axe": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "diamond_axe",
+        "ingredients": [
+          {
+            "items": ["minecraft:diamond", "minecraft:iron_axe"]
+          }
+        ]
+      }
+    },
+    "dropped_axe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:diamond_axe"]
+          }
+        ]
+      }
+    },
+    "crafted_shovel": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "diamond_shovel",
+        "ingredients": [
+          {
+            "items": ["minecraft:diamond", "minecraft:iron_shovel"]
+          }
+        ]
+      }
+    },
+    "dropped_shovel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:diamond_shovel"]
+          }
+        ]
+      }
+    },
+    "crafted_pickaxe": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "diamond_pickaxe",
+        "ingredients": [
+          {
+            "items": ["minecraft:diamond", "minecraft:iron_pickaxe"]
+          }
+        ]
+      }
+    },
+    "dropped_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:diamond_pickaxe"]
+          }
+        ]
+      }
+    },
+    "crafted_hoe": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "diamond_hoe",
+        "ingredients": [
+          {
+            "items": ["minecraft:diamond", "minecraft:iron_hoe"]
+          }
+        ]
+      }
+    },
+    "dropped_hoe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:diamond_hoe"]
+          }
+        ]
+      }
+    },
+    "crafted_sword": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "diamond_sword",
+        "ingredients": [
+          {
+            "items": ["minecraft:diamond", "minecraft:iron_sword"]
+          }
+        ]
+      }
+    },
+    "dropped_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:diamond_sword"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "crafted_axe",
+      "crafted_shovel",
+      "crafted_pickaxe",
+      "crafted_hoe",
+      "crafted_sword",
+      "dropped_axe",
+      "dropped_shovel",
+      "dropped_pickaxe",
+      "dropped_hoe",
+      "dropped_sword"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:netherite_axe_smithing",
+      "minecraft:netherite_pickaxe_smithing",
+      "minecraft:netherite_sword_smithing",
+      "minecraft:netherite_shovel_smithing",
+      "minecraft:netherite_hoe_smithing"
+    ]
+  }
+}

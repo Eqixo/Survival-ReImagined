@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:blaze_powder"
+    },
+    "title": "Survival Re-Imagined",
+    "frame": "challenge",
+    "description": [
+      "",
+      {
+        "text": "Welcome to Hell.\n",
+        "color": "#FF0000"
+      },
+      {
+        "text": "First time ?",
+        "color": "#FF0000"
+      }
+    ],
+    "background": "minecraft:textures/block/coal_block.png",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

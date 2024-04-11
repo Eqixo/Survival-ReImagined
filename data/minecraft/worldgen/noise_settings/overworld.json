@@ -23,7 +23,7 @@
     }
   ],
   "sea_level": 63,
-  "disable_mob_generation": false,
+  "disable_mob_generation": true,
   "default_fluid": {
     "Properties": {
       "level": "0"
@@ -367,15 +367,22 @@
       },
       {
         "if_true": {
-          "type": "minecraft:steep"
+          "random_name": "minecraft:deepslate",
+          "true_at_and_below": {
+            "above_bottom": 0
+          },
+          "false_at_and_above": {
+            "above_bottom": 64
+          },
+          "type": "minecraft:vertical_gradient"
         },
         "then_run": {
-          "type": "minecraft:block",
           "result_state": {
-            "Name": "minecraft:stone"
-          }
+            "Name": "minecraft:deepslate"
+          },
+          "type": "minecraft:block"
         },
-        "type": "condition"
+        "type": "minecraft:condition"
       },
       {
         "if_true": {
@@ -997,6 +1004,252 @@
                               },
                               {
                                 "if_true": {
+                                  "random_name": "minecraft:jagged_peaks_ground_tuff",
+                                  "true_at_and_below": {
+                                    "absolute": -768
+                                  },
+                                  "false_at_and_above": {
+                                    "absolute": 320
+                                  },
+                                  "type": "minecraft:vertical_gradient"
+                                },
+                                "then_run": {
+                                  "type": "minecraft:block",
+                                  "result_state": {
+                                    "Name": "minecraft:tuff"
+                                  }
+                                },
+                                "type": "condition"
+                              },
+                              {
+                                "if_true": {
+                                  "random_name": "minecraft:jagged_peaks_ground_cobblestone",
+                                  "true_at_and_below": {
+                                    "absolute": -1024
+                                  },
+                                  "false_at_and_above": {
+                                    "absolute": 320
+                                  },
+                                  "type": "minecraft:vertical_gradient"
+                                },
+                                "then_run": {
+                                  "type": "minecraft:block",
+                                  "result_state": {
+                                    "Name": "minecraft:cobblestone"
+                                  }
+                                },
+                                "type": "condition"
+                              },
+                              {
+                                "if_true": {
+                                  "random_name": "minecraft:jagged_peaks_ground_andesite",
+                                  "true_at_and_below": {
+                                    "absolute": -512
+                                  },
+                                  "false_at_and_above": {
+                                    "absolute": 320
+                                  },
+                                  "type": "minecraft:vertical_gradient"
+                                },
+                                "then_run": {
+                                  "type": "minecraft:block",
+                                  "result_state": {
+                                    "Name": "minecraft:andesite"
+                                  }
+                                },
+                                "type": "condition"
+                              },
+                              {
+                                "if_true": {
+                                  "noise": "minecraft:calcite",
+                                  "min_threshold": -0.0125,
+                                  "max_threshold": 0.0125,
+                                  "type": "minecraft:noise_threshold"
+                                },
+                                "then_run": {
+                                  "sequence": [
+                                    {
+                                      "if_true": {
+                                        "random_name": "minecraft:jagged_peaks_calcite",
+                                        "true_at_and_below": {
+                                          "absolute": 64
+                                        },
+                                        "false_at_and_above": {
+                                          "absolute": 320
+                                        },
+                                        "type": "minecraft:vertical_gradient"
+                                      },
+                                      "then_run": {
+                                        "type": "minecraft:block",
+                                        "result_state": {
+                                          "Name": "minecraft:calcite"
+                                        }
+                                      },
+                                      "type": "condition"
+                                    },
+                                    {
+                                      "if_true": {
+                                        "random_name": "minecraft:jagged_peaks_diorite",
+                                        "true_at_and_below": {
+                                          "absolute": 64
+                                        },
+                                        "false_at_and_above": {
+                                          "absolute": 320
+                                        },
+                                        "type": "minecraft:vertical_gradient"
+                                      },
+                                      "then_run": {
+                                        "type": "minecraft:block",
+                                        "result_state": {
+                                          "Name": "minecraft:diorite"
+                                        }
+                                      },
+                                      "type": "condition"
+                                    }
+                                  ],
+                                  "type": "sequence"
+                                },
+                                "type": "minecraft:condition"
+                              },
+                              {
+                                "if_true": {
+                                  "noise": "minecraft:calcite",
+                                  "min_threshold": 0.0125,
+                                  "max_threshold": 0.0375,
+                                  "type": "minecraft:noise_threshold"
+                                },
+                                "then_run": {
+                                  "sequence": [
+                                    {
+                                      "if_true": {
+                                        "random_name": "minecraft:jagged_peaks_basalt",
+                                        "true_at_and_below": {
+                                          "absolute": -64
+                                        },
+                                        "false_at_and_above": {
+                                          "absolute": 320
+                                        },
+                                        "type": "minecraft:vertical_gradient"
+                                      },
+                                      "then_run": {
+                                        "type": "minecraft:block",
+                                        "result_state": {
+                                          "Name": "minecraft:basalt"
+                                        }
+                                      },
+                                      "type": "condition"
+                                    },
+                                    {
+                                      "if_true": {
+                                        "random_name": "minecraft:jagged_peaks_smooth_basalt",
+                                        "true_at_and_below": {
+                                          "absolute": -64
+                                        },
+                                        "false_at_and_above": {
+                                          "absolute": 320
+                                        },
+                                        "type": "minecraft:vertical_gradient"
+                                      },
+                                      "then_run": {
+                                        "type": "minecraft:block",
+                                        "result_state": {
+                                          "Name": "minecraft:smooth_basalt"
+                                        }
+                                      },
+                                      "type": "condition"
+                                    }
+                                  ],
+                                  "type": "sequence"
+                                },
+                                "type": "minecraft:condition"
+                              },
+                              {
+                                "if_true": {
+                                  "noise": "minecraft:calcite",
+                                  "min_threshold": -0.0375,
+                                  "max_threshold": -0.0125,
+                                  "type": "minecraft:noise_threshold"
+                                },
+                                "then_run": {
+                                  "sequence": [
+                                    {
+                                      "if_true": {
+                                        "random_name": "minecraft:jagged_peaks_gravel",
+                                        "true_at_and_below": {
+                                          "absolute": 64
+                                        },
+                                        "false_at_and_above": {
+                                          "absolute": 256
+                                        },
+                                        "type": "minecraft:vertical_gradient"
+                                      },
+                                      "then_run": {
+                                        "type": "minecraft:block",
+                                        "result_state": {
+                                          "Name": "minecraft:gravel"
+                                        }
+                                      },
+                                      "type": "condition"
+                                    },
+                                    {
+                                      "if_true": {
+                                        "random_name": "minecraft:jagged_peaks_sus_gravel",
+                                        "true_at_and_below": {
+                                          "absolute": 64
+                                        },
+                                        "false_at_and_above": {
+                                          "absolute": 256
+                                        },
+                                        "type": "minecraft:vertical_gradient"
+                                      },
+                                      "then_run": {
+                                        "type": "minecraft:block",
+                                        "result_state": {
+                                          "Name": "minecraft:suspicious_gravel"
+                                        }
+                                      },
+                                      "type": "condition"
+                                    }
+                                  ],
+                                  "type": "sequence"
+                                },
+                                "type": "minecraft:condition"
+                              },
+                              {
+                                "if_true": {
+                                  "noise": "minecraft:ice",
+                                  "min_threshold": -1.0125,
+                                  "max_threshold": -0.9875,
+                                  "type": "minecraft:noise_threshold"
+                                },
+                                "then_run": {
+                                  "sequence": [
+                                    {
+                                      "if_true": {
+                                        "random_name": "minecraft:jagged_peaks_clay",
+                                        "true_at_and_below": {
+                                          "absolute": 64
+                                        },
+                                        "false_at_and_above": {
+                                          "absolute": 320
+                                        },
+                                        "type": "minecraft:vertical_gradient"
+                                      },
+                                      "then_run": {
+                                        "type": "minecraft:block",
+                                        "result_state": {
+                                          "Name": "minecraft:clay"
+                                        }
+                                      },
+                                      "type": "condition"
+                                    }
+                                  ],
+                                  "type": "sequence"
+                                },
+                                "type": "minecraft:condition"
+                              },
+                              {
+                                "if_true": {
                                   "offset": 0,
                                   "surface_depth_multiplier": 0,
                                   "add_stone_depth": false,
@@ -1032,10 +1285,47 @@
                                       "type": "minecraft:noise_threshold"
                                     },
                                     "then_run": {
-                                      "result_state": {
-                                        "Name": "minecraft:calcite"
-                                      },
-                                      "type": "minecraft:block"
+                                      "sequence": [
+                                        {
+                                          "if_true": {
+                                            "random_name": "minecraft:stony_peaks_calcite",
+                                            "true_at_and_below": {
+                                              "absolute": 64
+                                            },
+                                            "false_at_and_above": {
+                                              "absolute": 320
+                                            },
+                                            "type": "minecraft:vertical_gradient"
+                                          },
+                                          "then_run": {
+                                            "type": "minecraft:block",
+                                            "result_state": {
+                                              "Name": "minecraft:calcite"
+                                            }
+                                          },
+                                          "type": "condition"
+                                        },
+                                        {
+                                          "if_true": {
+                                            "random_name": "minecraft:stony_peaks_diorite",
+                                            "true_at_and_below": {
+                                              "absolute": 64
+                                            },
+                                            "false_at_and_above": {
+                                              "absolute": 320
+                                            },
+                                            "type": "minecraft:vertical_gradient"
+                                          },
+                                          "then_run": {
+                                            "type": "minecraft:block",
+                                            "result_state": {
+                                              "Name": "minecraft:diorite"
+                                            }
+                                          },
+                                          "type": "condition"
+                                        }
+                                      ],
+                                      "type": "sequence"
                                     },
                                     "type": "minecraft:condition"
                                   },
@@ -1334,9 +1624,7 @@
                         },
                         {
                           "if_true": {
-                            "biome_is": [
-                              "minecraft:windswept_gravelly_hills"
-                            ],
+                            "biome_is": ["minecraft:windswept_gravelly_hills"],
                             "type": "minecraft:biome"
                           },
                           "then_run": {
@@ -1381,9 +1669,7 @@
                         },
                         {
                           "if_true": {
-                            "biome_is": [
-                              "minecraft:windswept_hills"
-                            ],
+                            "biome_is": ["minecraft:windswept_hills"],
                             "type": "minecraft:biome"
                           },
                           "then_run": {
@@ -1428,9 +1714,7 @@
                         },
                         {
                           "if_true": {
-                            "biome_is": [
-                              "minecraft:swamp"
-                            ],
+                            "biome_is": ["minecraft:swamp"],
                             "type": "minecraft:biome"
                           },
                           "then_run": {
@@ -1682,16 +1966,16 @@
                               },
                               {
                                 "if_true": {
-                                    "type": "minecraft:biome",
-                                    "biome_is": ["minecraft:mushroom_fields"]
+                                  "type": "minecraft:biome",
+                                  "biome_is": ["minecraft:mushroom_fields"]
                                 },
                                 "then_run": {
                                   "type": "minecraft:block",
-                                      "result_state": {
-                                        "Name": "minecraft:mycelium"
-                                      }
+                                  "result_state": {
+                                    "Name": "minecraft:mycelium"
+                                  }
                                 },
-                            "type": "minecraft:condition"
+                                "type": "minecraft:condition"
                               }
                             ],
                             "type": "minecraft:sequence"
@@ -1740,7 +2024,7 @@
             {
               "if_true": {
                 "offset": -6,
-                "surface_depth_multiplier": -1,
+                "surface_depth_multiplier": -2,
                 "add_stone_depth": true,
                 "type": "minecraft:water"
               },
@@ -1934,7 +2218,7 @@
                               },
                               {
                                 "result_state": {
-                                  "Name": "minecraft:dirt"
+                                  "Name": "minecraft:stone"
                                 },
                                 "type": "minecraft:block"
                               }
@@ -2088,10 +2372,95 @@
                           "type": "minecraft:condition"
                         },
                         {
-                          "result_state": {
-                            "Name": "minecraft:stone"
+                          "if_true": {
+                            "offset": 0,
+                            "add_surface_depth": true,
+                            "secondary_depth_range": 0,
+                            "surface_type": "floor",
+                            "type": "minecraft:stone_depth"
                           },
-                          "type": "minecraft:block"
+                          "then_run": {
+                            "sequence": [
+                              {
+                                "if_true": {
+                                  "type": "minecraft:vertical_gradient",
+                                  "random_name": "minecraft:stone_composition",
+                                  "true_at_and_below": {
+                                    "absolute": -512
+                                  },
+                                  "false_at_and_above": {
+                                    "absolute": 320
+                                  }
+                                },
+                                "then_run": {
+                                  "type": "block",
+                                  "result_state": {
+                                    "Name": "minecraft:stone"
+                                  }
+                                },
+                                "type": "condition"
+                              },
+                              {
+                                "if_true": {
+                                  "type": "minecraft:vertical_gradient",
+                                  "random_name": "minecraft:tuff_composition",
+                                  "true_at_and_below": {
+                                    "absolute": -1536
+                                  },
+                                  "false_at_and_above": {
+                                    "absolute": 320
+                                  }
+                                },
+                                "then_run": {
+                                  "type": "block",
+                                  "result_state": {
+                                    "Name": "minecraft:tuff"
+                                  }
+                                },
+                                "type": "condition"
+                              },
+                              {
+                                "if_true": {
+                                  "type": "minecraft:vertical_gradient",
+                                  "random_name": "minecraft:andesite_composition",
+                                  "true_at_and_below": {
+                                    "absolute": -256
+                                  },
+                                  "false_at_and_above": {
+                                    "absolute": 320
+                                  }
+                                },
+                                "then_run": {
+                                  "type": "block",
+                                  "result_state": {
+                                    "Name": "minecraft:andesite"
+                                  }
+                                },
+                                "type": "condition"
+                              },
+                              {
+                                "if_true": {
+                                  "type": "minecraft:vertical_gradient",
+                                  "random_name": "minecraft:cobblestone_composition",
+                                  "true_at_and_below": {
+                                    "absolute": -256
+                                  },
+                                  "false_at_and_above": {
+                                    "absolute": 320
+                                  }
+                                },
+                                "then_run": {
+                                  "type": "block",
+                                  "result_state": {
+                                    "Name": "minecraft:cobblestone"
+                                  }
+                                },
+                                "type": "condition"
+                              }
+                            ],
+                            "type": "sequence"
+                          },
+                          "type": "condition"
                         }
                       ],
                       "type": "minecraft:sequence"
@@ -2100,10 +2469,7 @@
                   },
                   {
                     "if_true": {
-                      "biome_is": [
-                        "minecraft:beach",
-                        "minecraft:snowy_beach"
-                      ],
+                      "biome_is": ["minecraft:beach", "minecraft:snowy_beach"],
                       "type": "minecraft:biome"
                     },
                     "then_run": {
@@ -2190,7 +2556,7 @@
                         },
                         "then_run": {
                           "result_state": {
-                            "Name": "minecraft:stone"
+                            "Name": "minecraft:grass_block"
                           },
                           "type": "minecraft:block"
                         },

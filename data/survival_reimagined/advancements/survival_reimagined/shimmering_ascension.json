@@ -1,0 +1,115 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:diamond_chestplate",
+      "nbt": "{Enchantments:[{id:\"protection\"}]}"
+    },
+    "title": "Shimmering Ascension",
+    "description": {
+      "text": "Upgrade a piece of iron armor to diamond",
+      "color": "#00FF00"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "minecraft:survival_reimagined/from_scraps_to_steel",
+  "criteria": {
+    "crafted_helmet": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "diamond_helmet",
+        "ingredients": [
+          {
+            "items": ["minecraft:diamond", "minecraft:iron_helmet"]
+          }
+        ]
+      }
+    },
+    "dropped_helmet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:diamond_helmet"]
+          }
+        ]
+      }
+    },
+    "crafted_chestplate": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "diamond_chestplate",
+        "ingredients": [
+          {
+            "items": ["minecraft:diamond", "minecraft:iron_chestplate"]
+          }
+        ]
+      }
+    },
+    "dropped_chestplate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:diamond_chestplate"]
+          }
+        ]
+      }
+    },
+    "crafted_leggings": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "diamond_leggings",
+        "ingredients": [
+          {
+            "items": ["minecraft:diamond", "minecraft:iron_leggings"]
+          }
+        ]
+      }
+    },
+    "dropped_leggings": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:diamond_leggings"]
+          }
+        ]
+      }
+    },
+    "crafted_boots": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "diamond_boots",
+        "ingredients": [
+          {
+            "items": ["minecraft:diamond", "minecraft:iron_boots"]
+          }
+        ]
+      }
+    },
+    "dropped_boots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:diamond_boots"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "crafted_helmet",
+      "crafted_chestplate",
+      "crafted_leggings",
+      "crafted_boots",
+      "dropped_helmet",
+      "dropped_chestplate",
+      "dropped_leggings",
+      "dropped_boots"
+    ]
+  ]
+}

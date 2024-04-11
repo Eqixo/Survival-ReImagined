@@ -1,0 +1,15 @@
+{
+  "name": "survival_reimagined:desert/desert_pyramids",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "survival_reimagined:desert/desert_pyramids/destroyed_desert_pyramid",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}
