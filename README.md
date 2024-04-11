@@ -24,7 +24,7 @@ Welcome to Survival ReImagined, a Minecraft datapack designed to make your survi
 
 ## Compatibility
 
-![Static Badge](https://img.shields.io/badge/Minecraft%3AJava%20Edition-1.20.1-5555FF?style=flat-square&labelColor=444&color=5555ff)
+![Static Badge](https://img.shields.io/badge/Minecraft%3AJava%20Edition-1.20.4-5555ff?style=flat-square)
 
 **Note**: Make sure to back up your world before installing this datapack (in case you want to add this datapack to an already existing wold), as it will modify gameplay significantly.
 
@@ -35,11 +35,8 @@ If you encounter any issues, have suggestions, or want to contribute to the deve
 ## Credits
 
 - [Eqixo](https://github.com/Eqixo) - Creator and Developer
-- [Deus Vulve](https://github.com/DeusVulve) - Co-Creator and Crash-Tester
 - Special thanks to all contributors for their valuable input and support.
 
 > \- Hoping to make a datapack that makes Minecraft a better game to play, even for experienced players. -***[Eqixo](https://github.com/Eqixo)***
-
-> \- As the updates deceive more and more players, the community needs to make up for this. This is why this project started. -***[Deus Vulve](https://github.com/DeusVulve)***
 
 ## Enjoy the Challenge !
