@@ -1,24 +1,21 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "iLi",
-        "iIi",
-        "iii"
-    ],
-    "key": {
-        "i": {
-            "item": "minecraft:iron_ingot"
-        },
-        "L": {
-            "item": "minecraft:leather_chestplate"
-        },
-        "I": {
-            "item": "minecraft:iron_block"
-        }
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["iLi", "iIi", "iii"],
+  "key": {
+    "i": {
+      "item": "minecraft:iron_ingot"
     },
-    "result": {
-        "item": "minecraft:iron_chestplate",
-        "count": 1
+    "L": {
+      "item": "minecraft:leather_chestplate"
     },
-    "group": "upgrade_chestplate"
+    "I": {
+      "item": "minecraft:iron_block"
+    }
+  },
+  "result": {
+    "item": "minecraft:iron_chestplate",
+    "count": 1
+  },
+  "category": "equipment",
+  "group": "upgrade_chestplate"
 }

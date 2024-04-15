@@ -1,40 +1,40 @@
 {
-	"feature": "survival_reimagined:taiga/vegetation/patch_grass_taiga",
-	"placement": [
-        {
-          "count": {
-            "type": "uniform",
-            "value": {
-              "min_inclusive": 1,
-              "max_inclusive": 1
-            }
-          },
-          "type": "minecraft:count"
-        },
-        {
-          "type": "minecraft:in_square"
-        },
-        {
-          "max_water_depth": 0,
-          "type": "minecraft:surface_water_depth_filter"
-        },
-        {
-          "heightmap": "WORLD_SURFACE_WG",
-          "type": "minecraft:heightmap"
-        },
-        {
-			"type": "minecraft:block_predicate_filter",
-			"predicate": {
-				"type": "minecraft:all_of",
-				"predicates": [
-					{
-						"type": "minecraft:replaceable"
-		            }
-                ]
-            }
-        },
-        {
-          "type": "minecraft:biome"
+  "feature": "survival_reimagined:taiga/vegetation/patch_grass_taiga",
+  "placement": [
+    {
+      "count": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 1,
+          "max_inclusive": 1
         }
-	]
+      },
+      "type": "minecraft:count"
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "max_water_depth": 0,
+      "type": "minecraft:surface_water_depth_filter"
+    },
+    {
+      "heightmap": "WORLD_SURFACE_WG",
+      "type": "minecraft:heightmap"
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:all_of",
+        "predicates": [
+          {
+            "type": "minecraft:replaceable"
+          }
+        ]
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
 }

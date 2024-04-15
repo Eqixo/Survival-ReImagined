@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:snow_block"
+    },
+    "title": "Difficult to walk through...",
+    "description": {
+      "text": "A thick layer of snow and the freezing cold make it difficult to walk in cold biomes and at high altitudes.",
+      "color": "#00FF00"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "minecraft:survival_reimagined/cant_stand_you",
+  "criteria": {
+    "snow_block": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

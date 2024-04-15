@@ -1,18 +1,15 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "###",
-        "# #",
-        "# #"
-    ],
-    "key": {
-        "#": {
-            "item": "minecraft:leather"
-        }
-    },
-    "result": {
-        "item": "minecraft:leather_leggings",
-        "count": 1
-    },
-    "group": "upgrade_leggings"
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["###", "# #", "# #"],
+  "key": {
+    "#": {
+      "item": "minecraft:leather"
+    }
+  },
+  "result": {
+    "item": "minecraft:leather_leggings",
+    "count": 1
+  },
+  "category": "equipment",
+  "group": "upgrade_leggings"
 }

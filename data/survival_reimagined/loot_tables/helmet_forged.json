@@ -1,0 +1,61 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_helmet",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": 0.8
+            }
+          ],
+          "functions": [
+            {
+              "function": "enchant_with_levels",
+              "treasure": true,
+              "levels": {
+                "min": 18,
+                "max": 24
+              },
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.6
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_helmet",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": 0.4
+            }
+          ],
+          "functions": [
+            {
+              "function": "enchant_with_levels",
+              "treasure": true,
+              "levels": {
+                "min": 24,
+                "max": 30
+              },
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.75
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

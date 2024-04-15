@@ -17,7 +17,7 @@
       "Name": "minecraft:mushroom_stem"
     },
     "replaceable_blocks": {
-        "type": "true"
+      "type": "true"
     }
   },
   "type": "minecraft:huge_fungus"

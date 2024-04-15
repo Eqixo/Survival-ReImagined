@@ -1,0 +1,97 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:air",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": 0.2
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_helmet",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": 0.4
+            }
+          ],
+          "functions": [
+            {
+              "function": "enchant_with_levels",
+              "treasure": true,
+              "levels": {
+                "min": 1,
+                "max": 6
+              },
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.15
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chainmail_helmet",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": 0.5
+            }
+          ],
+          "functions": [
+            {
+              "function": "enchant_with_levels",
+              "treasure": true,
+              "levels": {
+                "min": 6,
+                "max": 12
+              },
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_helmet",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": 0.2
+            }
+          ],
+          "functions": [
+            {
+              "function": "enchant_with_levels",
+              "treasure": true,
+              "levels": {
+                "min": 12,
+                "max": 18
+              },
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.45
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

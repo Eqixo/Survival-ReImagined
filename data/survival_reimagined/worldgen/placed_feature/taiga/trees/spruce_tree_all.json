@@ -2,9 +2,9 @@
   "feature": "survival_reimagined:taiga/trees/spruce_tree_all",
   "placement": [
     {
-      "type": "count",
+      "type": "minecraft:count",
       "count": {
-        "type": "uniform",
+        "type": "minecraft:uniform",
         "value": {
           "min_inclusive": 8,
           "max_inclusive": 10
@@ -23,9 +23,9 @@
       "type": "minecraft:heightmap"
     },
     {
-      "type": "block_predicate_filter",
+      "type": "minecraft:block_predicate_filter",
       "predicate": {
-        "type": "all_of",
+        "type": "minecraft:all_of",
         "predicates": [
           {
             "type": "minecraft:replaceable",
@@ -61,22 +61,22 @@
           },
           {
             "type": "minecraft:matching_blocks",
-            "blocks": "#dirt",
+            "blocks": "#minecraft:dirt",
             "offset": [1, -1, 0]
           },
           {
             "type": "minecraft:matching_blocks",
-            "blocks": "#dirt",
+            "blocks": "#minecraft:dirt",
             "offset": [-1, -1, 0]
           },
           {
             "type": "minecraft:matching_blocks",
-            "blocks": "#dirt",
+            "blocks": "#minecraft:dirt",
             "offset": [0, -1, 1]
           },
           {
             "type": "minecraft:matching_blocks",
-            "blocks": "#dirt",
+            "blocks": "#minecraft:dirt",
             "offset": [0, -1, -1]
           },
           {

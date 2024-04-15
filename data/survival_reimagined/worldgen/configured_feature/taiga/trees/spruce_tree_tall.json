@@ -4,10 +4,10 @@
     "ignore_vines": true,
     "force_dirt": true,
     "dirt_provider": {
-        "type": "minecraft:simple_state_provider",
-        "state": {
-            "Name": "minecraft:rooted_dirt"
-        }
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:rooted_dirt"
+      }
     },
     "sapling_provider": {
       "type": "minecraft:simple_state_provider",
@@ -19,39 +19,39 @@
       }
     },
     "minimum_size": {
-        "type": "minecraft:two_layers_feature_size",
-        "min_clipped_height": 0,
-        "limit": 5,
-        "lower_size": 1,
-        "upper_size": 1
+      "type": "minecraft:two_layers_feature_size",
+      "min_clipped_height": 0,
+      "limit": 5,
+      "lower_size": 1,
+      "upper_size": 1
     },
     "trunk_provider": {
-        "type": "minecraft:simple_state_provider",
-        "state": {
-            "Name": "minecraft:spruce_log",
-            "Properties": {
-              "axis": "y"
-            }
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:spruce_log",
+        "Properties": {
+          "axis": "y"
         }
+      }
     },
     "foliage_provider": {
-        "type": "minecraft:simple_state_provider",
-        "state": {
-            "Name": "minecraft:spruce_leaves",
-            "Properties": {
-              "distance": "6",
-              "persistant": "false"
-            }
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:spruce_leaves",
+        "Properties": {
+          "distance": "6",
+          "persistant": "false"
         }
+      }
     },
     "trunk_placer": {
-      "type": "straight_trunk_placer",
+      "type": "minecraft:straight_trunk_placer",
       "base_height": 10,
       "height_rand_a": 4,
       "height_rand_b": 6
     },
     "foliage_placer": {
-      "type": "spruce_foliage_placer",
+      "type": "minecraft:spruce_foliage_placer",
       "offset": {
         "type": "minecraft:uniform",
         "value": {

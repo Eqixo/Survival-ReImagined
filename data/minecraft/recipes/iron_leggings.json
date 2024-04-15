@@ -1,24 +1,21 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "iIi",
-        "iLi",
-        "i i"
-    ],
-    "key": {
-        "i": {
-            "item": "minecraft:iron_ingot"
-        },
-        "I": {
-            "item": "minecraft:iron_block"
-        },
-        "L": {
-            "item": "minecraft:leather_leggings"
-        }
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["iIi", "iLi", "i i"],
+  "key": {
+    "i": {
+      "item": "minecraft:iron_ingot"
     },
-    "result": {
-        "item": "minecraft:iron_leggings",
-        "count": 1
+    "I": {
+      "item": "minecraft:iron_block"
     },
-    "group": "upgrade_leggings"
+    "L": {
+      "item": "minecraft:leather_leggings"
+    }
+  },
+  "result": {
+    "item": "minecraft:iron_leggings",
+    "count": 1
+  },
+  "category": "equipment",
+  "group": "upgrade_leggings"
 }

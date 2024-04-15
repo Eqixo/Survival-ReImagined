@@ -24,16 +24,9 @@
   },
   "features": [
     [],
-    [
-      "minecraft:lake_lava_underground"
-    ],
-    [
-      "minecraft:amethyst_geode"
-    ],
-    [
-      "minecraft:monster_room",
-      "minecraft:monster_room_deep"
-    ],
+    ["minecraft:lake_lava_underground"],
+    ["minecraft:amethyst_geode"],
+    ["minecraft:monster_room", "minecraft:monster_room_deep"],
     [],
     [],
     [
@@ -58,9 +51,7 @@
       "minecraft:underwater_magma"
     ],
     [],
-    [
-      
-    ],
+    [],
     [
       "minecraft:glow_lichen",
       "survival_reimagined:taiga/trees/bushes/spruce_bush_small",
@@ -71,9 +62,7 @@
       "survival_reimagined:water_biomes/vegetation/patch_vegetation_underwater",
       "minecraft:patch_pumpkin"
     ],
-    [
-      "minecraft:freeze_top_layer"
-    ]
+    ["minecraft:freeze_top_layer"]
   ],
   "creature_spawn_probability": 0.07,
   "spawners": {

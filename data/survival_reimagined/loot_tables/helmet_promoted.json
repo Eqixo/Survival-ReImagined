@@ -1,0 +1,87 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_helmet",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": 0.65
+            }
+          ],
+          "functions": [
+            {
+              "function": "enchant_with_levels",
+              "treasure": true,
+              "levels": {
+                "min": 12,
+                "max": 18
+              },
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.45
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_helmet",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": 0.75
+            }
+          ],
+          "functions": [
+            {
+              "function": "enchant_with_levels",
+              "treasure": true,
+              "levels": {
+                "min": 18,
+                "max": 24
+              },
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.6
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_helmet",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": 0.25
+            }
+          ],
+          "functions": [
+            {
+              "function": "enchant_with_levels",
+              "treasure": true,
+              "levels": {
+                "min": 24,
+                "max": 30
+              },
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.75
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

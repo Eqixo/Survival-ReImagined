@@ -1,27 +1,24 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "###",
-        "S/S",
-        " I "
-    ],
-    "key": {
-        "#": {
-            "item": "minecraft:diamond"
-        },
-        "S": {
-            "item": "minecraft:string"
-        },
-        "/": {
-            "item": "minecraft:stick"
-        },
-        "I": {
-            "item": "minecraft:iron_pickaxe"
-        }
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["###", "S/S", " I "],
+  "key": {
+    "#": {
+      "item": "minecraft:diamond"
     },
-    "result": {
-        "item": "minecraft:diamond_pickaxe",
-        "count": 1
+    "S": {
+      "item": "minecraft:string"
     },
-    "group": "upgrade_pickaxe"
+    "/": {
+      "item": "minecraft:stick"
+    },
+    "I": {
+      "item": "minecraft:iron_pickaxe"
+    }
+  },
+  "result": {
+    "item": "minecraft:diamond_pickaxe",
+    "count": 1
+  },
+  "category": "equipment",
+  "group": "upgrade_pickaxe"
 }

@@ -1,56 +1,53 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        " _ ",
-        "#/#",
-        " / "
+  "type": "minecraft:crafting_shaped",
+  "pattern": [" _ ", "#/#", " / "],
+  "key": {
+    "#": {
+      "item": "minecraft:string"
+    },
+    "_": [
+      {
+        "item": "minecraft:oak_slab"
+      },
+      {
+        "item": "minecraft:spruce_slab"
+      },
+      {
+        "item": "minecraft:dark_oak_slab"
+      },
+      {
+        "item": "minecraft:birch_slab"
+      },
+      {
+        "item": "minecraft:mangrove_slab"
+      },
+      {
+        "item": "minecraft:cherry_slab"
+      },
+      {
+        "item": "minecraft:jungle_slab"
+      },
+      {
+        "item": "minecraft:acacia_slab"
+      },
+      {
+        "item": "minecraft:bamboo_slab"
+      },
+      {
+        "item": "minecraft:warped_slab"
+      },
+      {
+        "item": "minecraft:crimson_slab"
+      }
     ],
-    "key": {
-        "#": {
-            "item": "minecraft:string"
-        },
-        "_": [
-            {
-                "item": "minecraft:oak_slab"
-            },
-            {
-                "item": "minecraft:spruce_slab"
-            },
-            {
-                "item": "minecraft:dark_oak_slab"
-            },
-            {
-                "item": "minecraft:birch_slab"
-            },
-            {
-                "item": "minecraft:mangrove_slab"
-            },
-            {
-                "item": "minecraft:cherry_slab"
-            },
-            {
-                "item": "minecraft:jungle_slab"
-            },
-            {
-                "item": "minecraft:acacia_slab"
-            },
-            {
-                "item": "minecraft:bamboo_slab"
-            },
-            {
-                "item": "minecraft:warped_slab"
-            },
-            {
-                "item": "minecraft:crimson_slab"
-            }
-        ],
-        "/": {
-            "item": "minecraft:stick"
-        }
-    },
-    "result": {
-        "item": "minecraft:wooden_shovel",
-        "count": 1
-    },
-    "group": "upgrade_shovel"
+    "/": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "minecraft:wooden_shovel",
+    "count": 1
+  },
+  "category": "equipment",
+  "group": "upgrade_shovel"
 }

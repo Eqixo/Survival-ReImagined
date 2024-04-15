@@ -1,23 +1,21 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "iIi",
-        "iLi"
-    ],
-    "key": {
-        "i": {
-            "item": "minecraft:iron_ingot"
-        },
-        "I": {
-            "item": "minecraft:iron_block"
-        },
-        "L": {
-            "item": "minecraft:leather_helmet"
-        }
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["iIi", "iLi"],
+  "key": {
+    "i": {
+      "item": "minecraft:iron_ingot"
     },
-    "result": {
-        "item": "minecraft:iron_helmet",
-        "count": 1
+    "I": {
+      "item": "minecraft:iron_block"
     },
-    "group": "upgrade_helmet"
+    "L": {
+      "item": "minecraft:leather_helmet"
+    }
+  },
+  "result": {
+    "item": "minecraft:iron_helmet",
+    "count": 1
+  },
+  "category": "equipment",
+  "group": "upgrade_helmet"
 }

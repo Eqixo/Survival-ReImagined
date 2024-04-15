@@ -1,21 +1,18 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "###",
-        "#I#",
-        "###"
-    ],
-    "key": {
-        "#": {
-            "item": "minecraft:diamond"
-        },
-        "I": {
-            "item": "minecraft:iron_chestplate"
-        }
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["###", "#I#", "###"],
+  "key": {
+    "#": {
+      "item": "minecraft:diamond"
     },
-    "result": {
-        "item": "minecraft:diamond_chestplate",
-        "count": 1
-    },
-    "group": "upgrade_chestplate"
+    "I": {
+      "item": "minecraft:iron_chestplate"
+    }
+  },
+  "result": {
+    "item": "minecraft:diamond_chestplate",
+    "count": 1
+  },
+  "category": "equipment",
+  "group": "upgrade_chestplate"
 }

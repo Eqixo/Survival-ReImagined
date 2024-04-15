@@ -24,16 +24,9 @@
   },
   "features": [
     [],
-    [
-      "minecraft:lake_lava_underground"
-    ],
-    [
-      "minecraft:amethyst_geode"
-    ],
-    [
-      "minecraft:monster_room",
-      "minecraft:monster_room_deep"
-    ],
+    ["minecraft:lake_lava_underground"],
+    ["minecraft:amethyst_geode"],
+    ["minecraft:monster_room", "minecraft:monster_room_deep"],
     [],
     [],
     [
@@ -71,9 +64,7 @@
       "survival_reimagined:mushroom_fields/vegetation/patch_grass_mushroom",
       "minecraft:patch_pumpkin"
     ],
-    [
-      "minecraft:freeze_top_layer"
-    ]
+    ["minecraft:freeze_top_layer"]
   ],
   "spawners": {
     "monster": [],

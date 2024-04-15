@@ -1,23 +1,21 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "_S",
-        " W"
-    ],
-    "key": {
-        "_": {
-            "item": "minecraft:iron_ingot"
-        },
-        "S": {
-            "item": "minecraft:string"
-        },
-        "W": {
-            "item": "minecraft:stone_hoe"
-        }
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["_S", " W"],
+  "key": {
+    "_": {
+      "item": "minecraft:iron_ingot"
     },
-    "result": {
-        "item": "minecraft:iron_hoe",
-        "count": 1
+    "S": {
+      "item": "minecraft:string"
     },
-    "group": "upgrade_hoe"
+    "W": {
+      "item": "minecraft:stone_hoe"
+    }
+  },
+  "result": {
+    "item": "minecraft:iron_hoe",
+    "count": 1
+  },
+  "category": "equipment",
+  "group": "upgrade_hoe"
 }

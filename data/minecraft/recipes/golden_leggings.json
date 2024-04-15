@@ -1,21 +1,18 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "###",
-        "#I#",
-        "###"
-    ],
-    "key": {
-        "#": {
-            "item": "minecraft:gold_ingot"
-        },
-        "I": {
-            "item": "minecraft:iron_leggings"
-        }
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["###", "#I#", "###"],
+  "key": {
+    "#": {
+      "item": "minecraft:gold_ingot"
     },
-    "result": {
-        "item": "minecraft:golden_leggings",
-        "count": 1
-    },
-    "group": "upgrade_leggings"
+    "I": {
+      "item": "minecraft:iron_leggings"
+    }
+  },
+  "result": {
+    "item": "minecraft:golden_leggings",
+    "count": 1
+  },
+  "category": "equipment",
+  "group": "upgrade_leggings"
 }

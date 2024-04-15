@@ -1,27 +1,24 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        " _ ",
-        " S ",
-        "DWD"
-    ],
-    "key": {
-        "_": {
-            "item": "minecraft:iron_ingot"
-        },
-        "S": {
-            "item": "minecraft:iron_block"
-        },
-        "D": {
-            "item": "minecraft:string"
-        },
-        "W": {
-            "item": "minecraft:stone_sword"
-        }
+  "type": "minecraft:crafting_shaped",
+  "pattern": [" _ ", " S ", "DWD"],
+  "key": {
+    "_": {
+      "item": "minecraft:iron_ingot"
     },
-    "result": {
-        "item": "minecraft:iron_sword",
-        "count": 1
+    "S": {
+      "item": "minecraft:iron_block"
     },
-    "group": "upgrade_sword"
+    "D": {
+      "item": "minecraft:string"
+    },
+    "W": {
+      "item": "minecraft:stone_sword"
+    }
+  },
+  "result": {
+    "item": "minecraft:iron_sword",
+    "count": 1
+  },
+  "category": "equipment",
+  "group": "upgrade_sword"
 }

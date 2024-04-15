@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:rotten_flesh"
+    },
+    "title": "It Rots !",
+    "description": {
+      "text": "Keep food in a chest...",
+      "color": "#00FF00"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "minecraft:survival_reimagined/difficult_walking_through",
+  "criteria": {
+    "snow_block": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

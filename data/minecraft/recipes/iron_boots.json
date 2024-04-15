@@ -1,24 +1,21 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        " I ",
-        "iLi",
-        " i "
-    ],
-    "key": {
-        "I": {
-            "item": "minecraft:iron_block"
-        },
-        "i": {
-            "item": "minecraft:iron_ingot"
-        },
-        "L": {
-            "item": "minecraft:leather_boots"
-        }
+  "type": "minecraft:crafting_shaped",
+  "pattern": [" I ", "iLi", " i "],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_block"
     },
-    "result": {
-        "item": "minecraft:iron_boots",
-        "count": 1
+    "i": {
+      "item": "minecraft:iron_ingot"
     },
-    "group": "upgrade_boots"
+    "L": {
+      "item": "minecraft:leather_boots"
+    }
+  },
+  "result": {
+    "item": "minecraft:iron_boots",
+    "count": 1
+  },
+  "category": "equipment",
+  "group": "upgrade_boots"
 }

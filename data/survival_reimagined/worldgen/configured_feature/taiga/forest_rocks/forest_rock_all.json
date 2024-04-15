@@ -1,20 +1,20 @@
 {
-    "type": "minecraft:random_selector",
-    "config": {
-      "features": [
-        {
-          "chance": 0.33,
-          "feature": "survival_reimagined:taiga/forest_rocks/forest_rock_andesite"
-        },
-        {
-          "chance": 0.425,
-          "feature": "survival_reimagined:taiga/forest_rocks/forest_rock_mossy_cobblestone"
-        },
-        {
-          "chance": 0.6,
-          "feature": "survival_reimagined:taiga/forest_rocks/forest_rock_cobblestone"
-        }
-      ],
-      "default": "survival_reimagined:taiga/forest_rocks/forest_rock_stone"
-    }
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "chance": 0.33,
+        "feature": "survival_reimagined:taiga/forest_rocks/forest_rock_andesite"
+      },
+      {
+        "chance": 0.425,
+        "feature": "survival_reimagined:taiga/forest_rocks/forest_rock_mossy_cobblestone"
+      },
+      {
+        "chance": 0.6,
+        "feature": "survival_reimagined:taiga/forest_rocks/forest_rock_cobblestone"
+      }
+    ],
+    "default": "survival_reimagined:taiga/forest_rocks/forest_rock_stone"
   }
+}

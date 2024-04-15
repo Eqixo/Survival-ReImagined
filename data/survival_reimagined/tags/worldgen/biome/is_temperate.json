@@ -1,0 +1,21 @@
+{
+  "values": [
+    "minecraft:deep_lukewarm_ocean",
+    "minecraft:deep_ocean",
+    "minecraft:lukewarm_ocean",
+    "minecraft:ocean",
+    "minecraft:river",
+    "minecraft:warm_ocean",
+    "minecraft:birch_forest",
+    "minecraft:old_growth_birch_forest",
+    "minecraft:dark_forest",
+    "minecraft:flower_forest",
+    "minecraft:forest",
+    "minecraft:beach",
+    "minecraft:mangrove_swamp",
+    "minecraft:plains",
+    "minecraft:sunflower_plains",
+    "minecraft:swamp",
+    "minecraft:mushroom_fields"
+  ]
+}

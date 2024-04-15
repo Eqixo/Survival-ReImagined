@@ -24,33 +24,20 @@
   },
   "features": [
     [],
-    [
-      "minecraft:lake_lava_underground"
-    ],
-    [
-      "minecraft:amethyst_geode"
-    ],
-    [
-      "minecraft:monster_room",
-      "minecraft:monster_room_deep"
-    ],
+    ["minecraft:lake_lava_underground"],
+    ["minecraft:amethyst_geode"],
+    ["minecraft:monster_room", "minecraft:monster_room_deep"],
     [],
     [],
-    [
-      "minecraft:underwater_magma"
-    ],
+    ["minecraft:underwater_magma"],
     [],
-    [
-      
-    ],
+    [],
     [
       "minecraft:glow_lichen",
       "survival_reimagined:plains/vegetation/patch_grass",
       "survival_reimagined:water_biomes/vegetation/patch_vegetation_underwater"
     ],
-    [
-      "minecraft:freeze_top_layer"
-    ]
+    ["minecraft:freeze_top_layer"]
   ],
   "spawners": {
     "monster": [

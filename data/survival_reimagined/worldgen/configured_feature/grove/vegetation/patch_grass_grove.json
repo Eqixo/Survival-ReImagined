@@ -1,41 +1,41 @@
 {
-    "config": {
-      "tries": 384,
-      "xz_spread": 16,
-      "y_spread": 8,
+  "config": {
+    "tries": 384,
+    "xz_spread": 16,
+    "y_spread": 8,
+    "feature": {
       "feature": {
-        "feature": {
-          "config": {
-            "to_place": {
-              "entries": [
-                {
-                  "data": {
-                    "Name": "minecraft:short_grass"
-                  },
-                  "weight": 5
+        "config": {
+          "to_place": {
+            "entries": [
+              {
+                "data": {
+                  "Name": "minecraft:short_grass"
                 },
-                {
-                  "data": {
-                    "Name": "minecraft:fern"
-                  },
-                  "weight": 6
-                }
-              ],
-              "type": "minecraft:weighted_state_provider"
-            }
-          },
-          "type": "minecraft:simple_block"
-        },
-        "placement": [
-          {
-            "predicate": {
-              "blocks": "minecraft:air",
-              "type": "minecraft:matching_blocks"
-            },
-            "type": "minecraft:block_predicate_filter"
+                "weight": 5
+              },
+              {
+                "data": {
+                  "Name": "minecraft:fern"
+                },
+                "weight": 6
+              }
+            ],
+            "type": "minecraft:weighted_state_provider"
           }
-        ]
-      }
-    },
-    "type": "minecraft:random_patch"
-  }
+        },
+        "type": "minecraft:simple_block"
+      },
+      "placement": [
+        {
+          "predicate": {
+            "blocks": "minecraft:air",
+            "type": "minecraft:matching_blocks"
+          },
+          "type": "minecraft:block_predicate_filter"
+        }
+      ]
+    }
+  },
+  "type": "minecraft:random_patch"
+}

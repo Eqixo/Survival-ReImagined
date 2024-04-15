@@ -13,7 +13,7 @@
               "predicate": {
                 "equipment": {
                   "head": {
-                    "items": ["leather_helmet", "chainmail_helmet"]
+                    "items": ["air", "leather_helmet", "chainmail_helmet"]
                   }
                 }
               }
@@ -50,7 +50,7 @@
               "predicate": {
                 "equipment": {
                   "head": {
-                    "items": ["chainmail_helmet", "iron_helmet"]
+                    "items": ["air", "chainmail_helmet"]
                   }
                 }
               }
@@ -124,7 +124,7 @@
               "predicate": {
                 "equipment": {
                   "head": {
-                    "items": ["diamond_helmet", "iron_helmet"]
+                    "items": ["netherite_helmet", "diamond_helmet", "iron_helmet"]
                   }
                 }
               }

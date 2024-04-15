@@ -1,27 +1,24 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        " _ ",
-        " S ",
-        "DWD"
-    ],
-    "key": {
-        "_": {
-            "item": "minecraft:stone_slab"
-        },
-        "S": {
-            "item": "minecraft:stone"
-        },
-        "D": {
-            "item": "minecraft:string"
-        },
-        "W": {
-            "item": "minecraft:wooden_sword"
-        }
+  "type": "minecraft:crafting_shaped",
+  "pattern": [" _ ", " S ", "DWD"],
+  "key": {
+    "_": {
+      "item": "minecraft:stone_slab"
     },
-    "result": {
-        "item": "minecraft:stone_sword",
-        "count": 1
+    "S": {
+      "item": "minecraft:stone"
     },
-    "group": "upgrade_sword"
+    "D": {
+      "item": "minecraft:string"
+    },
+    "W": {
+      "item": "minecraft:wooden_sword"
+    }
+  },
+  "result": {
+    "item": "minecraft:stone_sword",
+    "count": 1
+  },
+  "category": "equipment",
+  "group": "upgrade_sword"
 }

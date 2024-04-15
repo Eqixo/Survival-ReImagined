@@ -1,27 +1,24 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        " # ",
-        "SsS",
-        " I "
-    ],
-    "key": {
-        "#": {
-            "item": "minecraft:diamond"
-        },
-        "S": {
-            "item": "minecraft:string"
-        },
-        "I": {
-            "item": "minecraft:iron_shovel"
-        },
-        "s": {
-            "item": "minecraft:stick"
-        }
+  "type": "minecraft:crafting_shaped",
+  "pattern": [" # ", "SsS", " I "],
+  "key": {
+    "#": {
+      "item": "minecraft:diamond"
     },
-    "result": {
-        "item": "minecraft:diamond_shovel",
-        "count": 1
+    "S": {
+      "item": "minecraft:string"
     },
-    "group": "upgrade_shovel"
+    "I": {
+      "item": "minecraft:iron_shovel"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "minecraft:diamond_shovel",
+    "count": 1
+  },
+  "category": "equipment",
+  "group": "upgrade_shovel"
 }
