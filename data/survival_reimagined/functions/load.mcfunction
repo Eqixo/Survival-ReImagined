@@ -14,9 +14,12 @@ scoreboard objectives add canRot dummy
 scoreboard objectives add rottingTimeFast dummy
 scoreboard objectives add rottingTimeSlow dummy
 scoreboard objectives add mobHealth dummy
+scoreboard objectives add breathingTimer dummy
 scoreboard objectives add beatTimer dummy
+scoreboard objectives add beatCold dummy
 scoreboard objectives add raw.health health
 scoreboard objectives add health dummy
+scoreboard objectives add healthCold dummy
 scoreboard objectives add coldnessAmount dummy
 scoreboard objectives add coldnessConstant dummy
 scoreboard objectives add hotnessAmount dummy
@@ -25,7 +28,10 @@ scoreboard objectives add coldArmorProtectionLevel dummy
 scoreboard objectives add player.xCoordinates dummy
 scoreboard objectives add player.yCoordinates dummy
 scoreboard objectives add player.zCoordinates dummy
+scoreboard objectives add timeSinceLastRested minecraft.custom:minecraft.time_since_rest
+scoreboard objectives add processed dummy
 
+function survival_reimagined:not_affected
 function survival_reimagined:buffs/buff_all_selector
 function survival_reimagined:heartbeat
 function survival_reimagined:rotting
@@ -35,8 +41,6 @@ function survival_reimagined:particles/running_particles
 function survival_reimagined:other/leaves/through_leaves
 function survival_reimagined:other/snow/snow_advancement
 function survival_reimagined:cold/modifiers/freezing_damage
-function survival_reimagined:cold/modifiers/slowness_modifier
-function survival_reimagined:cold/modifiers/attack_speed_modifier
-function survival_reimagined:cold/modifiers/attack_damage_modifier
 function survival_reimagined:armors/wool_clothing/wearing_wool_clothing
 function survival_reimagined:get_player_coordinates
+function survival_reimagined:particles/cold/breathing
