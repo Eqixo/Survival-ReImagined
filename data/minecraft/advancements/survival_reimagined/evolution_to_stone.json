@@ -142,6 +142,7 @@
       "minecraft:iron_pickaxe",
       "minecraft:iron_hoe",
       "minecraft:iron_sword"
-    ]
+    ],
+    "function": "survival_reimagined:difficulty_tagging/player_difficulty"
   }
 }

@@ -1,6 +1,4 @@
 # Freezing Damage
-execute as @a[tag=!not_affected] at @s if score @s coldnessAmount matches 60..120 run damage @s 1 freeze at ~ ~ ~
-execute as @a[tag=!not_affected] at @s if score @s coldnessAmount matches 120..240 run damage @s 2 freeze at ~ ~ ~
-execute as @a[tag=!not_affected] at @s if score @s coldnessAmount matches 240.. run damage @s 5 freeze at ~ ~ ~
-
-schedule function survival_reimagined:cold/modifiers/freezing_damage 5s
+damage @s[scores={coldnessAmount=120..240, coldArmorProtectionLevel=0..2}] 1 freeze at ~ ~ ~
+damage @s[scores={coldnessAmount=240..480, coldArmorProtectionLevel=0..2}] 2 freeze at ~ ~ ~
+damage @s[scores={coldnessAmount=480.., coldArmorProtectionLevel=0..2}] 5 freeze at ~ ~ ~

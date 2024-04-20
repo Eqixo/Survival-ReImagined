@@ -142,6 +142,7 @@
       "minecraft:stone_pickaxe",
       "minecraft:stone_hoe",
       "minecraft:stone_sword"
-    ]
+    ],
+    "function": "survival_reimagined:difficulty_tagging/player_difficulty"
   }
 }

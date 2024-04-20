@@ -146,6 +146,7 @@
       "minecraft:golden_pickaxe",
       "minecraft:golden_hoe",
       "minecraft:golden_sword"
-    ]
+    ],
+    "function": "survival_reimagined:difficulty_tagging/player_difficulty"
   }
 }

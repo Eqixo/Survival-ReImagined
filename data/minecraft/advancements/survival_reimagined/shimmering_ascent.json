@@ -111,5 +111,8 @@
       "dropped_leggings",
       "dropped_boots"
     ]
-  ]
+  ],
+  "rewards": {
+    "function": "survival_reimagined:difficulty_tagging/player_difficulty"
+  }
 }

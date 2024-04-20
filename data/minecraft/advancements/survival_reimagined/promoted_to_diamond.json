@@ -142,6 +142,7 @@
       "minecraft:netherite_sword_smithing",
       "minecraft:netherite_shovel_smithing",
       "minecraft:netherite_hoe_smithing"
-    ]
+    ],
+    "function": "survival_reimagined:difficulty_tagging/player_difficulty"
   }
 }

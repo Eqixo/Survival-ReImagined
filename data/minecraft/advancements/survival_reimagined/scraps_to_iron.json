@@ -137,6 +137,7 @@
       "minecraft:golden_chestplate",
       "minecraft:golden_leggings",
       "minecraft:golden_boots"
-    ]
+    ],
+    "function": "survival_reimagined:difficulty_tagging/player_difficulty"
   }
 }

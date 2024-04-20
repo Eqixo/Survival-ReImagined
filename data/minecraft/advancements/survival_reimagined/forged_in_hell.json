@@ -154,5 +154,8 @@
       "dropped_hoe",
       "dropped_sword"
     ]
-  ]
+  ],
+  "rewards": {
+    "function": "survival_reimagined:difficulty_tagging/player_difficulty"
+  }
 }

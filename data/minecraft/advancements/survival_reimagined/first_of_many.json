@@ -119,6 +119,7 @@
       "minecraft:iron_leggings",
       "minecraft:iron_boots",
       "survival_reimagined:wool_padded_leather_chestplate"
-    ]
+    ],
+    "function": "survival_reimagined:difficulty_tagging/player_difficulty"
   }
 }
