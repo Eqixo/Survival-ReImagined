@@ -12,3 +12,7 @@ execute at @s store success score @s isCampfireClose run clone ~-3 ~-3 ~-3 ~3 ~3
 scoreboard players operation @s[scores={coldnessConstant=0.., isCampfireClose=0}] coldnessAmount += @s coldnessConstant
 scoreboard players operation @s[scores={coldnessAmount=1.., coldArmorProtectionLevel=1..4}] coldnessAmount -= @s coldArmorProtectionLevel
 scoreboard players set @s[scores={coldnessAmount=..0}] coldnessAmount 0
+
+execute if entity @s[scores={coldnessAmount=60..64}] run title @s actionbar "You are cold..."
+execute if entity @s[scores={coldnessAmount=120..124}] run title @s actionbar "You are freezing..."
+execute if entity @s[scores={coldnessAmount=180..184}] run title @s actionbar "You are dying of hypothermia..."
