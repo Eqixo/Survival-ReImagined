@@ -45,7 +45,7 @@
     }
   },
   "result": {
-    "item": "minecraft:wooden_sword",
+    "id": "minecraft:wooden_sword",
     "count": 1
   },
   "category": "equipment",

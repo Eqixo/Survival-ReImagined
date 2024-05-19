@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:golden_chestplate",
+      "id": "minecraft:golden_chestplate",
       "nbt": "{Trim:{material:\"minecraft:netherite\", pattern:\"silence\"},Enchantments:[{id:\"protection\"}]}"
     },
     "title": "Rich or Stupid ?",

@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:iron_axe"
+      "id": "minecraft:iron_axe"
     },
     "title": "Stone to Iron",
     "description": {
@@ -147,6 +147,6 @@
       "minecraft:golden_hoe",
       "minecraft:golden_sword"
     ],
-    "function": "survival_reimagined:difficulty_tagging/player_difficulty"
+    "function": "survival_reimagined:tagging/player_difficulty"
   }
 }

@@ -16,7 +16,7 @@
     }
   },
   "result": {
-    "item": "minecraft:golden_pickaxe",
+    "id": "minecraft:golden_pickaxe",
     "count": 1
   },
   "category": "equipment",

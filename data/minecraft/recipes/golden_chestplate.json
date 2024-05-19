@@ -10,7 +10,7 @@
     }
   },
   "result": {
-    "item": "minecraft:golden_chestplate",
+    "id": "minecraft:golden_chestplate",
     "count": 1
   },
   "category": "equipment",

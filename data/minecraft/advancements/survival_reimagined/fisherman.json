@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:fishing_rod"
+    },
+    "title": "Fisherman",
+    "description": "Hook something with your fishing rod.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:survival_reimagined/first_meal",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:fishing_rod_hooked"
+    }
+  }
+}

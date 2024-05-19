@@ -10,7 +10,7 @@
     "item": "minecraft:diamond_helmet"
   },
   "result": {
-    "item": "minecraft:netherite_helmet",
+    "id": "minecraft:netherite_helmet",
     "count": 1
   },
   "group": "upgrade_helmet"

@@ -37,6 +37,8 @@ scoreboard players set #constant coldnessAmount 10000
 execute as @a[tag=!not_affected] run function survival_reimagined:armours/wool_clothing/wearing_wool_clothing
 execute as @a[tag=!not_affected] run function survival_reimagined:tagging/player_difficulty
 
+function survival_reimagined:advancements/explorer
+function survival_reimagined:advancements/underground_explorer
 function survival_reimagined:armours/wool_clothing/clothing_selector
 function survival_reimagined:cold/selector
 function survival_reimagined:heartbeat/selector
@@ -46,3 +48,4 @@ function survival_reimagined:player_coordinates/selector
 function survival_reimagined:rotting/selector
 function survival_reimagined:stronger_entities/selector
 function survival_reimagined:tagging/not_affected
+function survival_reimagined:tiredness/advancements/tiredness_advancement

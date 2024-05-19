@@ -7,7 +7,7 @@
     }
   },
   "result": {
-    "item": "minecraft:leather_chestplate",
+    "id": "minecraft:leather_chestplate",
     "count": 1
   },
   "category": "equipment",

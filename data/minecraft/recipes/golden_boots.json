@@ -10,7 +10,7 @@
     }
   },
   "result": {
-    "item": "minecraft:golden_boots",
+    "id": "minecraft:golden_boots",
     "count": 1
   },
   "category": "equipment",

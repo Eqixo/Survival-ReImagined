@@ -10,7 +10,7 @@
     }
   },
   "result": {
-    "item": "minecraft:diamond_leggings",
+    "id": "minecraft:diamond_leggings",
     "count": 1
   },
   "category": "equipment",

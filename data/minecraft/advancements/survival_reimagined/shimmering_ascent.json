@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:diamond_chestplate",
+      "id": "minecraft:diamond_chestplate",
       "nbt": "{Enchantments:[{id:\"protection\"}]}"
     },
     "title": "Shimmering Ascent",
@@ -113,6 +113,16 @@
     ]
   ],
   "rewards": {
-    "function": "survival_reimagined:difficulty_tagging/player_difficulty"
+    "recipes": [
+      "minecraft:netherite_helmet_smithing",
+      "minecraft:netherite_chestplate_smithing",
+      "minecraft:netherite_leggings_smithing",
+      "minecraft:netherite_boots_smithing",
+      "survival_reimagined:wool_padded_netherite_helmet",
+      "survival_reimagined:wool_padded_netherite_chestplate",
+      "survival_reimagined:wool_padded_netherite_leggings",
+      "survival_reimagined:wool_padded_netherite_boots"
+    ],
+    "function": "survival_reimagined:tagging/player_difficulty"
   }
 }

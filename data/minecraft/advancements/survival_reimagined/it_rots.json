@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:rotten_flesh"
+      "id": "minecraft:rotten_flesh"
     },
     "title": "It Rots !",
     "description": {
@@ -13,7 +13,7 @@
     "announce_to_chat": false,
     "hidden": true
   },
-  "parent": "minecraft:survival_reimagined/i_am_cold",
+  "parent": "minecraft:survival_reimagined/first_meal",
   "criteria": {
     "snow_block": {
       "trigger": "minecraft:impossible"

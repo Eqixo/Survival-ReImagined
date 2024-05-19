@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:snow_block"
+      "id": "minecraft:snow_block"
     },
     "title": "I am cold ?",
     "description": {
@@ -13,7 +13,7 @@
     "announce_to_chat": false,
     "hidden": true
   },
-  "parent": "minecraft:survival_reimagined/cant_stand_you",
+  "parent": "minecraft:survival_reimagined/fire_starter",
   "criteria": {
     "snow_block": {
       "trigger": "minecraft:impossible"

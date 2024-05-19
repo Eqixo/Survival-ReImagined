@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:oak_leaves"
+      "id": "minecraft:oak_leaves"
     },
     "title": "I can't stand You !",
     "description": {
@@ -13,7 +13,7 @@
     "announce_to_chat": false,
     "hidden": true
   },
-  "parent": "minecraft:survival_reimagined/root",
+  "parent": "minecraft:survival_reimagined/mechanics",
   "criteria": {
     "oak_leaves": {
       "trigger": "minecraft:impossible"

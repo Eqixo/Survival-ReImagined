@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:barrier"
+      "id": "minecraft:barrier"
     },
     "title": "Empty Calories",
     "description": {
@@ -13,7 +13,7 @@
     "announce_to_chat": false,
     "hidden": true
   },
-  "parent": "minecraft:survival_reimagined/root",
+  "parent": "minecraft:survival_reimagined/mechanics",
   "criteria": {
     "food_consumption": {
       "trigger": "minecraft:consume_item",
@@ -61,6 +61,5 @@
         }
       }
     }
-  },
-  "rewards": {}
+  }
 }

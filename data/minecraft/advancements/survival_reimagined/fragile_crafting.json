@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:wooden_hoe"
+      "id": "minecraft:wooden_hoe"
     },
     "title": "Fragile Crafting",
     "description": {
@@ -13,7 +13,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "minecraft:survival_reimagined/good_luck",
+  "parent": "minecraft:survival_reimagined/first_step",
   "criteria": {
     "crafted_axe": {
       "trigger": "minecraft:recipe_crafted",
@@ -143,6 +143,6 @@
       "minecraft:stone_hoe",
       "minecraft:stone_sword"
     ],
-    "function": "survival_reimagined:difficulty_tagging/player_difficulty"
+    "function": "survival_reimagined:tagging/player_difficulty"
   }
 }

@@ -16,7 +16,7 @@
     }
   },
   "result": {
-    "item": "minecraft:stone_axe",
+    "id": "minecraft:stone_axe",
     "count": 1
   },
   "category": "equipment",

@@ -13,7 +13,7 @@
     }
   },
   "result": {
-    "item": "minecraft:stone_hoe",
+    "id": "minecraft:stone_hoe",
     "count": 1
   },
   "category": "equipment",

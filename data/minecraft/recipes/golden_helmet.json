@@ -10,7 +10,7 @@
     }
   },
   "result": {
-    "item": "minecraft:golden_helmet",
+    "id": "minecraft:golden_helmet",
     "count": 1
   },
   "category": "equipment",

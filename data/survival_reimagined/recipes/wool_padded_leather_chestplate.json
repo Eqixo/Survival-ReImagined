@@ -1,6 +1,8 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": ["   ", "#L#", " # "],
+  "category": "equipment",
+  "group": "pad_chest",
   "key": {
     "#": [
       {
@@ -57,10 +59,15 @@
     }
   },
   "result": {
-    "item": "minecraft:leather_chestplate",
+    "id": "minecraft:leather_chestplate",
     "components": {
-        "minecraft:dyed_color": 16777215,
-        "minecraft:custom_name": { "text": "Wool Padded Leather Tunic" }
+      "minecraft:custom_data": {"isHeating":1},
+      "minecraft:custom_name": "[{'text': 'Wool Padded Tunic', 'italic': false}]",
+      "minecraft:lore": ["{'text': 'Keeps you warm in cold biomes', 'color':'dark_gray', 'italic': false}"],
+      "minecraft:dyed_color": {
+        "rgb": 16777215,
+        "show_in_tooltip": false
+      }
     }
   }
 }

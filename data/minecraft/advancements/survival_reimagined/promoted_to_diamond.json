@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:diamond_pickaxe",
+      "id": "minecraft:diamond_pickaxe",
       "nbt": "{Enchantments:[{id:\"efficiency\"}]}"
     },
     "title": "Promoted to Diamond",
@@ -143,6 +143,6 @@
       "minecraft:netherite_shovel_smithing",
       "minecraft:netherite_hoe_smithing"
     ],
-    "function": "survival_reimagined:difficulty_tagging/player_difficulty"
+    "function": "survival_reimagined:tagging/player_difficulty"
   }
 }

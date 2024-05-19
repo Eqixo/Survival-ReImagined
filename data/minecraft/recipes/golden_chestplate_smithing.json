@@ -10,7 +10,7 @@
     "item": "minecraft:golden_chestplate"
   },
   "result": {
-    "item": "minecraft:golden_chestplate",
+    "id": "minecraft:golden_chestplate",
     "nbt": "{Trim:{material:\"netherite_ingot\", pattern:\"silence\"}}",
     "count": 1
   },

@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:netherite_chestplate",
+      "id": "minecraft:netherite_chestplate",
       "nbt": "{Enchantments:[{id:\"protection\"}]}"
     },
     "title": "Netherite-Enhanced Armour",
@@ -129,6 +129,6 @@
     ]
   ],
   "rewards": {
-  "function": "survival_reimagined:difficulty_tagging/player_difficulty"
+  "function": "survival_reimagined:tagging/player_difficulty"
   }
 }

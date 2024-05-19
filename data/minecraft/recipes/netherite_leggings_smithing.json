@@ -10,7 +10,7 @@
     "item": "minecraft:diamond_leggings"
   },
   "result": {
-    "item": "minecraft:netherite_leggings",
+    "id": "minecraft:netherite_leggings",
     "count": 1
   },
   "group": "upgrade_leggings"

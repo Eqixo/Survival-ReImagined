@@ -7,7 +7,7 @@
     }
   },
   "result": {
-    "item": "minecraft:leather_boots",
+    "id": "minecraft:leather_boots",
     "count": 1
   },
   "category": "equipment",

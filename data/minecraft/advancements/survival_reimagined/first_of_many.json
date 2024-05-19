@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:leather_chestplate"
+      "id": "minecraft:leather_chestplate"
     },
     "title": "First of Many",
     "description": {
@@ -13,7 +13,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "minecraft:survival_reimagined/good_luck",
+  "parent": "minecraft:survival_reimagined/first_step",
   "criteria": {
     "crafted_helmet": {
       "trigger": "minecraft:recipe_crafted",
@@ -118,8 +118,15 @@
       "minecraft:iron_chestplate",
       "minecraft:iron_leggings",
       "minecraft:iron_boots",
-      "survival_reimagined:wool_padded_leather_chestplate"
+      "survival_reimagined:wool_padded_leather_helmet",
+      "survival_reimagined:wool_padded_leather_chestplate",
+      "survival_reimagined:wool_padded_leather_leggings",
+      "survival_reimagined:wool_padded_leather_boots",
+      "survival_reimagined:wool_padded_iron_helmet",
+      "survival_reimagined:wool_padded_iron_chestplate",
+      "survival_reimagined:wool_padded_iron_leggings",
+      "survival_reimagined:wool_padded_iron_boots"
     ],
-    "function": "survival_reimagined:difficulty_tagging/player_difficulty"
+    "function": "survival_reimagined:tagging/player_difficulty"
   }
 }

@@ -16,7 +16,7 @@
     }
   },
   "result": {
-    "item": "minecraft:golden_hoe",
+    "id": "minecraft:golden_hoe",
     "count": 1
   },
   "category": "equipment",

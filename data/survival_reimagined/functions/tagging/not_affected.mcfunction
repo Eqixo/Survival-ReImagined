@@ -4,4 +4,4 @@ tag @a[gamemode=spectator] add not_affected
 tag @a[gamemode=survival] remove not_affected
 tag @a[gamemode=adventure] remove not_affected
 
-schedule function survival_reimagined:not_affected 1s
+schedule function survival_reimagined:tagging/not_affected 1s

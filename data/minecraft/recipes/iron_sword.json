@@ -16,7 +16,7 @@
     }
   },
   "result": {
-    "item": "minecraft:iron_sword",
+    "id": "minecraft:iron_sword",
     "count": 1
   },
   "category": "equipment",

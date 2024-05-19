@@ -1,7 +1,8 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:crafting_table"
+      "id": "minecraft:splash_potion",
+      "nbt": "{CustomPotionColor:62734}"
     },
     "description": {
       "text": "You'll need it.",
@@ -19,6 +20,6 @@
     }
   },
   "rewards": {
-    "function": "survival_reimagined:difficulty_tagging/player_difficulty"
+    "function": "survival_reimagined:tagging/player_difficulty"
   }
 }

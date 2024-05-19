@@ -10,7 +10,7 @@
     "item": "minecraft:golden_helmet"
   },
   "result": {
-    "item": "minecraft:golden_helmet",
+    "id": "minecraft:golden_helmet",
     "nbt": "{Trim:{material:\"netherite_ingot\", pattern:\"silence\"}}",
     "count": 1
   },

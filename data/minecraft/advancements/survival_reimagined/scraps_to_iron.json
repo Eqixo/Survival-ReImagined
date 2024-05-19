@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:iron_chestplate"
+      "id": "minecraft:iron_chestplate"
     },
     "title": "From Scraps to Iron",
     "description": {
@@ -136,8 +136,20 @@
       "minecraft:golden_helmet",
       "minecraft:golden_chestplate",
       "minecraft:golden_leggings",
-      "minecraft:golden_boots"
+      "minecraft:golden_boots",
+      "survival_reimagined:wool_padded_iron_helmet",
+      "survival_reimagined:wool_padded_iron_chestplate",
+      "survival_reimagined:wool_padded_iron_leggings",
+      "survival_reimagined:wool_padded_iron_boots",
+      "survival_reimagined:wool_padded_gold_helmet",
+      "survival_reimagined:wool_padded_gold_chestplate",
+      "survival_reimagined:wool_padded_gold_leggings",
+      "survival_reimagined:wool_padded_gold_boots",
+      "survival_reimagined:wool_padded_diamond_helmet",
+      "survival_reimagined:wool_padded_diamond_chestplate",
+      "survival_reimagined:wool_padded_diamond_leggings",
+      "survival_reimagined:wool_padded_diamond_boots"
     ],
-    "function": "survival_reimagined:difficulty_tagging/player_difficulty"
+    "function": "survival_reimagined:tagging/player_difficulty"
   }
 }

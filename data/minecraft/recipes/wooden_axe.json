@@ -80,7 +80,7 @@
     }
   },
   "result": {
-    "item": "minecraft:wooden_axe",
+    "id": "minecraft:wooden_axe",
     "count": 1
   },
   "category": "equipment",

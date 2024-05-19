@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:nether_wart"
+      "id": "minecraft:nether_wart"
     },
     "title": "Wart Scarcity",
     "description": [
@@ -24,7 +24,7 @@
     "announce_to_chat": false,
     "hidden": true
   },
-  "parent": "minecraft:survival_reimagined/no_mushrooms",
+  "parent": "minecraft:survival_reimagined/gold_shortage",
   "criteria": {
     "regeneration_potion": {
       "trigger": "minecraft:consume_item",

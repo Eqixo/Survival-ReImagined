@@ -16,7 +16,7 @@
     }
   },
   "result": {
-    "item": "minecraft:golden_shovel",
+    "id": "minecraft:golden_shovel",
     "count": 1
   },
   "category": "equipment",

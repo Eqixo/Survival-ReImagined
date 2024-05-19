@@ -16,7 +16,7 @@
     }
   },
   "result": {
-    "item": "minecraft:iron_axe",
+    "id": "minecraft:iron_axe",
     "count": 1
   },
   "category": "equipment",

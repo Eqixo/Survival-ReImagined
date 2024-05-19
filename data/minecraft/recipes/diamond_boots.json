@@ -10,7 +10,7 @@
     }
   },
   "result": {
-    "item": "minecraft:diamond_boots",
+    "id": "minecraft:diamond_boots",
     "count": 1
   },
   "category": "equipment",

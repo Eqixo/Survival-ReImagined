@@ -45,7 +45,7 @@
     }
   },
   "result": {
-    "item": "minecraft:wooden_shovel",
+    "id": "minecraft:wooden_shovel",
     "count": 1
   },
   "category": "equipment",

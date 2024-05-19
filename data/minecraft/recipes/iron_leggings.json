@@ -13,7 +13,7 @@
     }
   },
   "result": {
-    "item": "minecraft:iron_leggings",
+    "id": "minecraft:iron_leggings",
     "count": 1
   },
   "category": "equipment",

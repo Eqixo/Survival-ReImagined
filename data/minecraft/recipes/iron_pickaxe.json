@@ -16,7 +16,7 @@
     }
   },
   "result": {
-    "item": "minecraft:iron_pickaxe",
+    "id": "minecraft:iron_pickaxe",
     "count": 1
   },
   "category": "equipment",

@@ -7,7 +7,7 @@
     }
   },
   "result": {
-    "item": "minecraft:leather_helmet",
+    "id": "minecraft:leather_helmet",
     "count": 1
   },
   "category": "equipment",

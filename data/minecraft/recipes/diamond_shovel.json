@@ -16,7 +16,7 @@
     }
   },
   "result": {
-    "item": "minecraft:diamond_shovel",
+    "id": "minecraft:diamond_shovel",
     "count": 1
   },
   "category": "equipment",

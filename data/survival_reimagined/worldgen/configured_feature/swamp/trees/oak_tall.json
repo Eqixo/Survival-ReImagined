@@ -54,18 +54,14 @@
       "type": "minecraft:cherry_foliage_placer",
       "offset": {
         "type": "minecraft:uniform",
-        "value": {
-          "min_inclusive": 0,
-          "max_inclusive": 2
-        }
+        "min_inclusive": 0,
+        "max_inclusive": 2
       },
       "height": 4,
       "radius": {
         "type": "minecraft:uniform",
-        "value": {
-          "min_inclusive": 3,
-          "max_inclusive": 4
-        }
+        "min_inclusive": 3,
+        "max_inclusive": 4
       },
       "corner_hole_chance": 0.75,
       "hanging_leaves_chance": 0.25,

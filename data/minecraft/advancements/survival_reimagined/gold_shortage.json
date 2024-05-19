@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:gold_ingot"
+      "id": "minecraft:gold_ingot"
     },
     "title": "Gold Shortage",
     "description": [
@@ -24,7 +24,7 @@
     "announce_to_chat": false,
     "hidden": true
   },
-  "parent": "minecraft:survival_reimagined/empty_calories",
+  "parent": "minecraft:survival_reimagined/no_mushrooms",
   "criteria": {
     "food_consumption": {
       "trigger": "minecraft:consume_item",

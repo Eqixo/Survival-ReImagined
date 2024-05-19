@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:netherite_pickaxe",
+      "id": "minecraft:netherite_pickaxe",
       "nbt": "{Enchantments:[{id:\"efficiency\"}]}"
     },
     "title": "Forged in Hell",
@@ -156,6 +156,6 @@
     ]
   ],
   "rewards": {
-    "function": "survival_reimagined:difficulty_tagging/player_difficulty"
+    "function": "survival_reimagined:tagging/player_difficulty"
   }
 }

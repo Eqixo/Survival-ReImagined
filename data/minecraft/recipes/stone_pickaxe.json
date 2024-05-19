@@ -16,7 +16,7 @@
     }
   },
   "result": {
-    "item": "minecraft:stone_pickaxe",
+    "id": "minecraft:stone_pickaxe",
     "count": 1
   },
   "category": "equipment",
