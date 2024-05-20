@@ -1,0 +1,1 @@
+execute store result entity @s Attributes[{Name:"minecraft:generic.follow_range"}].Base double 2 run scoreboard players get @s mobFollow

@@ -21,7 +21,9 @@ scoreboard objectives add isHeatSourceClose dummy
 scoreboard objectives add isSprinting minecraft.custom:sprint_one_cm
 scoreboard objectives add isWalking minecraft.custom:walk_one_cm
 scoreboard objectives add mobDamage dummy
+scoreboard objectives add mobFollow dummy
 scoreboard objectives add mobHealth dummy
+scoreboard objectives add mobSize dummy
 scoreboard objectives add player.xCoordinates dummy
 scoreboard objectives add player.yCoordinates dummy
 scoreboard objectives add player.zCoordinates dummy
@@ -29,7 +31,6 @@ scoreboard objectives add processed dummy
 scoreboard objectives add raw.health health
 scoreboard objectives add rottingTime dummy
 scoreboard objectives add timeSinceLastRested minecraft.custom:minecraft.time_since_rest
-scoreboard objectives add tickQueue dummy
 
 scoreboard players set #constant bodyTemperature 10000
 
