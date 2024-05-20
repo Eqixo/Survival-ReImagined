@@ -16,5 +16,7 @@ scoreboard players operation @s[scores={bodyTemperatureArmorProtectionLevel=-4..
 execute if entity @s[scores={bodyTemperature=-124..-120}] run title @s actionbar "You are freezing..."
 execute if entity @s[scores={bodyTemperature=-184..-180}] run title @s actionbar "You are dying of hypothermia..."
 
-execute if entity @s[scores={bodyTemperature=120..124}] run title @s actionbar "You are exhausted..."
+execute if entity @s[scores={bodyTemperature=120..124}] run title @s actionbar "You are getting hot..."
 execute if entity @s[scores={bodyTemperature=180..184}] run title @s actionbar "You are dying of hyperthermia..."
+
+execute if entity @s[scores={timeSinceLastRested=24000..}] run title @s actionbar "You are exhausted..."
