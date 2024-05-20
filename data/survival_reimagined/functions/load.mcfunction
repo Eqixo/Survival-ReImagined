@@ -21,9 +21,9 @@ scoreboard objectives add isHeatSourceClose dummy
 scoreboard objectives add isSprinting minecraft.custom:sprint_one_cm
 scoreboard objectives add isWalking minecraft.custom:walk_one_cm
 scoreboard objectives add mobDamage dummy
+scoreboard objectives add mobData dummy
 scoreboard objectives add mobFollow dummy
 scoreboard objectives add mobHealth dummy
-scoreboard objectives add mobSize dummy
 scoreboard objectives add player.xCoordinates dummy
 scoreboard objectives add player.yCoordinates dummy
 scoreboard objectives add player.zCoordinates dummy

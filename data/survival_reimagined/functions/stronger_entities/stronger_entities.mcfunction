@@ -1,4 +1,5 @@
 execute store result score @s mobDamage run attribute @s generic.attack_damage get 1
+execute store result score @s mobData run attribute @s generic.movement_speed get 1
 execute store result score @s mobFollow run attribute @s generic.follow_range get 1
 execute store result score @s mobHealth run data get entity @s Health
 
@@ -12,5 +13,5 @@ execute if entity @a[tag=3x] run function survival_reimagined:stronger_entities/
 
 execute if entity @a[tag=4x] run function survival_reimagined:stronger_entities/health/4xhealth
 
-#Random size
-function survival_reimagined:stronger_entities/size/random_size
+# Random size
+function survival_reimagined:stronger_entities/effects/random_effects
