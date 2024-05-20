@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["   ", "#L#", " # "],
+  "category": "equipment",
+  "group": "cool_chest",
+  "key": {
+    "#": {
+      "item": "minecraft:packed_ice"
+    },
+    "L": {
+      "item": "minecraft:leather_chestplate"
+    }
+  },
+  "result": {
+    "id": "minecraft:leather_chestplate",
+    "components": {
+      "minecraft:custom_data": {"isCooling":1},
+      "minecraft:custom_name": "[{'text': 'Cooled Tunic', 'italic': false}]",
+      "minecraft:lore": ["{'text': 'Keeps you cold in hot biomes', 'color':'dark_gray', 'italic': false}"],
+      "minecraft:dyed_color": {
+        "rgb": 16777215,
+        "show_in_tooltip": false
+      }
+    }
+  }
+}

@@ -121,7 +121,11 @@
       "survival_reimagined:wool_padded_netherite_helmet",
       "survival_reimagined:wool_padded_netherite_chestplate",
       "survival_reimagined:wool_padded_netherite_leggings",
-      "survival_reimagined:wool_padded_netherite_boots"
+      "survival_reimagined:wool_padded_netherite_boots",
+      "survival_reimagined:cooled_netherite_helmet",
+      "survival_reimagined:cooled_netherite_chestplate",
+      "survival_reimagined:cooled_netherite_leggings",
+      "survival_reimagined:cooled_netherite_boots"
     ],
     "function": "survival_reimagined:tagging/player_difficulty"
   }

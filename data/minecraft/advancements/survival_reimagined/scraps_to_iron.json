@@ -148,7 +148,19 @@
       "survival_reimagined:wool_padded_diamond_helmet",
       "survival_reimagined:wool_padded_diamond_chestplate",
       "survival_reimagined:wool_padded_diamond_leggings",
-      "survival_reimagined:wool_padded_diamond_boots"
+      "survival_reimagined:cooled_diamond_boots",
+      "survival_reimagined:cooled_iron_helmet",
+      "survival_reimagined:cooled_iron_chestplate",
+      "survival_reimagined:cooled_iron_leggings",
+      "survival_reimagined:cooled_iron_boots",
+      "survival_reimagined:cooled_gold_helmet",
+      "survival_reimagined:cooled_gold_chestplate",
+      "survival_reimagined:cooled_gold_leggings",
+      "survival_reimagined:cooled_gold_boots",
+      "survival_reimagined:cooled_diamond_helmet",
+      "survival_reimagined:cooled_diamond_chestplate",
+      "survival_reimagined:cooled_diamond_leggings",
+      "survival_reimagined:cooled_diamond_boots"
     ],
     "function": "survival_reimagined:tagging/player_difficulty"
   }

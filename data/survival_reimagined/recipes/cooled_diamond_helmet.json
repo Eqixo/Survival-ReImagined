@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [" # ", " L ", "   "],
+  "category": "equipment",
+  "group": "cool_head",
+  "key": {
+    "#": {
+      "item": "minecraft:packed_ice"
+    },
+    "L": {
+      "item": "minecraft:diamond_helmet"
+    }
+  },
+  "result": {
+    "id": "minecraft:diamond_helmet",
+    "components": {
+      "minecraft:custom_data": {"isCooling":1},
+      "minecraft:custom_name": "[{'text': 'Cooled Diamond Helmet', 'italic': false}]",
+      "minecraft:lore": ["{'text': 'Keeps you cold in hot biomes', 'color':'dark_gray', 'italic': false}"]
+    }
+  }
+}

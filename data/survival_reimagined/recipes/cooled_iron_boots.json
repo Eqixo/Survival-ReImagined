@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["   ", "#L#", "   "],
+  "category": "equipment",
+  "group": "cool_boots",
+  "key": {
+    "#": {
+      "item": "minecraft:packed_ice"
+    },
+    "L": {
+      "item": "minecraft:iron_boots"
+    }
+  },
+  "result": {
+    "id": "minecraft:iron_boots",
+    "components": {
+      "minecraft:custom_data": {"isCooling":1},
+      "minecraft:custom_name": "[{'text': 'Cooled Iron Boots', 'italic': false}]",
+      "minecraft:lore": ["{'text': 'Keeps you cold in hot biomes', 'color':'dark_gray', 'italic': false}"]
+    }
+  }
+}

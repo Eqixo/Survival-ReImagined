@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["   ", "#L#", " # "],
+  "category": "equipment",
+  "group": "cool_chest",
+  "key": {
+    "#": {
+      "item": "minecraft:packed_ice"
+    },
+    "L": {
+      "item": "minecraft:diamond_chestplate"
+    }
+  },
+  "result": {
+    "id": "minecraft:diamond_chestplate",
+    "components": {
+      "minecraft:custom_data": {"isCooling":1},
+      "minecraft:custom_name": "[{'text': 'Cooled Diamond Chestplate', 'italic': false}]",
+      "minecraft:lore": ["{'text': 'Keeps you cold in hot biomes', 'color':'dark_gray', 'italic': false}"]
+    }
+  }
+}

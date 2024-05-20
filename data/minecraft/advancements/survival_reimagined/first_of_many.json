@@ -125,7 +125,15 @@
       "survival_reimagined:wool_padded_iron_helmet",
       "survival_reimagined:wool_padded_iron_chestplate",
       "survival_reimagined:wool_padded_iron_leggings",
-      "survival_reimagined:wool_padded_iron_boots"
+      "survival_reimagined:wool_padded_iron_boots",
+      "survival_reimagined:cooled_leather_helmet",
+      "survival_reimagined:cooled_leather_chestplate",
+      "survival_reimagined:cooled_leather_leggings",
+      "survival_reimagined:cooled_leather_boots",
+      "survival_reimagined:cooled_iron_helmet",
+      "survival_reimagined:cooled_iron_chestplate",
+      "survival_reimagined:cooled_iron_leggings",
+      "survival_reimagined:cooled_iron_boots"
     ],
     "function": "survival_reimagined:tagging/player_difficulty"
   }
