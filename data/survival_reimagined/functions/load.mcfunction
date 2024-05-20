@@ -28,13 +28,12 @@ scoreboard objectives add player.zCoordinates dummy
 scoreboard objectives add processed dummy
 scoreboard objectives add raw.health health
 scoreboard objectives add rottingTime dummy
-scoreboard objectives add sweatingTimer dummy
 scoreboard objectives add timeSinceLastRested minecraft.custom:minecraft.time_since_rest
 scoreboard objectives add tickQueue dummy
 
 scoreboard players set #constant bodyTemperature 10000
 
-execute as @a[tag=!not_affected] run function survival_reimagined:armours/wool_clothing/wearing_wool_clothing
+execute as @a[tag=!not_affected] run function survival_reimagined:armours/wool_clothing/adapted_clothing
 execute as @a[tag=!not_affected] run function survival_reimagined:tagging/player_difficulty
 
 function survival_reimagined:advancements/explorer

@@ -6,6 +6,7 @@ function survival_reimagined:body_temperature/modifiers/attack_damage
 function survival_reimagined:body_temperature/modifiers/attack_speed
 function survival_reimagined:body_temperature/modifiers/slowness
 function survival_reimagined:body_temperature/effect/breathing
+function survival_reimagined:body_temperature/effect/sweating
 
 execute at @s store result score @s isHeatSourceClose run clone ~-3 ~-3 ~-3 ~3 ~3 ~3 ~-3 ~-3 ~-3 filtered #survival_reimagined:heat_source force
 
