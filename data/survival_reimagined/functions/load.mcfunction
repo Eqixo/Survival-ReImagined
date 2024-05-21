@@ -8,13 +8,16 @@ gamerule playersSleepingPercentage 100
 gamerule snowAccumulationHeight 2
 gamerule universalAnger true
 
+scoreboard objectives add alreadyConnected dummy
 scoreboard objectives add beatCold dummy
 scoreboard objectives add beatTimer dummy
 scoreboard objectives add breathingTimer dummy
 scoreboard objectives add canRot dummy
 scoreboard objectives add bodyTemperatureArmorProtectionLevel dummy
-scoreboard objectives add bodyTemperature dummy
 scoreboard objectives add bodyTemperatureConstant dummy
+scoreboard objectives add bodyTemperatureFloat dummy
+scoreboard objectives add bodyTemperatureInt dummy
+scoreboard objectives add hasBodyTemperatureChanged dummy
 scoreboard objectives add health dummy
 scoreboard objectives add healthCold dummy
 scoreboard objectives add isHeatSourceClose dummy
@@ -24,6 +27,8 @@ scoreboard objectives add mobDamage dummy
 scoreboard objectives add mobData dummy
 scoreboard objectives add mobFollow dummy
 scoreboard objectives add mobHealth dummy
+scoreboard objectives add oldBodyTemperatureFloat dummy
+scoreboard objectives add oldBodyTemperatureInt dummy
 scoreboard objectives add player.xCoordinates dummy
 scoreboard objectives add player.yCoordinates dummy
 scoreboard objectives add player.zCoordinates dummy
@@ -32,7 +37,7 @@ scoreboard objectives add raw.health health
 scoreboard objectives add rottingTime dummy
 scoreboard objectives add timeSinceLastRested minecraft.custom:minecraft.time_since_rest
 
-scoreboard players set #constant bodyTemperature 10000
+scoreboard players set #constant bodyTemperatureConstant 10000
 
 execute as @a[tag=!not_affected] run function survival_reimagined:armours/wool_clothing/adapted_clothing
 execute as @a[tag=!not_affected] run function survival_reimagined:tagging/player_difficulty
