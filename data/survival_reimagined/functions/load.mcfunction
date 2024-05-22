@@ -51,6 +51,7 @@ function survival_reimagined:other/leaves/selector
 function survival_reimagined:particles/selector
 function survival_reimagined:player_coordinates/selector
 function survival_reimagined:rotting/selector
+function survival_reimagined:scared/selector
 function survival_reimagined:stronger_entities/selector
 function survival_reimagined:tagging/not_affected
 function survival_reimagined:tiredness/advancements/tiredness_advancement
