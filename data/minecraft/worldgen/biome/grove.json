@@ -1,95 +1,42 @@
 {
-  "has_precipitation": true,
-  "precipitation": "snow",
-  "temperature": 0.19,
+  "temperature": 0.16,
   "downfall": 0.8,
+  "has_precipitation": true,
   "effects": {
+    "sky_color": 8495359,
+    "fog_color": 12638463,
+    "water_color": 4159204,
+    "water_fog_color": 329011,
     "mood_sound": {
       "sound": "minecraft:ambient.cave",
       "tick_delay": 6000,
       "block_search_extent": 8,
-      "offset": 2.0
+      "offset": 2
     },
     "music": {
       "sound": "minecraft:music.overworld.grove",
       "min_delay": 12000,
       "max_delay": 24000,
       "replace_current_music": false
-    },
-    "sky_color": 8495359,
-    "fog_color": 12638463,
-    "water_color": 4159204,
-    "water_fog_color": 329011
+    }
   },
-  "carvers": {
-    "air": [
-      "minecraft:cave",
-      "minecraft:cave_extra_underground",
-      "minecraft:canyon"
-    ]
-  },
-  "features": [
-    [],
-    ["minecraft:lake_lava_underground"],
-    ["minecraft:amethyst_geode"],
-    ["minecraft:monster_room", "minecraft:monster_room_deep"],
-    [],
-    [],
-    [
-      "minecraft:ore_granite_lower",
-      "minecraft:ore_diorite_lower",
-      "minecraft:ore_andesite_lower",
-      "minecraft:ore_tuff",
-      "minecraft:ore_coal_upper",
-      "minecraft:ore_coal_lower",
-      "minecraft:ore_iron_upper",
-      "minecraft:ore_iron_middle",
-      "minecraft:ore_iron_small",
-      "minecraft:ore_gold",
-      "minecraft:ore_gold_lower",
-      "minecraft:ore_redstone",
-      "minecraft:ore_redstone_lower",
-      "minecraft:ore_diamond",
-      "minecraft:ore_diamond_large",
-      "minecraft:ore_diamond_buried",
-      "minecraft:ore_lapis",
-      "minecraft:ore_lapis_buried",
-      "minecraft:ore_copper",
-      "minecraft:underwater_magma",
-      "minecraft:ore_emerald"
-    ],
-    [],
-    [],
-    [
-      "minecraft:glow_lichen",
-      "survival_reimagined:taiga/trees/bushes/spruce_bush_small",
-      "survival_reimagined:taiga/trees/bushes/spruce_bush_normal",
-      "survival_reimagined:taiga/trees/spruce_tree_all",
-      "survival_reimagined:taiga/forest_rocks/forest_rock_all",
-      "survival_reimagined:grove/vegetation/patch_grass_grove",
-      "survival_reimagined:water_biomes/vegetation/patch_vegetation_underwater",
-      "minecraft:patch_sugar_cane",
-      "minecraft:patch_pumpkin"
-    ],
-    ["minecraft:freeze_top_layer"]
-  ],
   "spawners": {
     "monster": [
       {
         "type": "minecraft:zombie",
-        "weight": 95,
+        "weight": 20,
         "minCount": 4,
         "maxCount": 4
       },
       {
         "type": "minecraft:skeleton",
-        "weight": 100,
+        "weight": 20,
         "minCount": 4,
         "maxCount": 4
       },
       {
         "type": "minecraft:stray",
-        "weight": 80,
+        "weight": 20,
         "minCount": 4,
         "maxCount": 4
       }
@@ -126,8 +73,14 @@
         "maxCount": 3
       }
     ],
-    "ambient": [],
-    "axolotls": [],
+    "ambient": [
+      {
+        "type": "minecraft:bat",
+        "weight": 10,
+        "minCount": 8,
+        "maxCount": 24
+      }
+    ],
     "underground_water_creature": [
       {
         "type": "minecraft:glow_squid",
@@ -135,10 +88,53 @@
         "minCount": 4,
         "maxCount": 6
       }
-    ],
-    "water_creature": [],
-    "water_ambient": [],
-    "misc": []
+    ]
   },
-  "spawn_costs": {}
+  "spawn_costs": {},
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
+    ]
+  },
+  "features": [
+    ["minecraft:lake_lava_underground"],
+    ["minecraft:amethyst_geode"],
+    ["minecraft:monster_room", "minecraft:monster_room_deep"],
+    [
+      "minecraft:ore_granite_lower",
+      "minecraft:ore_diorite_lower",
+      "minecraft:ore_andesite_lower",
+      "minecraft:ore_tuff",
+      "minecraft:ore_coal_upper",
+      "minecraft:ore_coal_lower",
+      "minecraft:ore_iron_upper",
+      "minecraft:ore_iron_middle",
+      "minecraft:ore_iron_small",
+      "minecraft:ore_gold",
+      "minecraft:ore_gold_lower",
+      "minecraft:ore_redstone",
+      "minecraft:ore_redstone_lower",
+      "minecraft:ore_diamond",
+      "minecraft:ore_diamond_large",
+      "minecraft:ore_diamond_buried",
+      "minecraft:ore_lapis",
+      "minecraft:ore_lapis_buried",
+      "minecraft:ore_copper",
+      "minecraft:underwater_magma"
+    ],
+    [
+      "survival_reimagined:grove/vegetation/patch_grass_grove",
+      "survival_reimagined:taiga/trees/bushes/spruce_bush_small",
+      "survival_reimagined:taiga/trees/bushes/spruce_bush_normal",
+      "survival_reimagined:taiga/trees/spruce_tree_all",
+      "survival_reimagined:taiga/forest_rocks/forest_rock_all",
+      "survival_reimagined:water_biomes/vegetation/patch_vegetation_underwater",
+      "minecraft:glow_lichen",
+      "minecraft:patch_sugar_cane",
+      "minecraft:patch_pumpkin"
+    ],
+    ["minecraft:freeze_top_layer"]
+  ]
 }

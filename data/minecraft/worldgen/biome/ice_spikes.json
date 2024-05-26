@@ -1,4 +1,66 @@
 {
+  "temperature": 0.16,
+  "downfall": 0.5,
+  "has_precipitation": true,
+  "effects": {
+    "fog_color": 12638463,
+    "sky_color": 8364543,
+    "water_color": 4159204,
+    "water_fog_color": 329011,
+    "mood_sound": {
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2
+    }
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:zombie",
+        "weight": 20,
+        "minCount": 5,
+        "maxCount": 9
+      },
+      {
+        "type": "minecraft:stray",
+        "weight": 20,
+        "minCount": 4,
+        "maxCount": 6
+      }
+    ],
+    "creature": [
+      {
+        "type": "minecraft:polar_bear",
+        "weight": 12,
+        "minCount": 2,
+        "maxCount": 3
+      },
+      {
+        "type": "minecraft:rabbit",
+        "weight": 8,
+        "minCount": 3,
+        "maxCount": 8
+      }
+    ],
+    "ambient": [
+      {
+        "type": "minecraft:bat",
+        "weight": 10,
+        "minCount": 8,
+        "maxCount": 24
+      }
+    ],
+    "underground_water_creature": [
+      {
+        "type": "minecraft:glow_squid",
+        "weight": 10,
+        "minCount": 4,
+        "maxCount": 6
+      }
+    ]
+  },
+  "spawn_costs": {},
   "carvers": {
     "air": [
       "minecraft:cave",
@@ -6,36 +68,11 @@
       "minecraft:canyon"
     ]
   },
-  "creature_spawn_probability": 0.07,
-  "downfall": 0.5,
-  "effects": {
-    "fog_color": 12638463,
-    "mood_sound": {
-      "block_search_extent": 8,
-      "offset": 2.0,
-      "sound": "minecraft:ambient.cave",
-      "tick_delay": 6000
-    },
-    "sky_color": 8364543,
-    "water_color": 4159204,
-    "water_fog_color": 329011
-  },
   "features": [
-    [],
-    [
-    ],
-    [
-      "minecraft:amethyst_geode"
-    ],
-    [
-      "minecraft:monster_room",
-      "minecraft:monster_room_deep"
-    ],
-    [
-      "minecraft:ice_spike",
-      "minecraft:ice_patch"
-    ],
-    [],
+    ["minecraft:lake_lava_underground"],
+    ["minecraft:amethyst_geode"],
+    ["minecraft:monster_room", "minecraft:monster_room_deep"],
+    ["minecraft:ice_spike", "minecraft:ice_patch"],
     [
       "minecraft:ore_granite_lower",
       "minecraft:ore_diorite_lower",
@@ -51,7 +88,6 @@
       "minecraft:ore_redstone",
       "minecraft:ore_redstone_lower",
       "minecraft:ore_diamond",
-      "minecraft:ore_diamond_medium",
       "minecraft:ore_diamond_large",
       "minecraft:ore_diamond_buried",
       "minecraft:ore_lapis",
@@ -59,74 +95,11 @@
       "minecraft:ore_copper",
       "minecraft:underwater_magma"
     ],
-    [],
     [
-    ],
-    [
+      "survival_reimagined:water_biomes/vegetation/patch_vegetation_underwater",
       "minecraft:glow_lichen",
-      "minecraft:trees_snowy",
-      "minecraft:flower_default",
-      "minecraft:patch_grass_badlands",
-      "minecraft:brown_mushroom_normal",
-      "minecraft:red_mushroom_normal",
-      "minecraft:patch_sugar_cane",
-      "minecraft:patch_pumpkin"
+      "minecraft:patch_sugar_cane"
     ],
-    [
-      "minecraft:freeze_top_layer"
-    ]
-  ],
-  "has_precipitation": true,
-  "spawn_costs": {},
-  "spawners": {
-    "ambient": [
-      {
-        "type": "minecraft:bat",
-        "maxCount": 8,
-        "minCount": 8,
-        "weight": 10
-      }
-    ],
-    "axolotls": [],
-    "creature": [
-      {
-        "type": "minecraft:rabbit",
-        "maxCount": 3,
-        "minCount": 2,
-        "weight": 10
-      },
-      {
-        "type": "minecraft:polar_bear",
-        "maxCount": 2,
-        "minCount": 1,
-        "weight": 1
-      }
-    ],
-    "misc": [],
-    "monster": [
-      {
-        "type": "minecraft:zombie",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 95
-      },
-      {
-        "type": "minecraft:stray",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 80
-      }
-    ],
-    "underground_water_creature": [
-      {
-        "type": "minecraft:glow_squid",
-        "maxCount": 6,
-        "minCount": 4,
-        "weight": 10
-      }
-    ],
-    "water_ambient": [],
-    "water_creature": []
-  },
-  "temperature": 0.19
+    ["minecraft:freeze_top_layer"]
+  ]
 }

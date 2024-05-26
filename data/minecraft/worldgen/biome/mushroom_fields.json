@@ -1,20 +1,30 @@
 {
+  "temperature": 0.2,
+  "downfall": 1,
   "has_precipitation": true,
-  "precipitation": "rain",
-  "temperature": 0.19,
-  "downfall": 1.0,
   "effects": {
+    "sky_color": 7842047,
+    "fog_color": 12638463,
+    "water_color": 4159204,
+    "water_fog_color": 329011,
     "mood_sound": {
       "sound": "minecraft:ambient.cave",
       "tick_delay": 6000,
       "block_search_extent": 8,
-      "offset": 2.0
-    },
-    "sky_color": 7842047,
-    "fog_color": 12638463,
-    "water_color": 4159204,
-    "water_fog_color": 329011
+      "offset": 2
+    }
   },
+  "spawners": {
+    "creature": [
+      {
+        "type": "minecraft:mooshroom",
+        "weight": 8,
+        "minCount": 4,
+        "maxCount": 8
+      }
+    ]
+  },
+  "spawn_costs": {},
   "carvers": {
     "air": [
       "minecraft:cave",
@@ -23,20 +33,12 @@
     ]
   },
   "features": [
-    [],
-    ["minecraft:lake_lava_underground"],
+    ["minecraft:lake_lava_underground", "survival_reimagined:plains/lakes/lake_small"],
     ["minecraft:amethyst_geode"],
     ["minecraft:monster_room", "minecraft:monster_room_deep"],
-    [],
-    [],
     [
-      "minecraft:ore_dirt",
-      "minecraft:ore_gravel",
-      "minecraft:ore_granite_upper",
       "minecraft:ore_granite_lower",
-      "minecraft:ore_diorite_upper",
       "minecraft:ore_diorite_lower",
-      "minecraft:ore_andesite_upper",
       "minecraft:ore_andesite_lower",
       "minecraft:ore_tuff",
       "minecraft:ore_coal_upper",
@@ -56,46 +58,13 @@
       "minecraft:ore_copper",
       "minecraft:underwater_magma"
     ],
-    [],
-    [],
     [
-      "minecraft:glow_lichen",
       "survival_reimagined:mushroom_fields/vegetation/mushroom_island_mushrooms",
       "survival_reimagined:mushroom_fields/vegetation/patch_grass_mushroom",
-      "minecraft:patch_pumpkin"
+      "survival_reimagined:water_biomes/vegetation/patch_vegetation_underwater",
+      "minecraft:glow_lichen",
+      "minecraft:patch_sugar_cane"
     ],
     ["minecraft:freeze_top_layer"]
-  ],
-  "spawners": {
-    "monster": [],
-    "creature": [
-      {
-        "type": "minecraft:mooshroom",
-        "weight": 8,
-        "minCount": 4,
-        "maxCount": 8
-      }
-    ],
-    "ambient": [
-      {
-        "type": "minecraft:bat",
-        "weight": 10,
-        "minCount": 8,
-        "maxCount": 8
-      }
-    ],
-    "axolotls": [],
-    "underground_water_creature": [
-      {
-        "type": "minecraft:glow_squid",
-        "weight": 10,
-        "minCount": 4,
-        "maxCount": 6
-      }
-    ],
-    "water_creature": [],
-    "water_ambient": [],
-    "misc": []
-  },
-  "spawn_costs": {}
+  ]
 }
