@@ -6,7 +6,7 @@ Welcome to Survival ReImagined, a Minecraft datapack designed to enhance your su
 
 ## Installation
 
-⚠️ If you want to play with the improved world generation, you **MUST** have your datapack in your world **BEFORE** creating a world (or joining your server).
+⚠️ If you want to play with the improved world generation, you **MUST** have your datapack in your world's datapack folder **BEFORE** creating the world (or joining your server).
 
 **Singleplayer**
 
