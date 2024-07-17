@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "boat",
+  "pattern": [
+    "#C#",
+    "SPS",
+    "WWW"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:wooden_shovel"
+    },
+    "C": {
+      "item": "minecraft:chest"
+    },
+    "S": {
+      "item": "minecraft:mangrove_stairs"
+    },
+    "P": {
+      "item": "minecraft:mangrove_slab"
+    },
+    "W": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "id": "minecraft:mangrove_boat",
+    "count": 1
+  }
+}

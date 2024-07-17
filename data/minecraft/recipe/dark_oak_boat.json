@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "boat",
+  "pattern": [
+    "# #",
+    "SPS",
+    "WWW"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:wooden_shovel"
+    },
+    "S": {
+      "item": "minecraft:dark_oak_stairs"
+    },
+    "P": {
+      "item": "minecraft:dark_oak_slab"
+    },
+    "W": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "id": "minecraft:dark_oak_boat",
+    "count": 1
+  }
+}

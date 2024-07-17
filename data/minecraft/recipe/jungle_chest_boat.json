@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "boat",
+  "pattern": [
+    "#C#",
+    "SPS",
+    "WWW"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:wooden_shovel"
+    },
+    "C": {
+      "item": "minecraft:chest"
+    },
+    "S": {
+      "item": "minecraft:jungle_stairs"
+    },
+    "P": {
+      "item": "minecraft:jungle_slab"
+    },
+    "W": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "id": "minecraft:jungle_boat",
+    "count": 1
+  }
+}
