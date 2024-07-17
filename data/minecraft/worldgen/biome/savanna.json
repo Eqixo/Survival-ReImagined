@@ -148,20 +148,6 @@
         "minCount": 4,
         "maxCount": 6
       }
-    ],
-    "water_creature": [
-      {
-        "type": "minecraft:tadpole",
-        "weight": 10,
-        "minCount": 6,
-        "maxCount": 18
-      },
-      {
-        "type": "minecraft:frog",
-        "weight": 8,
-        "minCount": 2,
-        "maxCount": 3
-      }
     ]
   },
   "spawn_costs": {},
