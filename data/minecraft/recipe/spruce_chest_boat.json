@@ -1,30 +1,16 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "group": "boat",
-  "pattern": [
-    "#C#",
-    "SPS",
-    "WWW"
-  ],
-  "key": {
-    "#": {
-      "item": "minecraft:wooden_shovel"
+  "type": "minecraft:crafting_shapeless",
+  "group": "chest_boat",
+  "ingredients": [
+    {
+      "item": "minecraft:spruce_boat"
     },
-    "C": {
+    {
       "item": "minecraft:chest"
-    },
-    "S": {
-      "item": "minecraft:spruce_stairs"
-    },
-    "P": {
-      "item": "minecraft:spruce_slab"
-    },
-    "W": {
-      "item": "minecraft:string"
     }
-  },
+  ],
   "result": {
-    "id": "minecraft:spruce_boat",
+    "id": "minecraft:spruce_chest_boat",
     "count": 1
   }
 }

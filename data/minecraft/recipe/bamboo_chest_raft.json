@@ -1,28 +1,14 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "group": "boat",
-  "pattern": [
-    "#C#",
-    "SPS",
-    "WWW"
-  ],
-  "key": {
-    "#": {
-      "item": "minecraft:wooden_shovel"
+  "type": "minecraft:crafting_shapeless",
+  "group": "chest_boat",
+  "ingredients": [
+    {
+      "item": "minecraft:bamboo_raft"
     },
-    "C": {
+    {
       "item": "minecraft:chest"
-    },
-    "S": {
-      "item": "minecraft:bamboo_stairs"
-    },
-    "P": {
-      "item": "minecraft:bamboo_slab"
-    },
-    "W": {
-      "item": "minecraft:string"
     }
-  },
+  ],
   "result": {
     "id": "minecraft:bamboo_chest_raft",
     "count": 1

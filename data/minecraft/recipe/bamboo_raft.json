@@ -3,15 +3,12 @@
   "group": "boat",
   "pattern": [
     "# #",
-    "SPS",
+    "PPP",
     "WWW"
   ],
   "key": {
     "#": {
       "item": "minecraft:wooden_shovel"
-    },
-    "S": {
-      "item": "minecraft:bamboo_stairs"
     },
     "P": {
       "item": "minecraft:bamboo_slab"
