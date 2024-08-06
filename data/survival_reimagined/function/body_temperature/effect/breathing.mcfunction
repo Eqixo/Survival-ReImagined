@@ -3,7 +3,6 @@
 # After 5 ticks, shows two poof particles to indicate the player is running out of air
 # Resets breathing timer to 0 for players with heat source close or already breathing
 # Resets breathing timer to 0 for players not tagged with 'highAltitude'
-
 scoreboard players add @s[tag=highAltitude, scores={heat_source_close=0, breathing=..5}] breathing 1
 
 # Show two poof particles indicating exhaling out air

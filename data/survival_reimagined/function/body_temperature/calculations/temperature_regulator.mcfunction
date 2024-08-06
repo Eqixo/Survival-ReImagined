@@ -1,5 +1,5 @@
-#tag @s add bodyTemperatureProtected
-#execute if entity @s[scores={bodyTemperatureInt=37,bodyTemperatureFloat=0}] run tag @s add bodyTemperatureRegulated
-#
-#execute if entity @s[tag=!bodyTemperatureRegulated, scores={bodyTemperatureInt=..36,bodyTemperatureFloat=0..}] run scoreboard players add @s bodyTemperatureFloat 1
-#execute if entity @s[tag=!bodyTemperatureRegulated, scores={bodyTemperatureInt=37..,bodyTemperatureFloat=0..}] run scoreboard players remove @s bodyTemperatureFloat 1
+# tag @s add temperature_protected
+# execute if entity @s[scores={temperature_int=37,temperature_float=0}] run tag @s add bodyTemperatureRegulated
+# 
+# execute if entity @s[tag=!temperature_regulated, scores={temperature_int=..36,temperature_float=0..}] run scoreboard players add @s temperature_float 1
+# execute if entity @s[tag=!temperature_regulated, scores={temperature_int=37..,temperature_float=0..}] run scoreboard players remove @s temperature_float 1

@@ -15,6 +15,18 @@
           }
         }
       }
+    ],
+    "minecraft:mob_experience": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 2.0,
+            "per_level_above_first": 1.0
+          }
+        }
+      }
     ]
   },
   "exclusive_set": "minecraft:silk_touch",
@@ -30,6 +42,6 @@
   "slots": [
     "mainhand"
   ],
-  "supported_items": "#minecraft:enchantable/mining_loot",
+  "supported_items": "#survival_reimagined:enchantable/mainhand",
   "weight": 3
 }

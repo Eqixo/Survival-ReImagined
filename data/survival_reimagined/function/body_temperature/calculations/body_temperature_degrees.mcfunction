@@ -4,6 +4,7 @@ scoreboard players set @s[tag=!already_connected] temperature_float 0
 
 # Reset 'temperature_changed' if the temperature did not change
 execute if score @s temperature_int = @s old_temperature_int if score @s temperature_float = @s old_temperature_float run scoreboard players set @s temperature_changed 0
+
 # Set 'temperature_changed' if the temperature changed
 execute unless score @s temperature_float = @s old_temperature_float run scoreboard players set @s temperature_changed 1
 execute unless score @s temperature_int = @s old_temperature_int run scoreboard players set @s temperature_changed 1
