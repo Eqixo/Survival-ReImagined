@@ -1,0 +1,35 @@
+{
+    "anvil_cost": 8,
+    "description": {
+      "translate": "Exp Gatherer"
+    },
+    "effects": {
+      "minecraft:block_experience": [
+        {
+          "effect": {
+            "type": "minecraft:add",
+            "value": {
+              "type": "minecraft:linear",
+              "base": 2.0,
+              "per_level_above_first": 1.0
+            }
+          }
+        }
+      ]
+    },
+    "exclusive_set": "minecraft:silk_touch",
+    "max_cost": {
+      "base": 19,
+      "per_level_above_first": 9
+    },
+    "max_level": 3,
+    "min_cost": {
+      "base": 1,
+      "per_level_above_first": 9
+    },
+    "slots": [
+      "mainhand"
+    ],
+    "supported_items": "#minecraft:enchantable/mining_loot",
+    "weight": 3
+  }

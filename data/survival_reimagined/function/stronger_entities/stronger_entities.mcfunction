@@ -1,17 +1,12 @@
-execute store result score @s mobDamage run attribute @s generic.attack_damage get 1
-execute store result score @s mobData run attribute @s generic.movement_speed get 1
-execute store result score @s mobFollow run attribute @s generic.follow_range get 1
-execute store result score @s mobHealth run data get entity @s Health
-
-# Redirect to give it armor
+# Redirect to give it armour
 function survival_reimagined:random_armors/random_armor_selector
 
 # Select level
-execute if entity @a[tag=2x] run function survival_reimagined:stronger_entities/health/2xhealth
+execute if entity @a[tag=2x] run function survival_reimagined:stronger_entities/buff/2xbuff
 
-execute if entity @a[tag=3x] run function survival_reimagined:stronger_entities/health/3xhealth
+execute if entity @a[tag=3x] run function survival_reimagined:stronger_entities/buff/3xbuff
 
-execute if entity @a[tag=4x] run function survival_reimagined:stronger_entities/health/4xhealth
+execute if entity @a[tag=4x] run function survival_reimagined:stronger_entities/buff/4xbuff
 
 # Random size
 function survival_reimagined:stronger_entities/effects/random_effects

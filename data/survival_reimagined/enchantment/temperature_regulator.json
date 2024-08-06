@@ -1,0 +1,30 @@
+{
+  "anvil_cost": 7,
+  "description": {
+    "translate": "Temperature Regulator"
+  },
+  "effects": {
+    "minecraft:tick": [
+      {
+        "effect": {
+          "type": "run_function",
+          "function": "survival_reimagined:body_temperature/calculations/temperature_regulator"
+        }
+      }
+    ] 
+  },
+  "max_cost": {
+    "base": 35,
+    "per_level_above_first": 9
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 10,
+    "per_level_above_first": 9
+  },
+  "slots": [
+    "chest"
+  ],
+  "supported_items": "#minecraft:enchantable/chest_armor",
+  "weight": 1
+}

@@ -1,1 +1,0 @@
-execute store result entity @s Attributes[{Name:"minecraft:generic.attack_damage"}].Base double 2 run scoreboard players get @s mobDamage

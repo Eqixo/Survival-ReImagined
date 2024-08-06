@@ -1,0 +1,15 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "chest": {
+        "components": {
+          "minecraft:enchantments": {
+            "survival_reimagined:temperature_regulator": 1
+          }
+        }
+      }
+    }
+  }
+}

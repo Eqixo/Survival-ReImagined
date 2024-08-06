@@ -1,0 +1,54 @@
+{
+    "anvil_cost": 7,
+    "description": {
+        "translate": "Explosive Arrows"
+    },
+    "effects": {
+        "minecraft:hit_block": [
+            {
+                "effect": {
+                    "type": "minecraft:explode",
+                    "block_interaction": "none",
+                    "large_particle": {
+                        "type": "minecraft:explosion_emitter"
+                    },
+                    "small_particle": {
+                        "type": "minecraft:explosion_emitter"
+                    },
+                    "radius": {
+                        "type": "minecraft:linear",
+                        "base": 2.0,
+                        "per_level_above_first": 1.0
+                    },
+                    "sound": {
+                        "sound_id": "minecraft:entity.generic.explode"
+                    },
+                    "create_fire": false,
+                    "damage_type": "minecraft:explosion",
+                    "attribute_to_user": false,
+                    "knockback_multiplier": {
+                        "type": "minecraft:linear",
+                        "base": 1,
+                        "per_level_above_first": 0.5
+                    },
+                    "offset": [0,0,0]
+                }
+            }
+        ]
+    },
+    "max_cost": {
+        "base": 35,
+        "per_level_above_first": 9
+    },
+    "max_level": 3, 
+    "min_cost": {
+        "base": 10,
+        "per_level_above_first": 9
+    },
+    "slots": [
+        "mainhand"
+    ],
+    "supported_items": "#minecraft:enchantable/bow",
+    "exclusive_set": "#survival_reimagined:exclusive_set/bow",
+    "weight": 1
+}

@@ -1,6 +1,8 @@
 {
   "values": [
+    "minecraft:bogged",
     "minecraft:blaze",
+    "minecraft:breeze",
     "minecraft:cave_spider",
     "minecraft:creeper",
     "minecraft:drowned",

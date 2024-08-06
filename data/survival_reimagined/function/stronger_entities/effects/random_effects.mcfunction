@@ -16,4 +16,4 @@ execute if score #randomNumber mobData matches 4..5 run data merge entity @s[typ
 execute if score #randomNumber mobData matches 6..7 run data merge entity @s[type=minecraft:creeper] {ExplosionRadius:8b}
 execute if score #randomNumber mobData matches 8 run data merge entity @s[type=minecraft:creeper] {ExplosionRadius:10b}
 
-schedule function survival_reimagined:stronger_entities/effects/random_effects 1t
+schedule function survival_reimagined:stronger_entities/effects/random_effects 3t

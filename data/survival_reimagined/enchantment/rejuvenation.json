@@ -1,0 +1,43 @@
+{
+    "anvil_cost": 5,
+    "description": {
+        "translate": "Curse of Rejuvenation"
+    },
+    "effects": {
+        "minecraft:item_damage": [
+            {
+                "effect": {
+                    "type": "minecraft:add",
+                    "value": {
+                        "type": "minecraft:linear",
+                        "base": -5.0,
+                        "per_level_above_first": 0.0
+                    }
+                }
+            }
+        ],
+        
+        "minecraft:attributes": [
+            {
+                "attribute": "minecraft:generic.max_health",
+                "amount": -10.0,
+                "id": "survival_reimagined:rejuvenation",
+                "operation": "add_value"
+            }
+        ]
+    },
+    "max_cost": {
+        "base": 75,
+        "per_level_above_first": 0
+    },
+    "max_level": 1,
+    "min_cost": {
+        "base": 25,
+        "per_level_above_first": 0
+    },
+    "slots": [
+        "any"
+    ],
+    "supported_items": "#minecraft:enchantable/durability",
+    "weight": 1
+}

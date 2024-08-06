@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [" # ", " L ", "   "],
+  "pattern": ["#L#"],
   "category": "equipment",
   "group": "cool_head",
   "key": {

@@ -1,0 +1,32 @@
+{
+    "anvil_cost": 9,
+    "description": "Growth",
+    "max_cost": {
+        "base": 15,
+        "per_level_above_first": 7
+    },
+    "max_level": 5,
+    "min_cost": {
+        "base": 5,
+        "per_level_above_first": 7
+    },
+    "slots": [
+        "armor"
+    ],
+    "supported_items": "#minecraft:enchantable/armor",
+    "weight": 1,
+    "effects": {
+        "minecraft:attributes": [
+            {
+                "amount": {
+                    "type": "minecraft:linear",
+                    "base": 1.0,
+                    "per_level_above_first": 1
+                },
+                "attribute": "minecraft:generic.max_health",
+                "id": "survival_reimagined:growth",
+                "operation": "add_value"
+            }
+        ]
+    }
+}

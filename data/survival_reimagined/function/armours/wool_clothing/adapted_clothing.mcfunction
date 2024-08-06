@@ -1,12 +1,6 @@
 # Detect wool clothing against cold
-scoreboard players set @s bodyTemperatureArmorProtectionLevel 0
+execute if score @s bodyTemperatureArmorProtectionLevel matches ..0 run scoreboard players set @s bodyTemperatureArmorProtectionLevel 0
 
-scoreboard players add @s[nbt={Inventory: [{Slot: 103b, components:{"minecraft:custom_data":{isHeating:1b}}}]}] bodyTemperatureArmorProtectionLevel 1
-scoreboard players add @s[nbt={Inventory: [{Slot: 102b, components:{"minecraft:custom_data":{isHeating:1b}}}]}] bodyTemperatureArmorProtectionLevel 1
-scoreboard players add @s[nbt={Inventory: [{Slot: 101b, components:{"minecraft:custom_data":{isHeating:1b}}}]}] bodyTemperatureArmorProtectionLevel 1
-scoreboard players add @s[nbt={Inventory: [{Slot: 100b, components:{"minecraft:custom_data":{isHeating:1b}}}]}] bodyTemperatureArmorProtectionLevel 1
-
-scoreboard players remove @s[nbt={Inventory: [{Slot: 103b, components:{"minecraft:custom_data":{isCooling:1b}}}]}] bodyTemperatureArmorProtectionLevel 1
-scoreboard players remove @s[nbt={Inventory: [{Slot: 102b, components:{"minecraft:custom_data":{isCooling:1b}}}]}] bodyTemperatureArmorProtectionLevel 1
-scoreboard players remove @s[nbt={Inventory: [{Slot: 101b, components:{"minecraft:custom_data":{isCooling:1b}}}]}] bodyTemperatureArmorProtectionLevel 1
-scoreboard players remove @s[nbt={Inventory: [{Slot: 100b, components:{"minecraft:custom_data":{isCooling:1b}}}]}] bodyTemperatureArmorProtectionLevel 1
+execute store result score @s bodyTemperatureArmorProtectionLevel if items entity @s armor.* #minecraft:enchantable/armor[minecraft:custom_data={isHeating:1b}]
+execute store result score #temp bodyTemperatureArmorProtectionLevel if items entity @s armor.* #minecraft:enchantable/armor[minecraft:custom_data={isCooling:1b}]
+scoreboard players operation @s bodyTemperatureArmorProtectionLevel -= #temp bodyTemperatureArmorProtectionLevel
