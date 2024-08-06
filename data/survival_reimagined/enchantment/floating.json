@@ -25,7 +25,7 @@
                 "id": "survival_reimagined:floating",
                 "operation": "add_value"
             }
-        ]  
+        ]
     },
     "supported_items": "minecraft:elytra",
     "weight": 1

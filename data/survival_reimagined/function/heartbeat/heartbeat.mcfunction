@@ -1,25 +1,27 @@
-scoreboard players set #beat beatTimer 5
-scoreboard players set #diviser beatCold 25
+# Set the beat timer to 5 seconds
+scoreboard players set #beat beat 5
+
+# Set the health multiplier to 4
 scoreboard players set #multiplier health 4
 
-scoreboard players set @s beatCold 8
-scoreboard players set @s healthCold 160
+# Increment the beat score of all players with the tag "not_affected" and a raw health score between 0 and 15 by 1
+scoreboard players add @a[tag=!not_affected, scores={raw_health=..15}] beat 1
 
-scoreboard players add @a[tag=!not_affected, scores={raw.health=..15}] beatTimer 1
-
-scoreboard players operation @s health = @s raw.health
+# Set the health score of @s to be equal to the raw_health score of @s multiplied by the health multiplier
+scoreboard players operation @s health = @s raw_health
 scoreboard players operation @s health *= #multiplier health
 
-scoreboard players operation @s[scores={bodyTemperature=1..}] healthCold -= @s health
-scoreboard players operation @s[scores={bodyTemperature=1..}] health /= #diviser beatCold
-scoreboard players operation @s[scores={bodyTemperature=1..}] beatCold -= @s health
-
+# Set the health score of all players with a raw health score between 15 and 160 to be 15
 scoreboard players set @s[scores={health=..15}] health 15
-scoreboard players set @s[scores={beatTimer=160..}] beatTimer 0
-scoreboard players set @s[scores={raw.health=15..}] beatTimer 0
 
-execute at @s[scores={raw.health=..15, bodyTemperature=0}] if score @s beatTimer = #beat beatTimer run playsound block.note_block.basedrum master @s ~ ~ ~ 0.5 0 0.5
-execute at @s[scores={raw.health=..15, bodyTemperature=0}] if score @s beatTimer >= @s health store success score @s beatTimer run playsound block.note_block.basedrum master @s ~ ~ ~ 0.5 0.75 0.5
+# Set the beat score of all players with a beat score of 160 or higher to be 0
+scoreboard players set @s[scores={beat=160..}] beat 0
 
-execute at @s[scores={raw.health=..15, bodyTemperature=1..}] if score @s beatTimer = @s beatCold run playsound block.note_block.basedrum master @s ~ ~ ~ 0.5 0 0.5
-execute at @s[scores={raw.health=..15, bodyTemperature=1..}] if score @s beatTimer >= @s healthCold store success score @s beatTimer run playsound block.note_block.basedrum master @s ~ ~ ~ 0.5 0.75 0.5
+# Set the beat score of all players with a raw health score of 15 or higher to be 0
+scoreboard players set @s[scores={raw_health=15..}] beat 0
+
+# Play a basedrum sound effect at the player's location if their beat score is equal to the beat timer and their raw health score is between 0 and 15
+execute at @s[scores={raw_health=..15}] if score @s beat = #beat beat run playsound block.note_block.basedrum master @s ~ ~ ~ 0.5 0 0.5
+
+# Play a basedrum sound effect with a higher volume at the player's location if their beat score is greater than or equal to their health score and their raw health score is between 0 and 15
+execute at @s[scores={raw_health=..15}] if score @s beat >= @s health store success score @s beat run playsound block.note_block.basedrum master @s ~ ~ ~ 0.5 0.75 0.5

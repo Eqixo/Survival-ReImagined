@@ -1,9 +1,16 @@
-# Effect of breathing in the cold biomes
-scoreboard players add @s[tag=highAltitude, scores={isHeatSourceClose=0, breathingTimer=..5}] breathingTimer 1
+# Add breathing timer to players tagged with 'highAltitude'
+# If heat source is not close, breathing timer starts at 1
+# After 5 ticks, shows two poof particles to indicate the player is running out of air
+# Resets breathing timer to 0 for players with heat source close or already breathing
+# Resets breathing timer to 0 for players not tagged with 'highAltitude'
 
-execute at @s[tag=highAltitude, scores={isHeatSourceClose=0, breathingTimer=5}] run particle minecraft:poof ^ ^1.5 ^0.5 ^ ^ ^1000000 0.000000105 0 normal
-execute at @s[tag=highAltitude, scores={isHeatSourceClose=0, breathingTimer=5}] run particle minecraft:poof ^ ^1.5 ^0.5 ^ ^ ^1000000 0.000000105 0 normal
+scoreboard players add @s[tag=highAltitude, scores={heat_source_close=0, breathing=..5}] breathing 1
 
-scoreboard players set @s[scores={breathingTimer=5..}] breathingTimer 0
-scoreboard players set @s[scores={isHeatSourceClose=1}] breathingTimer 0
-scoreboard players set @s[tag=!highAltitude] breathingTimer 0
+# Show two poof particles indicating exhaling out air
+execute at @s[tag=highAltitude, scores={heat_source_close=0, breathing=5}] run particle minecraft:poof ^ ^1.5 ^0.5 ^ ^ ^1000000 0.000000105 0 normal
+execute at @s[tag=highAltitude, scores={heat_source_close=0, breathing=5}] run particle minecraft:poof ^ ^1.5 ^0.5 ^ ^ ^1000000 0.000000105 0 normal
+
+# Reset breathing timer to 0
+scoreboard players set @s[scores={breathing=5..}] breathing 0
+scoreboard players set @s[scores={heat_source_close=1}] breathing 0
+scoreboard players set @s[tag=!highAltitude] breathing 0

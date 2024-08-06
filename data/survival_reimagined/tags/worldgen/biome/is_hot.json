@@ -10,6 +10,11 @@
     "minecraft:savanna_plateau",
     "minecraft:savanna",
     "minecraft:windswept_savanna",
-    "minecraft:wooded_badlands"
+    "minecraft:wooded_badlands",
+    "minecraft:warped_forest",
+    "minecraft:soul_sand_valley",
+    "minecraft:nether_wastes",
+    "minecraft:crimson_forest",
+    "basalt_deltas"
   ]
 }

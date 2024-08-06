@@ -11,7 +11,7 @@
           "function": "survival_reimagined:body_temperature/calculations/temperature_regulator"
         }
       }
-    ] 
+    ]
   },
   "max_cost": {
     "base": 35,

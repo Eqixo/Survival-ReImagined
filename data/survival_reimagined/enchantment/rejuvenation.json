@@ -16,7 +16,6 @@
                 }
             }
         ],
-        
         "minecraft:attributes": [
             {
                 "attribute": "minecraft:generic.max_health",

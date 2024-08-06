@@ -15,7 +15,6 @@
           "functions": [
             {
               "function": "enchant_with_levels",
-              "treasure": true,
               "levels": {
                 "min": 18,
                 "max": 24
@@ -41,7 +40,6 @@
           "functions": [
             {
               "function": "enchant_with_levels",
-              "treasure": true,
               "levels": {
                 "min": 24,
                 "max": 30
