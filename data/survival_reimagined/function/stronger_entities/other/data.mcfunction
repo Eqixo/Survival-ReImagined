@@ -14,4 +14,4 @@ data merge entity @s[type=#minecraft:zombies] {CanBreakDoors:1b}
 
 # Add the player to the 'buffedEntity' tag
 # This tag is used to identify entities that have been buffed by the player
-tag @s add buffedEntity
+tag @s add buffed

@@ -1,34 +1,25 @@
 # Equipping the mob with armor
 
-# Difficulty 0.1
-execute if entity @a[tag=dif_0.1, tag=!dif_0.2] run loot replace entity @s armor.head loot survival_reimagined:random_helmet 
+# Difficulties
+execute if entity @a[tag=lvl_1, tag=!lvl_2] run loot replace entity @s armor.head loot survival_reimagined:helmets/helmet_lvl-1
 
-# Difficulty 0.2
-execute if entity @a[tag=dif_0.2, tag=!dif_0.3] run loot replace entity @s armor.head loot survival_reimagined:helmet_fragile 
+execute if entity @a[tag=lvl_2, tag=!lvl_3] run loot replace entity @s armor.head loot survival_reimagined:helmets/helmet_lvl-2
 
-# Difficulty 0.3
-execute if entity @a[tag=dif_0.3, tag=!dif_0.4] run loot replace entity @s armor.head loot survival_reimagined:helmet_many 
+execute if entity @a[tag=lvl_3, tag=!lvl_4] run loot replace entity @s armor.head loot survival_reimagined:helmets/helmet_lvl-3
 
-# Difficulty 0.4
-execute if entity @a[tag=dif_0.4, tag=!dif_0.5] run loot replace entity @s armor.head loot survival_reimagined:helmet_stone 
+execute if entity @a[tag=lvl_4, tag=!lvl_5] run loot replace entity @s armor.head loot survival_reimagined:helmets/helmet_lvl-4
 
-# Difficulty 0.5
-execute if entity @a[tag=dif_0.5, tag=!dif_0.6] run loot replace entity @s armor.head loot survival_reimagined:helmet_iron 
+execute if entity @a[tag=lvl_5, tag=!lvl_6] run loot replace entity @s armor.head loot survival_reimagined:helmets/helmet_lvl-5
 
-# Difficulty 0.6
-execute if entity @a[tag=dif_0.6, tag=!dif_0.7] run loot replace entity @s armor.head loot survival_reimagined:helmet_stone_iron 
+execute if entity @a[tag=lvl_6, tag=!lvl_7] run loot replace entity @s armor.head loot survival_reimagined:helmets/helmet_lvl-6
 
-# Difficulty 0.7
-execute if entity @a[tag=dif_0.7, tag=!dif_0.8] run loot replace entity @s armor.head loot survival_reimagined:helmet_promoted 
+execute if entity @a[tag=lvl_7, tag=!lvl_8] run loot replace entity @s armor.head loot survival_reimagined:helmets/helmet_lvl-7
 
-# Difficulty 0.8
-execute if entity @a[tag=dif_0.8, tag=!dif_0.9] run loot replace entity @s armor.head loot survival_reimagined:helmet_shimmering 
+execute if entity @a[tag=lvl_8, tag=!lvl_9] run loot replace entity @s armor.head loot survival_reimagined:helmets/helmet_lvl-8
 
-# Difficulty 0.9
-execute if entity @a[tag=dif_0.9, tag=!dif_1] run loot replace entity @s armor.head loot survival_reimagined:helmet_forged 
+execute if entity @a[tag=lvl_9, tag=!lvl_10] run loot replace entity @s armor.head loot survival_reimagined:helmets/helmet_lvl-9
 
-# Difficulty 1
-execute if entity @a[tag=dif_1] run loot replace entity @s armor.head loot survival_reimagined:helmet_enhanced 
+execute if entity @a[tag=lvl_10] run loot replace entity @s armor.head loot survival_reimagined:helmets/helmet_lvl-10
 
 
 # Equipping the mob with armor pieces

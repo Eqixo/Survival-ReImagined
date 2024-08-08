@@ -5,12 +5,12 @@
 # @a[tag=!not_affected, scores={isSprinting=1..}] : Selects players who are sprinting
 # @s : Selects the command source (player)
 # function survival_reimagined:particles/running_particles : The function to run
-execute as @a[tag=!not_affected, scores={is_sprinting=1..}] at @s run function survival_reimagined:particles/running_particles
+execute as @a[scores={is_sprinting=1..}] at @s run function survival_reimagined:particles/running_particles
 
 # @a[tag=!not_affected, scores={isWalking=1..}] : Selects players who are walking
 # @s : Selects the command source (player)
 # function survival_reimagined:particles/walking_particles : The function to run
-execute as @a[tag=!not_affected, scores={is_walking=1..}] at @s run function survival_reimagined:particles/walking_particles
+execute as @a[scores={is_walking=1..}] at @s run function survival_reimagined:particles/walking_particles
 
-# Schedules the particles selector function to run every 0.26 seconds
-schedule function survival_reimagined:particles/selector 0.26s
+# Schedules the particles selector function to run every 5 ticks
+schedule function survival_reimagined:particles/selector 5t

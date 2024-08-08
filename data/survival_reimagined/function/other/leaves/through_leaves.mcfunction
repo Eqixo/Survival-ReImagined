@@ -1,13 +1,10 @@
 # Detecting when a player is standing on leaves
-# Damage player 1 point of health if they are standing on leaves
-execute at @s if block ~ ~ ~ #minecraft:leaves run damage @s 1 minecraft:cramming
-
 # Teleport the player down slightly if they are standing on leaves
-execute at @s if block ~ ~-0.5 ~ #minecraft:leaves run tp @s ~ ~-0.025 ~
-execute at @s if block ~-0.25 ~-0.5 ~-0.25 #minecraft:leaves run tp @s ~ ~-0.025 ~
-execute at @s if block ~0.25 ~-0.5 ~0.25 #minecraft:leaves run tp @s ~ ~-0.025 ~
-execute at @s if block ~-0.25 ~-0.5 ~0.25 #minecraft:leaves run tp @s ~ ~-0.025 ~
-execute at @s if block ~0.25 ~-0.5 ~-0.25 #minecraft:leaves run tp @s ~ ~-0.025 ~
+execute at @s store success score @s on_leaves run clone ~-0.3 ~-0.025 ~-0.3 ~0.3 ~-0.025 ~0.3 ~-0.3 ~-0.025 ~-0.3 filtered #minecraft:leaves force
+execute at @s if score @s on_leaves matches 1 run tp @s ~ ~-1 ~
+
+# Damage player 1 point of health if they are standing on leaves
+execute if score @s on_leaves matches 1 run damage @s 1 minecraft:cramming
 
 # Grant the "Cant Stand You" advancement to the player if they are standing on leaves
-execute at @s if block ~ ~ ~ #minecraft:leaves run advancement grant @s only minecraft:survival_reimagined/cant_stand_you
+execute if score @s on_leaves matches 1 run advancement grant @s only minecraft:survival_reimagined/cant_stand_you
