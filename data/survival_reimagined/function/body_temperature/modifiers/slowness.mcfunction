@@ -1,32 +1,25 @@
 # Movement Speed modifier
 # Temperature scores are in Celsius.
 
-# movement speed is normal for average body temperatures.
-# The range is 35-37 which is the effective range for human body temperature.
-attribute @s[scores={temperature_int=35..38}] generic.movement_speed base set 0.1
+# Setup the temporary values for ax+b
+scoreboard players set #multiplier debuff 124
+scoreboard players set #adder debuff 1800
+
+# ]-∞;37[ °C
+execute store result score @s debuff run scoreboard players get @s temperature_int
+scoreboard players operation @s debuff *= #multiplier debuff
+scoreboard players operation @s debuff -= #adder debuff
+
+execute store result entity @s[scores={temperature_int=..37}] attributes[{id:"minecraft:generic.movement_speed"}].base double 0.00003584 run scoreboard players get @s debuff
 
 
-# Decrease movement speed for lower body temperatures.
-# The range is 32-35.
-attribute @s[scores={temperature_int=32..35}] generic.movement_speed base set 0.09
+# Setup the temporary values for ax+b
+scoreboard players set #multiplier debuff -1
+scoreboard players set #adder debuff 47
 
-# Even more decrease movement speed for extremely low body temperatures.
-# The range is 28-32.
-attribute @s[scores={temperature_int=28..32}] generic.movement_speed base set 0.075
+# [38;+∞[ °C
+execute store result score @s debuff run scoreboard players get @s temperature_int
+scoreboard players operation @s debuff *= #multiplier debuff
+scoreboard players operation @s debuff += #adder debuff
 
-# Significantly decrease movement speed for extremely low body temperatures.
-# The range is less than 28.
-attribute @s[scores={temperature_int=..28}] generic.movement_speed base set 0.06
-
-
-# Decrease movement speed for higher body temperatures.
-# The range is 37-40.
-attribute @s[scores={temperature_int=38..40}] generic.movement_speed base set 0.09
-
-# Even more decrease movement speed for extremely hot body temperatures.
-# The range is 40-41.
-attribute @s[scores={temperature_int=40..41}] generic.movement_speed base set 0.075
-
-# Significantly decrease movement speed for extremely hot body temperatures.
-# The range is 41 and above.
-attribute @s[scores={temperature_int=41..}] generic.movement_speed base set 0.06
+execute store result entity @s[scores={temperature_int=..37}] attributes[{id:"minecraft:generic.movement_speed"}].base double 0.01 run scoreboard players get @s debuff

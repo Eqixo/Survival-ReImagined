@@ -11,6 +11,7 @@ gamerule universalAnger true
 # Scoreboard objectives setup
 scoreboard objectives add beat dummy
 scoreboard objectives add breathing dummy
+scoreboard objectives add debuff dummy
 scoreboard objectives add rots dummy
 scoreboard objectives add health dummy
 scoreboard objectives add heat_source_close dummy

@@ -4,24 +4,24 @@
         "translate": "Curse of Rejuvenation"
     },
     "effects": {
+        "minecraft:attributes": [
+            {
+                "amount": -10.0,
+                "attribute": "minecraft:generic.max_health",
+                "id": "survival_reimagined:rejuvenation",
+                "operation": "add_value"
+            }
+        ],
         "minecraft:item_damage": [
             {
                 "effect": {
                     "type": "minecraft:add",
                     "value": {
-                        "type": "minecraft:linear",
-                        "base": -5.0,
-                        "per_level_above_first": 0.0
+                        "base": -1.0,
+                        "per_level_above_first": 0.0,
+                        "type": "minecraft:linear"
                     }
                 }
-            }
-        ],
-        "minecraft:attributes": [
-            {
-                "attribute": "minecraft:generic.max_health",
-                "amount": -10.0,
-                "id": "survival_reimagined:rejuvenation",
-                "operation": "add_value"
             }
         ]
     },

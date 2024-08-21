@@ -8,17 +8,18 @@
       {
         "affected": "attacker",
         "effect": {
-          "type": "minecraft:apply_mob_effect",
           "max_amplifier": 1.0,
           "max_duration": 5.0,
           "min_amplifier": 0.0,
           "min_duration": 1.0,
-          "to_apply": "minecraft:regeneration"
+          "to_apply": "minecraft:regeneration",
+          "type": "minecraft:apply_mob_effect"
         },
         "enchanted": "attacker"
       }
     ]
   },
+  "exclusive_set": "#survival_reimagined:exclusive_set/sword_effects",
   "max_cost": {
     "base": 65,
     "per_level_above_first": 9
@@ -31,7 +32,6 @@
   "slots": [
     "mainhand"
   ],
-  "exclusive_set": "#survival_reimagined:exclusive_set/sword_effects",
   "supported_items": "#minecraft:enchantable/sword",
   "weight": 3
 }

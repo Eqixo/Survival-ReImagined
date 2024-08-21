@@ -13,5 +13,5 @@ data merge entity @s {Silent: 1b, CanPickUpLoot: 1b, ArmorDropChances: [0.001f, 
 data merge entity @s[type=#minecraft:zombies] {CanBreakDoors:1b}
 
 # Add the player to the 'buffedEntity' tag
-# This tag is used to identify entities that have been buffed by the player
+# This tag is used to identify entities that have been buffed
 tag @s add buffed

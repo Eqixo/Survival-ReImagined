@@ -8,4 +8,4 @@ execute store result score @s temperature_protection if items entity @s armor.* 
 
 # Subtract protection level from cooling armor from overall protection level
 execute store result score #temp temperature_protection if items entity @s armor.* #minecraft:enchantable/armor[minecraft:custom_data={isCooling:1b}]
-scoreboard players operation @s temperature_protection -= @s temperature_protection
+scoreboard players operation @s temperature_protection -= #temp temperature_protection

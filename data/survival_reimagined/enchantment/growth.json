@@ -1,6 +1,20 @@
 {
     "anvil_cost": 9,
     "description": "Growth",
+    "effects": {
+        "minecraft:attributes": [
+            {
+                "amount": {
+                    "base": 1.0,
+                    "per_level_above_first": 1,
+                    "type": "minecraft:linear"
+                },
+                "attribute": "minecraft:generic.max_health",
+                "id": "survival_reimagined:growth",
+                "operation": "add_value"
+            }
+        ]
+    },
     "max_cost": {
         "base": 15,
         "per_level_above_first": 7
@@ -14,19 +28,5 @@
         "armor"
     ],
     "supported_items": "#minecraft:enchantable/armor",
-    "weight": 1,
-    "effects": {
-        "minecraft:attributes": [
-            {
-                "amount": {
-                    "type": "minecraft:linear",
-                    "base": 1.0,
-                    "per_level_above_first": 1
-                },
-                "attribute": "minecraft:generic.max_health",
-                "id": "survival_reimagined:growth",
-                "operation": "add_value"
-            }
-        ]
-    }
+    "weight": 1
 }

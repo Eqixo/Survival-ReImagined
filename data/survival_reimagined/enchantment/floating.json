@@ -1,6 +1,20 @@
 {
     "anvil_cost": 11,
     "description": "Floating",
+    "effects": {
+        "minecraft:attributes": [
+            {
+                "amount": {
+                    "base": -0.05,
+                    "per_level_above_first": 0,
+                    "type": "minecraft:linear"
+                },
+                "attribute": "minecraft:generic.gravity",
+                "id": "survival_reimagined:floating",
+                "operation": "add_value"
+            }
+        ]
+    },
     "max_cost": {
         "base": 15,
         "per_level_above_first": 0
@@ -13,20 +27,6 @@
     "slots": [
         "chest"
     ],
-    "effects": {
-        "minecraft:attributes": [
-            {
-                "amount": {
-                    "type": "minecraft:linear",
-                    "base": -0.05,
-                    "per_level_above_first": 0
-                },
-                "attribute": "minecraft:generic.gravity",
-                "id": "survival_reimagined:floating",
-                "operation": "add_value"
-            }
-        ]
-    },
     "supported_items": "minecraft:elytra",
     "weight": 1
 }

@@ -7,12 +7,16 @@
         "minecraft:hit_block": [
             {
                 "effect": {
-                    "type": "minecraft:explode",
+                    "attribute_to_user": false,
                     "block_interaction": "none",
-                    "large_particle": {
-                        "type": "minecraft:explosion_emitter"
+                    "create_fire": false,
+                    "damage_type": "minecraft:explosion",
+                    "knockback_multiplier": {
+                        "type": "minecraft:linear",
+                        "base": 1,
+                        "per_level_above_first": 0.5
                     },
-                    "small_particle": {
+                    "large_particle": {
                         "type": "minecraft:explosion_emitter"
                     },
                     "radius": {
@@ -20,26 +24,18 @@
                         "base": 2.0,
                         "per_level_above_first": 1.0
                     },
+                    "small_particle": {
+                        "type": "minecraft:explosion_emitter"
+                    },
                     "sound": {
                         "sound_id": "minecraft:entity.generic.explode"
                     },
-                    "create_fire": false,
-                    "damage_type": "minecraft:explosion",
-                    "attribute_to_user": false,
-                    "knockback_multiplier": {
-                        "type": "minecraft:linear",
-                        "base": 1,
-                        "per_level_above_first": 0.5
-                    },
-                    "offset": [
-                        0,
-                        0,
-                        0
-                    ]
+                    "type": "minecraft:explode"
                 }
             }
         ]
     },
+    "exclusive_set": "#survival_reimagined:exclusive_set/bow",
     "max_cost": {
         "base": 35,
         "per_level_above_first": 9
@@ -53,6 +49,5 @@
         "mainhand"
     ],
     "supported_items": "#minecraft:enchantable/bow",
-    "exclusive_set": "#survival_reimagined:exclusive_set/bow",
     "weight": 1
 }

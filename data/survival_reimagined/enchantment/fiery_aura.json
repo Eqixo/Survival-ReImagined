@@ -9,12 +9,12 @@
                 "affected": "attacker",
                 "enchanted": "victim",
                 "effect": {
-                    "type": "minecraft:ignite",
                     "duration": {
-                        "type": "minecraft:linear",
                         "base": 4.0,
-                        "per_level_above_first": 4.0
-                    }
+                        "per_level_above_first": 4.0,
+                        "type": "minecraft:linear"
+                    },
+                    "type": "minecraft:ignite"
                 },
                 "requirements": {
                     "condition": "minecraft:damage_source_properties",

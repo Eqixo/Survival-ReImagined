@@ -1,32 +1,25 @@
 # Attack Damage modifier
 # Temperature scores are in Celsius.
 
-# Attack damage is normal for average body temperatures.
-# The range is 35-37 which is the effective range for human body temperature.
-attribute @s[scores={temperature_int=35..38}] generic.attack_damage base set 1
+# Setup the temporary values for ax+b
+scoreboard players set #multiplier debuff 2
+scoreboard players set #adder debuff 71
+
+# ]-∞;37[ °C
+execute store result score @s debuff run scoreboard players get @s temperature_int
+scoreboard players operation @s debuff *= #multiplier debuff
+scoreboard players operation @s debuff -= #adder debuff
+
+execute store result entity @s[scores={temperature_int=..37}] attributes[{id:"minecraft:generic.attack_damage"}].base double 0.33 run scoreboard players get @s debuff
 
 
-# Decrease attack damage for lower body temperatures.
-# The range is 32-35.
-attribute @s[scores={temperature_int=32..35}] generic.attack_damage base set -1
+# Setup the temporary values for ax+b
+scoreboard players set #multiplier debuff -3
+scoreboard players set #adder debuff 113
 
-# Even more decrease attack damage for extremely low body temperatures.
-# The range is 28-32.
-attribute @s[scores={temperature_int=28..32}] generic.attack_damage base set -2.5
+# [38;+∞[ °C
+execute store result score @s debuff run scoreboard players get @s temperature_int
+scoreboard players operation @s debuff *= #multiplier debuff
+scoreboard players operation @s debuff += #adder debuff
 
-# Significantly decrease attack damage for extremely low body temperatures.
-# The range is less than 28.
-attribute @s[scores={temperature_int=..28}] generic.attack_damage base set -5
-
-
-# Decrease attack damage for higher body temperatures.
-# The range is 37-40.
-attribute @s[scores={temperature_int=38..40}] generic.attack_damage base set -1
-
-# Even more decrease attack damage for extremely hot body temperatures.
-# The range is 40-41.
-attribute @s[scores={temperature_int=40..41}] generic.attack_damage base set -2.5
-
-# Significantly decrease attack damage for extremely hot body temperatures.
-# The range is 41 and above.
-attribute @s[scores={temperature_int=41..}] generic.attack_damage base set -5
+execute store result entity @s[scores={temperature_int=..37}] attributes[{id:"minecraft:generic.attack_damage"}].base double 0.5 run scoreboard players get @s debuff
