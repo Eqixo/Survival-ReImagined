@@ -2,7 +2,11 @@
   "display": {
     "icon": {
       "id": "minecraft:splash_potion",
-      "nbt": "{CustomPotionColor:62734}"
+      "components": {
+        "potion_contents": {
+          "custom_color": 65280
+        }
+      }
     },
     "description": {
       "text": "You'll need it.",

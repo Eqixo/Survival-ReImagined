@@ -27,7 +27,9 @@
       "conditions": {
         "item": {
           "items": ["minecraft:suspicious_stew"],
-          "nbt": "{Effects:[{EffectId:10}]}"
+          "components": {
+            "suspicious_stew_effects": [{ "id": "regeneration" }]
+          }
         }
       }
     }

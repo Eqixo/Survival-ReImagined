@@ -31,7 +31,9 @@
       "conditions": {
         "item": {
           "items": ["minecraft:potion"],
-          "nbt": "{Potion:\"minecraft:regeneration\"}"
+          "components": {
+            "potion_contents": { "potion": "minecraft:regeneration" }
+          }
         }
       }
     },
@@ -40,7 +42,9 @@
       "conditions": {
         "item": {
           "items": ["minecraft:potion"],
-          "nbt": "{Potion:\"minecraft:long_regeneration\"}"
+          "components": {
+            "potion_contents": { "potion": "minecraft:long_regeneration" }
+          }
         }
       }
     },
@@ -49,7 +53,9 @@
       "conditions": {
         "item": {
           "items": ["minecraft:potion"],
-          "nbt": "{Potion:\"minecraft:strong_regeneration\"}"
+          "components": {
+            "potion_contents": { "potion": "minecraft:strong_regeneration" }
+          }
         }
       }
     },
@@ -58,7 +64,7 @@
       "conditions": {
         "item": {
           "items": ["minecraft:potion"],
-          "nbt": "{Potion:\"minecraft:healing\"}"
+          "components": { "potion_contents": { "potion": "minecraft:healing" } }
         }
       }
     },
@@ -67,7 +73,9 @@
       "conditions": {
         "item": {
           "items": ["minecraft:potion"],
-          "nbt": "{Potion:\"minecraft:strong_healing\"}"
+          "components": {
+            "potion_contents": { "potion": "minecraft:strong_healing" }
+          }
         }
       }
     }

@@ -2,7 +2,13 @@
   "display": {
     "icon": {
       "id": "minecraft:golden_chestplate",
-      "nbt": "{Trim:{material:\"minecraft:netherite\", pattern:\"silence\"},Enchantments:[{id:\"protection\"}]}"
+      "components": {
+        "trim": {
+          "material": "minecraft:netherite",
+          "pattern": "minecraft:silence"
+        },
+        "enchantments": { "protection": 4 }
+      }
     },
     "title": "Rich or Stupid ?",
     "description": {

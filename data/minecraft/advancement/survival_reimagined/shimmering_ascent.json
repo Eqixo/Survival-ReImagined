@@ -2,7 +2,11 @@
   "display": {
     "icon": {
       "id": "minecraft:diamond_chestplate",
-      "nbt": "{Enchantments:[{id:\"protection\"}]}"
+      "components": {
+        "enchantments": {
+          "protection": 4
+        }
+      }
     },
     "title": "Shimmering Ascent",
     "description": {

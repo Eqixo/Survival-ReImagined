@@ -2,7 +2,11 @@
   "display": {
     "icon": {
       "id": "minecraft:netherite_pickaxe",
-      "nbt": "{Enchantments:[{id:\"efficiency\"}]}"
+      "components": {
+        "enchantments": {
+          "efficiency": 5
+        }
+      }
     },
     "title": "Forged in Hell",
     "description": {

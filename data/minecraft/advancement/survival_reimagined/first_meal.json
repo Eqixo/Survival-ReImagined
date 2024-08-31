@@ -16,7 +16,7 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "tag": "survival_reimagined:can_rot"
+          "items": "survival_reimagined:can_rot"
         }
       }
     }

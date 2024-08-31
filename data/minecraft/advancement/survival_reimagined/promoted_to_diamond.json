@@ -2,7 +2,9 @@
   "display": {
     "icon": {
       "id": "minecraft:diamond_pickaxe",
-      "nbt": "{Enchantments:[{id:\"efficiency\"}]}"
+      "components": {
+        "enchantments": { "efficiency": 4 }
+      }
     },
     "title": "Promoted to Diamond",
     "description": {
