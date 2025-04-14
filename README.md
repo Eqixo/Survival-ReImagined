@@ -24,7 +24,7 @@ Welcome to Survival ReImagined, a Minecraft datapack designed to enhance your su
 
 ## Compatibility
 
-![Static Badge](https://img.shields.io/badge/Minecraft%3AJava%20Edition-1.20.6-5555ff?style=flat-square)
+![Static Badge](https://img.shields.io/badge/Minecraft%3AJava%20Edition-1.21.6-5555ff?style=flat-square)
 
 **Note**: Be sure to make a backup of your world before installing this datapack (if you are adding it to an existing world), as it will significantly alter gameplay.
 
