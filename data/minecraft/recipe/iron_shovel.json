@@ -2,15 +2,9 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [" _ ", "SWS"],
   "key": {
-    "_": {
-      "item": "minecraft:iron_ingot"
-    },
-    "S": {
-      "item": "minecraft:string"
-    },
-    "W": {
-      "item": "minecraft:stone_shovel"
-    }
+    "_": "minecraft:iron_ingot",
+    "S": "minecraft:string",
+    "W": "minecraft:stone_shovel"
   },
   "result": {
     "id": "minecraft:iron_shovel",

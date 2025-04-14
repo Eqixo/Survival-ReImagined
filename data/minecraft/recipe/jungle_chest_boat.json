@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shapeless",
   "group": "chest_boat",
   "ingredients": [
-    {
-      "item": "minecraft:jungle_boat"
-    },
-    {
-      "item": "minecraft:chest"
-    }
+    "minecraft:jungle_boat",
+    "minecraft:chest"
   ],
   "result": {
     "id": "minecraft:jungle_chest_boat",

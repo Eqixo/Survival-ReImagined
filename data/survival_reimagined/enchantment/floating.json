@@ -2,14 +2,14 @@
     "anvil_cost": 11,
     "description": "Floating",
     "effects": {
-        "minecraft:attributes": [
+        "attributes": [
             {
                 "amount": {
                     "base": -0.05,
                     "per_level_above_first": 0,
                     "type": "minecraft:linear"
                 },
-                "attribute": "minecraft:generic.gravity",
+                "attribute": "minecraft:gravity",
                 "id": "survival_reimagined:floating",
                 "operation": "add_value"
             }

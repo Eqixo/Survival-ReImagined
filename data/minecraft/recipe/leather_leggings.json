@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "pattern": ["###", "# #", "# #"],
   "key": {
-    "#": {
-      "item": "minecraft:leather"
-    }
+    "#": "minecraft:leather"
   },
   "result": {
     "id": "minecraft:leather_leggings",

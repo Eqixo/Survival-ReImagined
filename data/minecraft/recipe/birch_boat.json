@@ -7,18 +7,10 @@
     "WWW"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:wooden_shovel"
-    },
-    "S": {
-      "item": "minecraft:birch_stairs"
-    },
-    "P": {
-      "item": "minecraft:birch_slab"
-    },
-    "W": {
-      "item": "minecraft:string"
-    }
+    "#": "minecraft:wooden_shovel",
+    "S": "minecraft:birch_stairs",
+    "P": "minecraft:birch_slab",
+    "W": "minecraft:string"
   },
   "result": {
     "id": "minecraft:acacia_boat",

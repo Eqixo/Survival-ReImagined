@@ -7,18 +7,10 @@
     "WWW"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:wooden_shovel"
-    },
-    "S": {
-      "item": "minecraft:jungle_stairs"
-    },
-    "P": {
-      "item": "minecraft:jungle_slab"
-    },
-    "W": {
-      "item": "minecraft:string"
-    }
+    "#": "minecraft:wooden_shovel",
+    "S": "minecraft:jungle_stairs",
+    "P": "minecraft:jungle_slab",
+    "W": "minecraft:string"
   },
   "result": {
     "id": "minecraft:jungle_boat",

@@ -1,40 +1,109 @@
 {
-  "temperature": 0.2,
+  "carvers": [
+    "minecraft:canyon",
+    "minecraft:cave",
+    "minecraft:cave_extra_underground"
+  ],
   "downfall": 0.9,
-  "has_precipitation": true,
   "effects": {
-    "sky_color": 7907327,
+    "dry_foliage_color": 8082228,
     "fog_color": 12638463,
-    "water_color": 4159204,
-    "water_fog_color": 329011,
     "grass_color_modifier": "swamp",
     "mood_sound": {
-      "sound": "minecraft:ambient.cave",
-      "tick_delay": 6000,
       "block_search_extent": 8,
-      "offset": 2
+      "offset": 2,
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000
     },
-    "music": {
-      "max_delay": 24000,
-      "min_delay": 12000,
-      "replace_current_music": false,
-      "sound": "minecraft:music.overworld.swamp"
-    }
+    "music": [
+      {
+        "data": {
+          "max_delay": 24000,
+          "min_delay": 12000,
+          "replace_current_music": false,
+          "sound": "minecraft:music.overworld.swamp"
+        },
+        "weight": 1
+      }
+    ],
+    "music_volume": 1.0,
+    "sky_color": 7907327,
+    "water_color": 4159204,
+    "water_fog_color": 329011
   },
+  "features": [
+    [],
+    ["minecraft:lake_lava_underground"],
+    ["minecraft:amethyst_geode"],
+    [
+      "minecraft:fossil_lower",
+      "minecraft:fossil_upper",
+      "minecraft:monster_room",
+      "minecraft:monster_room_deep"
+    ],
+    [],
+    [],
+    [
+      "minecraft:ore_andesite_lower",
+      "minecraft:ore_coal_lower",
+      "minecraft:ore_coal_upper",
+      "minecraft:ore_copper",
+      "minecraft:ore_diamond",
+      "minecraft:ore_diamond_buried",
+      "minecraft:ore_diamond_large",
+      "minecraft:ore_diorite_lower",
+      "minecraft:ore_gold",
+      "minecraft:ore_gold_lower",
+      "minecraft:ore_iron_middle",
+      "minecraft:ore_iron_small",
+      "minecraft:ore_iron_upper",
+      "minecraft:ore_lapis",
+      "minecraft:ore_lapis_buried",
+      "minecraft:ore_redstone",
+      "minecraft:ore_redstone_lower",
+      "minecraft:ore_tuff",
+      "minecraft:underwater_magma"
+    ],
+    [],
+    [],
+    [
+      "minecraft:glow_lichen",
+      "minecraft:patch_waterlily",
+      "minecraft:seagrass_swamp",
+      "minecraft:trees_mangrove",
+      "survival_reimagined:swamp/trees/oak_all",
+      "survival_reimagined:swamp/vegetation/patch_grass_swamp",
+      "survival_reimagined:taiga/vegetation/patch_mushrooms",
+      "survival_reimagined:water_biomes/vegetation/patch_vegetation_underwater"
+    ],
+    ["minecraft:freeze_top_layer"]
+  ],
+  "has_precipitation": true,
+  "spawn_costs": {},
   "spawners": {
+    "ambient": [
+      {
+        "type": "minecraft:bat",
+        "weight": 10,
+        "minCount": 8,
+        "maxCount": 24
+      }
+    ],
+    "creature": [
+      {
+        "type": "minecraft:cow",
+        "weight": 8,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:pig",
+        "weight": 10,
+        "minCount": 4,
+        "maxCount": 4
+      }
+    ],
     "monster": [
-      {
-        "type": "minecraft:spider",
-        "weight": 15,
-        "minCount": 3,
-        "maxCount": 6
-      },
-      {
-        "type": "minecraft:zombie",
-        "weight": 20,
-        "minCount": 5,
-        "maxCount": 9
-      },
       {
         "type": "minecraft:slime",
         "weight": 20,
@@ -42,32 +111,22 @@
         "maxCount": 8
       },
       {
+        "type": "minecraft:spider",
+        "weight": 15,
+        "minCount": 3,
+        "maxCount": 6
+      },
+      {
         "type": "minecraft:witch",
         "weight": 1,
         "minCount": 1,
         "maxCount": 1
-      }
-    ],
-    "creature": [
-      {
-        "type": "minecraft:pig",
-        "weight": 10,
-        "minCount": 4,
-        "maxCount": 4
       },
       {
-        "type": "minecraft:cow",
-        "weight": 8,
-        "minCount": 4,
-        "maxCount": 4
-      }
-    ],
-    "ambient": [
-      {
-        "type": "minecraft:bat",
-        "weight": 10,
-        "minCount": 8,
-        "maxCount": 24
+        "type": "minecraft:zombie",
+        "weight": 20,
+        "minCount": 5,
+        "maxCount": 9
       }
     ],
     "underground_water_creature": [
@@ -79,55 +138,5 @@
       }
     ]
   },
-  "spawn_costs": {},
-  "carvers": {
-    "air": [
-      "minecraft:cave",
-      "minecraft:cave_extra_underground",
-      "minecraft:canyon"
-    ]
-  },
-  "features": [
-    ["minecraft:lake_lava_underground"],
-    ["minecraft:amethyst_geode"],
-    [
-      "minecraft:fossil_upper",
-      "minecraft:fossil_lower",
-      "minecraft:monster_room",
-      "minecraft:monster_room_deep"
-    ],
-    [
-      "minecraft:ore_granite_lower",
-      "minecraft:ore_diorite_lower",
-      "minecraft:ore_andesite_lower",
-      "minecraft:ore_tuff",
-      "minecraft:ore_coal_upper",
-      "minecraft:ore_coal_lower",
-      "minecraft:ore_iron_upper",
-      "minecraft:ore_iron_middle",
-      "minecraft:ore_iron_small",
-      "minecraft:ore_gold",
-      "minecraft:ore_gold_lower",
-      "minecraft:ore_redstone",
-      "minecraft:ore_redstone_lower",
-      "minecraft:ore_diamond",
-      "minecraft:ore_diamond_large",
-      "minecraft:ore_diamond_buried",
-      "minecraft:ore_lapis",
-      "minecraft:ore_lapis_buried",
-      "minecraft:ore_copper",
-      "minecraft:underwater_magma"
-    ],
-    [
-      "survival_reimagined:swamp/trees/oak_all",
-      "survival_reimagined:swamp/vegetation/patch_grass_swamp",
-      "survival_reimagined:taiga/vegetation/patch_mushrooms",
-      "survival_reimagined:water_biomes/vegetation/patch_vegetation_underwater",
-      "minecraft:glow_lichen",
-      "minecraft:trees_mangrove",
-      "minecraft:patch_waterlily",
-      "minecraft:seagrass_swamp"
-    ],
-    ["minecraft:freeze_top_layer"]
-  ]
+  "temperature": 0.2
 }

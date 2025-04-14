@@ -4,12 +4,8 @@
   "category": "equipment",
   "group": "cool_boots",
   "key": {
-    "#": {
-      "item": "minecraft:packed_ice"
-    },
-    "L": {
-      "item": "minecraft:golden_boots"
-    }
+    "#": "minecraft:packed_ice",
+    "L": "minecraft:golden_boots"
   },
   "result": {
     "id": "minecraft:golden_boots",

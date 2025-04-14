@@ -4,12 +4,8 @@
   "category": "equipment",
   "group": "cool_boots",
   "key": {
-    "#": {
-      "item": "minecraft:packed_ice"
-    },
-    "L": {
-      "item": "minecraft:leather_boots"
-    }
+    "#": "minecraft:packed_ice",
+    "L": "minecraft:leather_boots"
   },
   "result": {
     "id": "minecraft:leather_boots",
@@ -17,10 +13,7 @@
       "minecraft:custom_data": {"isCooling":1},
       "minecraft:custom_name": "[{'text': 'Cooled Boots', 'italic': false}]",
       "minecraft:lore": ["{'text': 'Keeps you cold in hot biomes', 'color':'dark_gray', 'italic': false}"],
-      "minecraft:dyed_color": {
-        "rgb": 16777215,
-        "show_in_tooltip": false
-      }
+      "minecraft:dyed_color": 16777215
     }
   }
 }

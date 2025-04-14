@@ -4,12 +4,8 @@
   "group": "pad_head",
   "pattern": ["#L#"],
   "key": {
-    "#": {
-      "tag": "minecraft:wool"
-    },
-    "L": {
-      "item": "minecraft:golden_helmet"
-    }
+    "#": "#minecraft:wool",
+    "L": "minecraft:golden_helmet"
   },
   "result": {
     "id": "minecraft:golden_helmet",

@@ -1,9 +1,7 @@
 {
   "type": "minecraft:blasting",
   "category": "misc",
-  "ingredient": {
-    "item": "minecraft:barrier"
-  },
+  "ingredient": "minecraft:barrier",
   "result": {
     "id": "minecraft:barrier"
   },

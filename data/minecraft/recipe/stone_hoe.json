@@ -2,20 +2,12 @@
   "type": "minecraft:crafting_shaped",
   "pattern": ["_S", " W"],
   "key": {
-    "_": {
-      "item": "minecraft:stone_slab"
-    },
-    "S": {
-      "item": "minecraft:string"
-    },
-    "W": {
-      "item": "minecraft:wooden_hoe"
-    }
+    "_": "minecraft:stone_slab",
+    "S": "minecraft:string",
+    "W": "minecraft:wooden_hoe"
   },
   "result": {
     "id": "minecraft:stone_hoe",
     "count": 1
-  },
-  "category": "equipment",
-  "group": "upgrade_hoe"
+  }
 }

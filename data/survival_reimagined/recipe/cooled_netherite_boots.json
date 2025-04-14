@@ -4,12 +4,8 @@
   "category": "equipment",
   "group": "cool_boots",
   "key": {
-    "#": {
-      "item": "minecraft:packed_ice"
-    },
-    "L": {
-      "item": "minecraft:netherite_boots"
-    }
+    "#": "minecraft:packed_ice",
+    "L": "minecraft:netherite_boots"
   },
   "result": {
     "id": "minecraft:netherite_boots",

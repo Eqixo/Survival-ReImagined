@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "pattern": ["###", "#I#", "###"],
   "key": {
-    "#": {
-      "item": "minecraft:diamond"
-    },
-    "I": {
-      "item": "minecraft:iron_helmet"
-    }
+    "#": "minecraft:diamond",
+    "I": "minecraft:iron_helmet"
   },
   "result": {
     "id": "minecraft:diamond_helmet",

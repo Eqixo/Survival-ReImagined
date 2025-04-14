@@ -1,0 +1,96 @@
+Badlands / Eroded Badlands / Wooded Badlands
+    Mesa columns
+        - basalt_columns (minecraft:terracotta)
+    Small dry bushes
+        - tree (height: 1, width: 2, minecraft:acacia_leaves)
+    Dead bushes
+        - vegetation_patch (minecraft:deadbush)
+    Scarce dandelion patches
+        - flower (tries:16, minecraft:dandelion)
+    Fossils
+        - fossil
+    Far-West themed wells
+        - Custom structure (or fossils with a build that resembles a well)
+    Shrubs
+        - vegetation_patch (minecraft:short_grass --> same as plains/forest)
+    Small water patches
+        - lake
+Bamboo Jungle / Jungle / Sparse Jungle
+    Boulders
+        - forest_rock
+    Lakes
+        - lake
+    Bushes and small trees
+        - tree (height: 1, width: 2, minecraft:jungle_leaves)
+        - tree (height: 3-5, width: 2-3, minecraft:jungle_leaves -> shaped like oak trees)
+    Custom trees
+        - tree (mega_jungle_trunk_placer)
+    Old extinguished campfires
+        - Custom structure (or fossils with a build that resembles a campfire)
+    Bambo patches (only in bamboo jungle)
+        - Bamboo
+    Root systems
+        - root_system
+Beach / Snowy Beach
+    Pebbles
+        - simple_block (minecraft:stone_button)
+    Dead bushes
+        - vegetation_patch (minecraft:deadbush)
+    Seagrass
+        - seagrass
+Birch Forest / Old Growth Birch Forest / Cherry Grove
+    Flower patches
+        - flower_patch (#minecraft:flowers)
+    Small water patches
+        - lake
+    Small fossils
+        - fossil
+    Glades
+        - dunno
+    Lakes
+        - lake
+    Root systems
+        - root_system
+    Forest rocks
+        - forest_rock
+    Block piles
+        - block_pile (minecraft:birch_log, minecraft:stone)
+Cold Ocean / Deep Cold Ocean
+    -
+Dark Forest
+    Custom trees
+        - tree (minecraft:straight_trunk_placer, small)
+        - tree (minecraft:straight_trunk_placer, middle)
+        - tree (minecraft:dark_oak_trunk_placer, large)
+    Lakes
+        - lake
+    Pebbles
+        - simple_block
+    Forest rocks
+        - forest_rock
+    Small bushes
+        - tree (height: 1, width: 2, minecraft:dark_oak_leaves)
+    Log piles
+        - block_pile (minecraft:dark_oak_log)
+Deep Frozen Ocean / Frozen Ocean
+    - 
+Deep Lukewarm Ocean / Lukewarm Ocean / Warm Ocean
+    - 
+Deep Ocean / Ocean
+    - 
+Desert
+    Dead bushes
+        - vegetation_patch (minecraft:deadbush)
+    Oasis
+        ->
+            -
+        ->
+            -
+        ->
+            -
+        ->
+            -
+    Cacti
+        -
+    Desert-themed wells
+        -

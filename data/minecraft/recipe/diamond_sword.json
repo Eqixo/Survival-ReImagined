@@ -2,15 +2,9 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [" # ", " # ", "SIS"],
   "key": {
-    "#": {
-      "item": "minecraft:diamond"
-    },
-    "S": {
-      "item": "minecraft:string"
-    },
-    "I": {
-      "item": "minecraft:iron_sword"
-    }
+    "#": "minecraft:diamond",
+    "S": "minecraft:string",
+    "I": "minecraft:iron_sword"
   },
   "result": {
     "id": "minecraft:diamond_sword",

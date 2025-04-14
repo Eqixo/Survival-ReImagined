@@ -7,18 +7,10 @@
     "WWW"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:wooden_shovel"
-    },
-    "S": {
-      "item": "minecraft:cherry_stairs"
-    },
-    "P": {
-      "item": "minecraft:cherry_slab"
-    },
-    "W": {
-      "item": "minecraft:string"
-    }
+    "#": "minecraft:wooden_shovel",
+    "S": "minecraft:cherry_stairs",
+    "P": "minecraft:cherry_slab",
+    "W": "minecraft:string"
   },
   "result": {
     "id": "minecraft:cherry_boat",

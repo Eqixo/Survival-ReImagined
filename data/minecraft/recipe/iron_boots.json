@@ -2,15 +2,9 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [" I ", "iLi", " i "],
   "key": {
-    "I": {
-      "item": "minecraft:iron_block"
-    },
-    "i": {
-      "item": "minecraft:iron_ingot"
-    },
-    "L": {
-      "item": "minecraft:leather_boots"
-    }
+    "I": "minecraft:iron_block",
+    "i": "minecraft:iron_ingot",
+    "L": "minecraft:leather_boots"
   },
   "result": {
     "id": "minecraft:iron_boots",

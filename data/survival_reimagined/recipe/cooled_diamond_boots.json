@@ -4,12 +4,8 @@
   "category": "equipment",
   "group": "cool_boots",
   "key": {
-    "#": {
-      "item": "minecraft:packed_ice"
-    },
-    "L": {
-      "item": "minecraft:diamond_boots"
-    }
+    "#": "minecraft:packed_ice",
+    "L": "minecraft:diamond_boots"
   },
   "result": {
     "id": "minecraft:diamond_boots",

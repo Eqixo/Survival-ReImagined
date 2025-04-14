@@ -2,14 +2,14 @@
     "anvil_cost": 9,
     "description": "Growth",
     "effects": {
-        "minecraft:attributes": [
+        "attributes": [
             {
                 "amount": {
                     "base": 1.0,
                     "per_level_above_first": 1,
                     "type": "minecraft:linear"
                 },
-                "attribute": "minecraft:generic.max_health",
+                "attribute": "minecraft:max_health",
                 "id": "survival_reimagined:growth",
                 "operation": "add_value"
             }

@@ -2,15 +2,9 @@
   "type": "minecraft:crafting_shaped",
   "pattern": ["iIi", "iLi"],
   "key": {
-    "i": {
-      "item": "minecraft:iron_ingot"
-    },
-    "I": {
-      "item": "minecraft:iron_block"
-    },
-    "L": {
-      "item": "minecraft:leather_helmet"
-    }
+    "i": "minecraft:iron_ingot",
+    "I": "minecraft:iron_block",
+    "L": "minecraft:leather_helmet"
   },
   "result": {
     "id": "minecraft:iron_helmet",

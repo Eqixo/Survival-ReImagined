@@ -1,38 +1,77 @@
 {
-  "temperature": 0.16,
+  "carvers": [
+    "minecraft:canyon",
+    "minecraft:cave",
+    "minecraft:cave_extra_underground"
+  ],
   "downfall": 0.9,
-  "has_precipitation": true,
   "effects": {
     "fog_color": 12638463,
+    "mood_sound": {
+      "block_search_extent": 8,
+      "offset": 2,
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000
+    },
+    "music": [
+      {
+        "data": {
+          "max_delay": 24000,
+          "min_delay": 12000,
+          "replace_current_music": false,
+          "sound": "minecraft:music.overworld.jagged_peaks"
+        },
+        "weight": 1
+      }
+    ],
+    "music_volume": 1.0,
     "sky_color": 8756735,
     "water_color": 4159204,
-    "water_fog_color": 329011,
-    "mood_sound": {
-      "sound": "minecraft:ambient.cave",
-      "tick_delay": 6000,
-      "block_search_extent": 8,
-      "offset": 2
-    },
-    "music": {
-      "max_delay": 24000,
-      "min_delay": 12000,
-      "replace_current_music": false,
-      "sound": "minecraft:music.overworld.jagged_peaks"
-    }
+    "water_fog_color": 329011
   },
+  "features": [
+    [],
+    ["minecraft:lake_lava_underground"],
+    ["minecraft:amethyst_geode"],
+    ["minecraft:monster_room", "minecraft:monster_room_deep"],
+    [],
+    [],
+    [
+      "minecraft:ore_andesite_lower",
+      "minecraft:ore_coal_lower",
+      "minecraft:ore_coal_upper",
+      "minecraft:ore_copper",
+      "minecraft:ore_diamond",
+      "minecraft:ore_diamond_buried",
+      "minecraft:ore_diamond_large",
+      "minecraft:ore_diorite_lower",
+      "minecraft:ore_emerald",
+      "minecraft:ore_gold",
+      "minecraft:ore_gold_lower",
+      "minecraft:ore_granite_lower",
+      "minecraft:ore_iron_middle",
+      "minecraft:ore_iron_small",
+      "minecraft:ore_iron_upper",
+      "minecraft:ore_lapis",
+      "minecraft:ore_lapis_buried",
+      "minecraft:ore_redstone",
+      "minecraft:ore_redstone_lower",
+      "minecraft:ore_tuff",
+      "minecraft:underwater_magma"
+    ],
+    [],
+    [],
+    ["minecraft:glow_lichen"],
+    ["minecraft:freeze_top_layer"]
+  ],
+  "has_precipitation": true,
   "spawners": {
-    "monster": [
+    "ambient": [
       {
-        "type": "minecraft:zombie",
-        "weight": 20,
-        "minCount": 5,
-        "maxCount": 9
-      },
-      {
-        "type": "minecraft:skeleton",
-        "weight": 20,
-        "minCount": 4,
-        "maxCount": 6
+        "type": "minecraft:bat",
+        "weight": 10,
+        "minCount": 8,
+        "maxCount": 24
       }
     ],
     "creature": [
@@ -43,12 +82,18 @@
         "maxCount": 5
       }
     ],
-    "ambient": [
+    "monster": [
       {
-        "type": "minecraft:bat",
-        "weight": 10,
-        "minCount": 8,
-        "maxCount": 24
+        "type": "minecraft:skeleton",
+        "weight": 20,
+        "minCount": 4,
+        "maxCount": 6
+      },
+      {
+        "type": "minecraft:zombie",
+        "weight": 20,
+        "minCount": 5,
+        "maxCount": 9
       }
     ],
     "underground_water_creature": [
@@ -61,41 +106,5 @@
     ]
   },
   "spawn_costs": {},
-  "carvers": {
-    "air": [
-      "minecraft:cave",
-      "minecraft:cave_extra_underground",
-      "minecraft:canyon"
-    ]
-  },
-  "features": [
-    ["minecraft:lake_lava_underground"],
-    ["minecraft:amethyst_geode"],
-    ["minecraft:monster_room", "minecraft:monster_room_deep"],
-    [
-      "minecraft:ore_granite_lower",
-      "minecraft:ore_diorite_lower",
-      "minecraft:ore_andesite_lower",
-      "minecraft:ore_tuff",
-      "minecraft:ore_coal_upper",
-      "minecraft:ore_coal_lower",
-      "minecraft:ore_iron_upper",
-      "minecraft:ore_iron_middle",
-      "minecraft:ore_iron_small",
-      "minecraft:ore_gold",
-      "minecraft:ore_gold_lower",
-      "minecraft:ore_redstone",
-      "minecraft:ore_redstone_lower",
-      "minecraft:ore_diamond",
-      "minecraft:ore_diamond_large",
-      "minecraft:ore_diamond_buried",
-      "minecraft:ore_lapis",
-      "minecraft:ore_lapis_buried",
-      "minecraft:ore_copper",
-      "minecraft:underwater_magma",
-      "minecraft:ore_emerald"
-    ],
-    ["minecraft:glow_lichen"],
-    ["minecraft:freeze_top_layer"]
-  ]
+  "temperature": 0.16
 }

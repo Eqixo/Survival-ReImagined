@@ -1,18 +1,7 @@
 {
   "type": "minecraft:smithing_trim",
-  "template": {
-    "item": "minecraft:silence_armor_trim_smithing_template"
-  },
-  "addition": {
-    "item": "minecraft:netherite_ingot"
-  },
-  "base": {
-    "item": "minecraft:golden_helmet"
-  },
-  "result": {
-    "id": "minecraft:golden_helmet",
-    "nbt": "{Trim:{material:\"netherite_ingot\", pattern:\"silence\"}}",
-    "count": 1
-  },
-  "group": "upgrade_helmet"
+  "template": "minecraft:silence_armor_trim_smithing_template",
+  "addition": "minecraft:netherite_ingot",
+  "base": "minecraft:golden_helmet",
+  "pattern": "minecraft:silence"
 }

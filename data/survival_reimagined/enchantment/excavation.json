@@ -4,9 +4,9 @@
     "translate": "Excavation"
   },
   "effects": {
-    "minecraft:attributes": [
+    "attributes": [
       {
-        "attribute": "minecraft:player.mining_efficiency",
+        "attribute": "minecraft:mining_efficiency",
         "amount": {
           "type": "minecraft:levels_squared",
           "added": 1.0

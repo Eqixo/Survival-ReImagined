@@ -4,12 +4,8 @@
   "group": "pad_legs",
   "pattern": ["#L#"],
   "key": {
-    "#": {
-      "tag": "minecraft:wool"
-    },
-    "L": {
-      "item": "minecraft:netherite_leggings"
-    }
+    "#": "#minecraft:wool",
+    "L": "minecraft:netherite_leggings"
   },
   "result": {
     "id": "minecraft:netherite_leggings",

@@ -1,17 +1,10 @@
 {
   "type": "minecraft:smithing_transform",
-  "template": {
-    "item": "minecraft:netherite_upgrade_smithing_template"
-  },
-  "addition": {
-    "item": "minecraft:netherite_ingot"
-  },
-  "base": {
-    "item": "minecraft:diamond_sword"
-  },
+  "template": "minecraft:netherite_upgrade_smithing_template",
+  "addition": "minecraft:netherite_ingot",
+  "base": "minecraft:diamond_sword",
   "result": {
     "id": "minecraft:netherite_sword",
     "count": 1
-  },
-  "group": "upgrade_sword"
+  }
 }

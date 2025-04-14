@@ -2,15 +2,9 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [" # ", " # ", "SIS"],
   "key": {
-    "#": {
-      "item": "minecraft:gold_ingot"
-    },
-    "S": {
-      "item": "minecraft:string"
-    },
-    "I": {
-      "item": "minecraft:iron_sword"
-    }
+    "#": "minecraft:gold_ingot",
+    "S": "minecraft:string",
+    "I": "minecraft:iron_sword"
   },
   "result": {
     "id": "minecraft:golden_sword",

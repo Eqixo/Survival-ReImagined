@@ -3,51 +3,23 @@
   "pattern": ["_S", " /", " /"],
   "key": {
     "_": [
-      {
-        "item": "minecraft:oak_slab"
-      },
-      {
-        "item": "minecraft:spruce_slab"
-      },
-      {
-        "item": "minecraft:dark_oak_slab"
-      },
-      {
-        "item": "minecraft:birch_slab"
-      },
-      {
-        "item": "minecraft:mangrove_slab"
-      },
-      {
-        "item": "minecraft:cherry_slab"
-      },
-      {
-        "item": "minecraft:jungle_slab"
-      },
-      {
-        "item": "minecraft:acacia_slab"
-      },
-      {
-        "item": "minecraft:bamboo_slab"
-      },
-      {
-        "item": "minecraft:warped_slab"
-      },
-      {
-        "item": "minecraft:crimson_slab"
-      }
+      "minecraft:oak_slab",
+      "minecraft:spruce_slab",
+      "minecraft:dark_oak_slab",
+      "minecraft:birch_slab",
+      "minecraft:mangrove_slab",
+      "minecraft:cherry_slab",
+      "minecraft:jungle_slab",
+      "minecraft:acacia_slab",
+      "minecraft:bamboo_slab",
+      "minecraft:warped_slab",
+      "minecraft:crimson_slab"
     ],
-    "S": {
-      "item": "minecraft:string"
-    },
-    "/": {
-      "item": "minecraft:stick"
-    }
+    "S": "minecraft:string",
+    "/": "minecraft:stick"
   },
   "result": {
     "id": "minecraft:wooden_hoe",
     "count": 1
-  },
-  "category": "equipment",
-  "group": "upgrade_hoe"
+  }
 }

@@ -2,15 +2,9 @@
   "type": "minecraft:crafting_shaped",
   "pattern": ["_S", " W"],
   "key": {
-    "_": {
-      "item": "minecraft:iron_ingot"
-    },
-    "S": {
-      "item": "minecraft:string"
-    },
-    "W": {
-      "item": "minecraft:stone_hoe"
-    }
+    "_": "minecraft:iron_ingot",
+    "S": "minecraft:string",
+    "W": "minecraft:stone_hoe"
   },
   "result": {
     "id": "minecraft:iron_hoe",

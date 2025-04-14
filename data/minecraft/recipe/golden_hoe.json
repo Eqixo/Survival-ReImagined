@@ -2,18 +2,10 @@
   "type": "minecraft:crafting_shaped",
   "pattern": ["#S", " /", " I"],
   "key": {
-    "#": {
-      "item": "minecraft:gold_ingot"
-    },
-    "S": {
-      "item": "minecraft:string"
-    },
-    "/": {
-      "item": "minecraft:stick"
-    },
-    "I": {
-      "item": "minecraft:iron_hoe"
-    }
+    "#": "minecraft:gold_ingot",
+    "S": "minecraft:string",
+    "/": "minecraft:stick",
+    "I": "minecraft:iron_hoe"
   },
   "result": {
     "id": "minecraft:golden_hoe",

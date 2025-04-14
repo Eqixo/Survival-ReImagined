@@ -7,18 +7,10 @@
     "WWW"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:wooden_shovel"
-    },
-    "S": {
-      "item": "minecraft:mangrove_stairs"
-    },
-    "P": {
-      "item": "minecraft:mangrove_slab"
-    },
-    "W": {
-      "item": "minecraft:string"
-    }
+    "#": "minecraft:wooden_shovel",
+    "S": "minecraft:mangrove_stairs",
+    "P": "minecraft:mangrove_slab",
+    "W": "minecraft:string"
   },
   "result": {
     "id": "minecraft:mangrove_boat",

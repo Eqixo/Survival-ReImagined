@@ -4,12 +4,8 @@
   "category": "equipment",
   "group": "cool_legs",
   "key": {
-    "#": {
-      "item": "minecraft:packed_ice"
-    },
-    "L": {
-      "item": "minecraft:diamond_leggings"
-    }
+    "#": "minecraft:packed_ice",
+    "L": "minecraft:diamond_leggings"
   },
   "result": {
     "id": "minecraft:diamond_leggings",

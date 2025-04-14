@@ -7,18 +7,10 @@
     "WWW"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:wooden_shovel"
-    },
-    "S": {
-      "item": "minecraft:dark_oak_stairs"
-    },
-    "P": {
-      "item": "minecraft:dark_oak_slab"
-    },
-    "W": {
-      "item": "minecraft:string"
-    }
+    "#": "minecraft:wooden_shovel",
+    "S": "minecraft:dark_oak_stairs",
+    "P": "minecraft:dark_oak_slab",
+    "W": "minecraft:string"
   },
   "result": {
     "id": "minecraft:dark_oak_boat",

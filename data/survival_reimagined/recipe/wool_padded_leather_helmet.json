@@ -4,12 +4,8 @@
   "group": "pad_head",
   "pattern": ["#L#"],
   "key": {
-    "#": {
-      "tag": "minecraft:wool"
-    },
-    "L": {
-      "item": "minecraft:leather_helmet"
-    }
+    "#": "#minecraft:wool",
+    "L": "minecraft:leather_helmet"
   },
   "result": {
     "id": "minecraft:leather_helmet",
@@ -17,10 +13,7 @@
       "minecraft:custom_data": {"isHeating":1},
       "minecraft:custom_name": "[{'text': 'Wool Padded Helmet', 'italic': false}]",
       "minecraft:lore": ["{'text': 'Keeps you warm in cold biomes', 'color':'dark_gray', 'italic': false}"],
-      "minecraft:dyed_color": {
-        "rgb": 16777215,
-        "show_in_tooltip": false
-      }
+      "minecraft:dyed_color": 16777215
     }
   }
 }

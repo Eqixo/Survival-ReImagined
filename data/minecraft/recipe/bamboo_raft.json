@@ -7,15 +7,9 @@
     "WWW"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:wooden_shovel"
-    },
-    "P": {
-      "item": "minecraft:bamboo_slab"
-    },
-    "W": {
-      "item": "minecraft:string"
-    }
+    "#": "minecraft:wooden_shovel",
+    "P": "minecraft:bamboo_slab",
+    "W": "minecraft:string"
   },
   "result": {
     "id": "minecraft:bamboo_raft",

@@ -3,10 +3,8 @@
   "category": "redstone",
   "group": "wooden_trapdoor",
   "key": {
-    "#": {
-      "item": "minecraft:mangrove_planks"
-    }
-  },
+    "#": "minecraft:mangrove_planks"
+    },
   "pattern": [
     "###",
     "###"

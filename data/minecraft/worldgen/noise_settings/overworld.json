@@ -4,22 +4,52 @@
   "legacy_random_source": false,
   "spawn_target": [
     {
-      "erosion": [-1.0, 1.0],
-      "depth": 0.0,
-      "weirdness": [-1.0, -0.16],
-      "offset": 0.0,
-      "temperature": [-1.0, 1.0],
-      "humidity": [-1.0, 1.0],
-      "continentalness": [-0.11, 1.0]
+      "erosion": [
+        -1,
+        1
+      ],
+      "depth": 0,
+      "weirdness": [
+        -1,
+        -0.16
+      ],
+      "offset": 0,
+      "temperature": [
+        -1,
+        1
+      ],
+      "humidity": [
+        -1,
+        1
+      ],
+      "continentalness": [
+        -0.11,
+        1
+      ]
     },
     {
-      "erosion": [-1.0, 1.0],
-      "depth": 0.0,
-      "weirdness": [0.16, 1.0],
-      "offset": 0.0,
-      "temperature": [-1.0, 1.0],
-      "humidity": [-1.0, 1.0],
-      "continentalness": [-0.11, 1.0]
+      "erosion": [
+        -1,
+        1
+      ],
+      "depth": 0,
+      "weirdness": [
+        0.16,
+        1
+      ],
+      "offset": 0,
+      "temperature": [
+        -1,
+        1
+      ],
+      "humidity": [
+        -1,
+        1
+      ],
+      "continentalness": [
+        -0.11,
+        1
+      ]
     }
   ],
   "sea_level": 63,
@@ -38,35 +68,35 @@
           "argument2": {
             "argument": {
               "argument": {
-                "argument1": 0.1171875,
+                "argument1": 0.2,
                 "argument2": {
                   "argument1": {
                     "from_y": -64,
                     "to_y": -40,
-                    "from_value": 0.0,
-                    "to_value": 1.0,
+                    "from_value": 0,
+                    "to_value": 1,
                     "type": "minecraft:y_clamped_gradient"
                   },
                   "argument2": {
-                    "argument1": -0.1171875,
+                    "argument1": -0.2,
                     "argument2": {
-                      "argument1": -0.078125,
+                      "argument1": 0,
                       "argument2": {
                         "argument1": {
                           "from_y": 240,
                           "to_y": 256,
-                          "from_value": 1.0,
-                          "to_value": 0.0,
+                          "from_value": 1,
+                          "to_value": 0,
                           "type": "minecraft:y_clamped_gradient"
                         },
                         "argument2": {
-                          "argument1": 0.078125,
+                          "argument1": 0.1,
                           "argument2": {
                             "max_exclusive": 1.5625,
                             "when_in_range": {
                               "argument1": "minecraft:overworld/sloped_cheese",
                               "argument2": {
-                                "argument1": 5.0,
+                                "argument1": 5,
                                 "argument2": "minecraft:overworld/caves/entrances",
                                 "type": "minecraft:mul"
                               },
@@ -77,12 +107,12 @@
                                 "argument1": {
                                   "argument1": {
                                     "argument1": {
-                                      "argument1": 4.0,
+                                      "argument1": 4,
                                       "argument2": {
                                         "argument": {
                                           "noise": "minecraft:cave_layer",
-                                          "xz_scale": 1.0,
-                                          "y_scale": 8.0,
+                                          "xz_scale": 1,
+                                          "y_scale": 8,
                                           "type": "minecraft:noise"
                                         },
                                         "type": "minecraft:square"
@@ -95,14 +125,14 @@
                                           "argument1": 0.27,
                                           "argument2": {
                                             "noise": "minecraft:cave_cheese",
-                                            "xz_scale": 1.0,
+                                            "xz_scale": 1,
                                             "y_scale": 0.6666666666666666,
                                             "type": "minecraft:noise"
                                           },
                                           "type": "minecraft:add"
                                         },
-                                        "min": -1.0,
-                                        "max": 1.0,
+                                        "min": -1,
+                                        "max": 1,
                                         "type": "minecraft:clamp"
                                       },
                                       "argument2": {
@@ -115,7 +145,7 @@
                                           },
                                           "type": "minecraft:add"
                                         },
-                                        "min": 0.0,
+                                        "min": 0,
                                         "max": 0.5,
                                         "type": "minecraft:clamp"
                                       },
@@ -135,16 +165,16 @@
                               },
                               "argument2": {
                                 "max_exclusive": 0.03,
-                                "when_in_range": -1000000.0,
+                                "when_in_range": -1000000,
                                 "when_out_of_range": "minecraft:overworld/caves/pillars",
                                 "input": "minecraft:overworld/caves/pillars",
-                                "min_inclusive": -1000000.0,
+                                "min_inclusive": -1000000,
                                 "type": "minecraft:range_choice"
                               },
                               "type": "minecraft:max"
                             },
                             "input": "minecraft:overworld/sloped_cheese",
-                            "min_inclusive": -1000000.0,
+                            "min_inclusive": -1000000,
                             "type": "minecraft:range_choice"
                           },
                           "type": "minecraft:add"
@@ -172,16 +202,16 @@
     },
     "vein_toggle": {
       "argument": {
-        "max_exclusive": 51.0,
+        "max_exclusive": 51,
         "when_in_range": {
           "noise": "minecraft:ore_veininess",
           "xz_scale": 1.5,
           "y_scale": 1.5,
           "type": "minecraft:noise"
         },
-        "when_out_of_range": 0.0,
+        "when_out_of_range": 0,
         "input": "minecraft:y",
-        "min_inclusive": -60.0,
+        "min_inclusive": -60,
         "type": "minecraft:range_choice"
       },
       "type": "minecraft:interpolated"
@@ -192,16 +222,16 @@
         "argument1": {
           "argument": {
             "argument": {
-              "max_exclusive": 51.0,
+              "max_exclusive": 51,
               "when_in_range": {
                 "noise": "minecraft:ore_vein_a",
-                "xz_scale": 4.0,
-                "y_scale": 4.0,
+                "xz_scale": 4,
+                "y_scale": 4,
                 "type": "minecraft:noise"
               },
-              "when_out_of_range": 0.0,
+              "when_out_of_range": 0,
               "input": "minecraft:y",
-              "min_inclusive": -60.0,
+              "min_inclusive": -60,
               "type": "minecraft:range_choice"
             },
             "type": "minecraft:interpolated"
@@ -211,16 +241,16 @@
         "argument2": {
           "argument": {
             "argument": {
-              "max_exclusive": 51.0,
+              "max_exclusive": 51,
               "when_in_range": {
                 "noise": "minecraft:ore_vein_b",
-                "xz_scale": 4.0,
-                "y_scale": 4.0,
+                "xz_scale": 4,
+                "y_scale": 4,
                 "type": "minecraft:noise"
               },
-              "when_out_of_range": 0.0,
+              "when_out_of_range": 0,
               "input": "minecraft:y",
-              "min_inclusive": -60.0,
+              "min_inclusive": -60,
               "type": "minecraft:range_choice"
             },
             "type": "minecraft:interpolated"
@@ -233,12 +263,12 @@
     },
     "vein_gap": {
       "noise": "minecraft:ore_gap",
-      "xz_scale": 1.0,
-      "y_scale": 1.0,
+      "xz_scale": 1,
+      "y_scale": 1,
       "type": "minecraft:noise"
     },
-    "erosion": "minecraft:overworld/erosion",
-    "depth": "minecraft:overworld/depth",
+    "erosion": "survival_reimagined:overworld/erosion",
+    "depth": "survival_reimagined:overworld/depth",
     "ridges": "minecraft:overworld/ridges",
     "initial_density_without_jaggedness": {
       "argument1": 0.1171875,
@@ -246,8 +276,8 @@
         "argument1": {
           "from_y": -64,
           "to_y": -40,
-          "from_value": 0.0,
-          "to_value": 1.0,
+          "from_value": 0,
+          "to_value": 1,
           "type": "minecraft:y_clamped_gradient"
         },
         "argument2": {
@@ -258,8 +288,8 @@
               "argument1": {
                 "from_y": 240,
                 "to_y": 256,
-                "from_value": 1.0,
-                "to_value": 0.0,
+                "from_value": 1,
+                "to_value": 0,
                 "type": "minecraft:y_clamped_gradient"
               },
               "argument2": {
@@ -268,7 +298,7 @@
                   "input": {
                     "argument1": -0.703125,
                     "argument2": {
-                      "argument1": 4.0,
+                      "argument1": 4,
                       "argument2": {
                         "argument": {
                           "argument1": "minecraft:overworld/depth",
@@ -284,8 +314,8 @@
                     },
                     "type": "minecraft:add"
                   },
-                  "min": -64.0,
-                  "max": 64.0,
+                  "min": -64,
+                  "max": 64,
                   "type": "minecraft:clamp"
                 },
                 "type": "minecraft:add"
@@ -302,44 +332,44 @@
     },
     "lava": {
       "noise": "minecraft:aquifer_lava",
-      "xz_scale": 1.0,
-      "y_scale": 1.0,
+      "xz_scale": 1,
+      "y_scale": 1,
       "type": "minecraft:noise"
     },
     "temperature": {
       "xz_scale": 0.25,
-      "y_scale": 0.0,
+      "y_scale": 0,
       "noise": "minecraft:temperature",
       "shift_x": "minecraft:shift_x",
-      "shift_y": 0.0,
+      "shift_y": 0,
       "shift_z": "minecraft:shift_z",
       "type": "minecraft:shifted_noise"
     },
     "vegetation": {
       "xz_scale": 0.25,
-      "y_scale": 0.0,
+      "y_scale": 0,
       "noise": "minecraft:vegetation",
       "shift_x": "minecraft:shift_x",
-      "shift_y": 0.0,
+      "shift_y": 0,
       "shift_z": "minecraft:shift_z",
       "type": "minecraft:shifted_noise"
     },
-    "continents": "minecraft:overworld/continents",
+    "continents": "survival_reimagined:overworld/continents",
     "barrier": {
       "noise": "minecraft:aquifer_barrier",
-      "xz_scale": 1.0,
+      "xz_scale": 1,
       "y_scale": 0.5,
       "type": "minecraft:noise"
     },
     "fluid_level_floodedness": {
       "noise": "minecraft:aquifer_fluid_level_floodedness",
-      "xz_scale": 1.0,
+      "xz_scale": 1,
       "y_scale": 0.67,
       "type": "minecraft:noise"
     },
     "fluid_level_spread": {
       "noise": "minecraft:aquifer_fluid_level_spread",
-      "xz_scale": 1.0,
+      "xz_scale": 1,
       "y_scale": 0.7142857142857143,
       "type": "minecraft:noise"
     }
@@ -402,7 +432,9 @@
                 "sequence": [
                   {
                     "if_true": {
-                      "biome_is": ["minecraft:wooded_badlands"],
+                      "biome_is": [
+                        "minecraft:wooded_badlands"
+                      ],
                       "type": "minecraft:biome"
                     },
                     "then_run": {
@@ -499,7 +531,9 @@
                   },
                   {
                     "if_true": {
-                      "biome_is": ["minecraft:swamp"],
+                      "biome_is": [
+                        "minecraft:swamp"
+                      ],
                       "type": "minecraft:biome"
                     },
                     "then_run": {
@@ -526,8 +560,8 @@
                         "then_run": {
                           "if_true": {
                             "noise": "minecraft:surface_swamp",
-                            "min_threshold": 0.0,
-                            "max_threshold": 1.7976931348623157e308,
+                            "min_threshold": 0,
+                            "max_threshold": 1.7976931348623157e+308,
                             "type": "minecraft:noise_threshold"
                           },
                           "then_run": {
@@ -853,7 +887,9 @@
                       "sequence": [
                         {
                           "if_true": {
-                            "biome_is": ["minecraft:frozen_peaks"],
+                            "biome_is": [
+                              "minecraft:frozen_peaks"
+                            ],
                             "type": "minecraft:biome"
                           },
                           "then_run": {
@@ -873,7 +909,7 @@
                               {
                                 "if_true": {
                                   "noise": "minecraft:packed_ice",
-                                  "min_threshold": 0.0,
+                                  "min_threshold": 0,
                                   "max_threshold": 0.2,
                                   "type": "minecraft:noise_threshold"
                                 },
@@ -888,7 +924,7 @@
                               {
                                 "if_true": {
                                   "noise": "minecraft:ice",
-                                  "min_threshold": 0.0,
+                                  "min_threshold": 0,
                                   "max_threshold": 0.025,
                                   "type": "minecraft:noise_threshold"
                                 },
@@ -922,7 +958,9 @@
                         },
                         {
                           "if_true": {
-                            "biome_is": ["minecraft:snowy_slopes"],
+                            "biome_is": [
+                              "minecraft:snowy_slopes"
+                            ],
                             "type": "minecraft:biome"
                           },
                           "then_run": {
@@ -985,7 +1023,9 @@
                         },
                         {
                           "if_true": {
-                            "biome_is": ["minecraft:jagged_peaks"],
+                            "biome_is": [
+                              "minecraft:jagged_peaks"
+                            ],
                             "type": "minecraft:biome"
                           },
                           "then_run": {
@@ -1272,7 +1312,9 @@
                           "sequence": [
                             {
                               "if_true": {
-                                "biome_is": ["minecraft:stony_peaks"],
+                                "biome_is": [
+                                  "minecraft:stony_peaks"
+                                ],
                                 "type": "minecraft:biome"
                               },
                               "then_run": {
@@ -1342,7 +1384,9 @@
                             },
                             {
                               "if_true": {
-                                "biome_is": ["minecraft:stony_shore"],
+                                "biome_is": [
+                                  "minecraft:stony_shore"
+                                ],
                                 "type": "minecraft:biome"
                               },
                               "then_run": {
@@ -1360,8 +1404,8 @@
                                         {
                                           "if_true": {
                                             "noise": "minecraft:surface",
-                                            "min_threshold": -1.7976931348623157e308,
-                                            "max_threshold": 1.7976931348623157e308,
+                                            "min_threshold": -1.7976931348623157e+308,
+                                            "max_threshold": 1.7976931348623157e+308,
                                             "type": "minecraft:noise_threshold"
                                           },
                                           "then_run": {
@@ -1439,8 +1483,8 @@
                                         {
                                           "if_true": {
                                             "noise": "minecraft:surface",
-                                            "min_threshold": -1.7976931348623157e308,
-                                            "max_threshold": 1.7976931348623157e308,
+                                            "min_threshold": -1.7976931348623157e+308,
+                                            "max_threshold": 1.7976931348623157e+308,
                                             "type": "minecraft:noise_threshold"
                                           },
                                           "then_run": {
@@ -1481,7 +1525,9 @@
                             },
                             {
                               "if_true": {
-                                "biome_is": ["minecraft:desert"],
+                                "biome_is": [
+                                  "minecraft:desert"
+                                ],
                                 "type": "minecraft:biome"
                               },
                               "then_run": {
@@ -1515,7 +1561,9 @@
                             },
                             {
                               "if_true": {
-                                "biome_is": ["minecraft:dripstone_caves"],
+                                "biome_is": [
+                                  "minecraft:dripstone_caves"
+                                ],
                                 "type": "minecraft:biome"
                               },
                               "then_run": {
@@ -1531,7 +1579,9 @@
                         },
                         {
                           "if_true": {
-                            "biome_is": ["minecraft:windswept_savanna"],
+                            "biome_is": [
+                              "minecraft:windswept_savanna"
+                            ],
                             "type": "minecraft:biome"
                           },
                           "then_run": {
@@ -1540,7 +1590,7 @@
                                 "if_true": {
                                   "noise": "minecraft:surface",
                                   "min_threshold": 0.21212121212121213,
-                                  "max_threshold": 1.7976931348623157e308,
+                                  "max_threshold": 1.7976931348623157e+308,
                                   "type": "minecraft:noise_threshold"
                                 },
                                 "then_run": {
@@ -1555,7 +1605,7 @@
                                 "if_true": {
                                   "noise": "minecraft:surface",
                                   "min_threshold": -0.06060606060606061,
-                                  "max_threshold": 1.7976931348623157e308,
+                                  "max_threshold": 1.7976931348623157e+308,
                                   "type": "minecraft:noise_threshold"
                                 },
                                 "then_run": {
@@ -1587,8 +1637,8 @@
                               {
                                 "if_true": {
                                   "noise": "minecraft:surface",
-                                  "min_threshold": -1.7976931348623157e308,
-                                  "max_threshold": 1.7976931348623157e308,
+                                  "min_threshold": -1.7976931348623157e+308,
+                                  "max_threshold": 1.7976931348623157e+308,
                                   "type": "minecraft:noise_threshold"
                                 },
                                 "then_run": {
@@ -1624,7 +1674,9 @@
                         },
                         {
                           "if_true": {
-                            "biome_is": ["minecraft:windswept_gravelly_hills"],
+                            "biome_is": [
+                              "minecraft:windswept_gravelly_hills"
+                            ],
                             "type": "minecraft:biome"
                           },
                           "then_run": {
@@ -1632,8 +1684,8 @@
                               {
                                 "if_true": {
                                   "noise": "minecraft:surface",
-                                  "min_threshold": -1.7976931348623157e308,
-                                  "max_threshold": 1.7976931348623157e308,
+                                  "min_threshold": -1.7976931348623157e+308,
+                                  "max_threshold": 1.7976931348623157e+308,
                                   "type": "minecraft:noise_threshold"
                                 },
                                 "then_run": {
@@ -1669,7 +1721,9 @@
                         },
                         {
                           "if_true": {
-                            "biome_is": ["minecraft:windswept_hills"],
+                            "biome_is": [
+                              "minecraft:windswept_hills"
+                            ],
                             "type": "minecraft:biome"
                           },
                           "then_run": {
@@ -1677,8 +1731,8 @@
                               {
                                 "if_true": {
                                   "noise": "minecraft:surface",
-                                  "min_threshold": -1.7976931348623157e308,
-                                  "max_threshold": 1.7976931348623157e308,
+                                  "min_threshold": -1.7976931348623157e+308,
+                                  "max_threshold": 1.7976931348623157e+308,
                                   "type": "minecraft:noise_threshold"
                                 },
                                 "then_run": {
@@ -1714,7 +1768,9 @@
                         },
                         {
                           "if_true": {
-                            "biome_is": ["minecraft:swamp"],
+                            "biome_is": [
+                              "minecraft:swamp"
+                            ],
                             "type": "minecraft:biome"
                           },
                           "then_run": {
@@ -1722,8 +1778,8 @@
                               {
                                 "if_true": {
                                   "noise": "minecraft:surface",
-                                  "min_threshold": -1.7976931348623157e308,
-                                  "max_threshold": 1.7976931348623157e308,
+                                  "min_threshold": -1.7976931348623157e+308,
+                                  "max_threshold": 1.7976931348623157e+308,
                                   "type": "minecraft:noise_threshold"
                                 },
                                 "then_run": {
@@ -1771,8 +1827,8 @@
                               {
                                 "if_true": {
                                   "noise": "minecraft:surface",
-                                  "min_threshold": -1.7976931348623157e308,
-                                  "max_threshold": 1.7976931348623157e308,
+                                  "min_threshold": -1.7976931348623157e+308,
+                                  "max_threshold": 1.7976931348623157e+308,
                                   "type": "minecraft:noise_threshold"
                                 },
                                 "then_run": {
@@ -1880,7 +1936,9 @@
                         },
                         {
                           "if_true": {
-                            "biome_is": ["minecraft:ice_spikes"],
+                            "biome_is": [
+                              "minecraft:ice_spikes"
+                            ],
                             "type": "minecraft:biome"
                           },
                           "then_run": {
@@ -1902,7 +1960,9 @@
                         },
                         {
                           "if_true": {
-                            "biome_is": ["minecraft:mushroom_fields"],
+                            "biome_is": [
+                              "minecraft:mushroom_fields"
+                            ],
                             "type": "minecraft:biome"
                           },
                           "then_run": {
@@ -1967,7 +2027,9 @@
                               {
                                 "if_true": {
                                   "type": "minecraft:biome",
-                                  "biome_is": ["minecraft:mushroom_fields"]
+                                  "biome_is": [
+                                    "minecraft:mushroom_fields"
+                                  ]
                                 },
                                 "then_run": {
                                   "type": "minecraft:block",
@@ -2042,7 +2104,9 @@
                       "sequence": [
                         {
                           "if_true": {
-                            "biome_is": ["minecraft:frozen_peaks"],
+                            "biome_is": [
+                              "minecraft:frozen_peaks"
+                            ],
                             "type": "minecraft:biome"
                           },
                           "then_run": {
@@ -2111,7 +2175,9 @@
                         },
                         {
                           "if_true": {
-                            "biome_is": ["minecraft:snowy_slopes"],
+                            "biome_is": [
+                              "minecraft:snowy_slopes"
+                            ],
                             "type": "minecraft:biome"
                           },
                           "then_run": {
@@ -2174,7 +2240,9 @@
                         },
                         {
                           "if_true": {
-                            "biome_is": ["minecraft:jagged_peaks"],
+                            "biome_is": [
+                              "minecraft:jagged_peaks"
+                            ],
                             "type": "minecraft:biome"
                           },
                           "then_run": {
@@ -2187,7 +2255,9 @@
                         },
                         {
                           "if_true": {
-                            "biome_is": ["minecraft:grove"],
+                            "biome_is": [
+                              "minecraft:grove"
+                            ],
                             "type": "minecraft:biome"
                           },
                           "then_run": {
@@ -2231,7 +2301,9 @@
                           "sequence": [
                             {
                               "if_true": {
-                                "biome_is": ["minecraft:stony_peaks"],
+                                "biome_is": [
+                                  "minecraft:stony_peaks"
+                                ],
                                 "type": "minecraft:biome"
                               },
                               "then_run": {
@@ -2301,7 +2373,9 @@
                             },
                             {
                               "if_true": {
-                                "biome_is": ["minecraft:desert"],
+                                "biome_is": [
+                                  "minecraft:desert"
+                                ],
                                 "type": "minecraft:biome"
                               },
                               "then_run": {
@@ -2335,7 +2409,9 @@
                             },
                             {
                               "if_true": {
-                                "biome_is": ["minecraft:dripstone_caves"],
+                                "biome_is": [
+                                  "minecraft:dripstone_caves"
+                                ],
                                 "type": "minecraft:biome"
                               },
                               "then_run": {
@@ -2351,14 +2427,16 @@
                         },
                         {
                           "if_true": {
-                            "biome_is": ["minecraft:windswept_savanna"],
+                            "biome_is": [
+                              "minecraft:windswept_savanna"
+                            ],
                             "type": "minecraft:biome"
                           },
                           "then_run": {
                             "if_true": {
                               "noise": "minecraft:surface",
                               "min_threshold": 0.21212121212121213,
-                              "max_threshold": 1.7976931348623157e308,
+                              "max_threshold": 1.7976931348623157e+308,
                               "type": "minecraft:noise_threshold"
                             },
                             "then_run": {
@@ -2469,7 +2547,10 @@
                   },
                   {
                     "if_true": {
-                      "biome_is": ["minecraft:beach", "minecraft:snowy_beach"],
+                      "biome_is": [
+                        "minecraft:beach",
+                        "minecraft:snowy_beach"
+                      ],
                       "type": "minecraft:biome"
                     },
                     "then_run": {
@@ -2492,7 +2573,9 @@
                   },
                   {
                     "if_true": {
-                      "biome_is": ["minecraft:desert"],
+                      "biome_is": [
+                        "minecraft:desert"
+                      ],
                       "type": "minecraft:biome"
                     },
                     "then_run": {

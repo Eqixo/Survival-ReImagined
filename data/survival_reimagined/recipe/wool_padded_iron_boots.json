@@ -4,12 +4,8 @@
   "group": "pad_boots",
   "pattern": ["#L#"],
   "key": {
-    "#": {
-      "tag": "minecraft:wool"
-    },
-    "L": {
-      "item": "minecraft:iron_boots"
-    }
+    "#": "#minecraft:wool",
+    "L": "minecraft:iron_boots"
   },
   "result": {
     "id": "minecraft:iron_boots",

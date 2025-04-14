@@ -4,12 +4,8 @@
   "category": "equipment",
   "group": "cool_head",
   "key": {
-    "#": {
-      "item": "minecraft:packed_ice"
-    },
-    "L": {
-      "item": "minecraft:netherite_helmet"
-    }
+    "#": "minecraft:packed_ice",
+    "L": "minecraft:netherite_helmet"
   },
   "result": {
     "id": "minecraft:netherite_helmet",

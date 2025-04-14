@@ -2,18 +2,10 @@
   "type": "minecraft:crafting_shaped",
   "pattern": ["_S_", "EWE"],
   "key": {
-    "_": {
-      "item": "minecraft:iron_ingot"
-    },
-    "S": {
-      "item": "minecraft:iron_block"
-    },
-    "E": {
-      "item": "minecraft:string"
-    },
-    "W": {
-      "item": "minecraft:stone_pickaxe"
-    }
+    "_": "minecraft:iron_ingot",
+    "S": "minecraft:iron_block",
+    "E": "minecraft:string",
+    "W": "minecraft:stone_pickaxe"
   },
   "result": {
     "id": "minecraft:iron_pickaxe",

@@ -1,0 +1,118 @@
+# Rarity order
+# Scarce < Sparse < Some < More < Many
+
+Badlands / Eroded Badlands / Wooded Badlands
+    - Mesa columns (Same as basalt columns but mesa themed)
+    - Small 'dry' bushes
+    - Dead bushes
+    - Scarce dandelion patches
+    - Fossils
+    - Far-West themed wells (only on / not in wooded badlands)
+    - Shrubs (wooded badlands only)
+    - Small water patches
+Bamboo Jungle / Jungle / Sparse Jungle
+    - Boulders
+    - Lakes
+    - Bushes and small trees
+    - Custom trees
+    - Old extinguished campfires
+    - Bamboo patches (only in bamboo jungle)
+    - Root systems
+Beach / Snowy Beach
+    - Pebbles (like stone buttons)
+    - Dead bushes
+    - Sea grass / Kelp (in water)
+Birch Forest / Old Growth Birch Forest
+    - Flower patches (dandelions, poppies, daisies)
+    - Small water patches
+    - Small fossils
+    - Glades
+    - Lakes
+    - Root systems
+    - Forest rocks (rather small in normal forest and bigger in old growth)
+    - Block piles (logs, stone...)
+Cherry Grove
+    - Same as Birch Forest
+Cold Ocean / Deep Cold Ocean
+    - Seagrass flooring
+    - Kelp
+    - Sparse sea pickles
+    - Scarce shipwrecks
+Dark Forest
+    - Custom trees (small, medium, big)
+    - Lakes
+    - Glades
+    - Pebbles
+    - Forest rocks (rather small)
+    - Small bushes
+    - Log piles
+Deep Frozen Ocean / Frozen Ocean
+    - Kelp flooring
+    - Seagrass
+    - Icebergs
+    - Some shipwrecks
+Deep Lukewarm Ocean / Lukewarm Ocean / Warm Ocean
+    - Same as Ocean
+    - Some coral reefs
+Deep Ocean / Ocean
+    - Seagrass flooring
+    - Kelp
+    - Some sea pickles
+    - Scarce shipwrecks
+Desert
+    - Dead bushes
+    - Oasis
+    - Cacti
+    - Desert themed wells
+Flower Forest / Forest
+    - Flower patches (dandelions, poppies, daisies)
+    - More varieties of trees (small, medium, big)
+    - Small water patches
+    - Small fossils
+    - Glades
+    - Lakes
+    - Root systems
+    - Log piles
+Frozen River / River
+    - Sea grass / Kelp (in water)
+    - Clay, gravel disks (as the riverbed)
+Grove
+    - Taiga-styled trees (pines, spruce)
+    - Powder snow patches not everywhere
+    - Sparse vegetation
+Ice Spikes
+    - Less spikes
+Jagged Peaks
+    - No changes
+Mangrove Swamp
+    - No changes
+Meadow
+    - Same as plains' trees
+    - Same as forest for others
+Mushroom Fields
+    - No changes (yet, idk)
+Old Growth Pine Taiga / Old Growth Spruce Taiga / Taiga / Snowy Taiga
+    - Done
+Plains
+    - Done
+Savanna Plateau / Savanna / Windswept Savanna
+    - Custom trees
+    - Rock formations
+    - Log piles
+    - Small Oasis
+    - Scarce dandelion patches
+    - Fossils
+Snowy Slopes
+    - Less snow height
+    - No ice ('snowy' slopes)
+Stony Peaks
+    - No changes (but more stone and less of other types of stones)
+Stony Shore
+    - Done
+Sunflower Plains
+    - Same as plains
+    - Sunflower patches
+Swamp
+    - Done
+Windswept Forest / Windswept Gravelly Hills / Windswept Hills
+    - Done

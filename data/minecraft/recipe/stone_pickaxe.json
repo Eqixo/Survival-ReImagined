@@ -2,23 +2,13 @@
   "type": "minecraft:crafting_shaped",
   "pattern": ["_S_", "EWE"],
   "key": {
-    "_": {
-      "item": "minecraft:stone_slab"
-    },
-    "S": {
-      "item": "minecraft:stone"
-    },
-    "E": {
-      "item": "minecraft:string"
-    },
-    "W": {
-      "item": "minecraft:wooden_pickaxe"
-    }
+    "_": "minecraft:stone_slab",
+    "S": "minecraft:stone",
+    "E": "minecraft:string",
+    "W": "minecraft:wooden_pickaxe"
   },
   "result": {
     "id": "minecraft:stone_pickaxe",
     "count": 1
-  },
-  "category": "equipment",
-  "group": "upgrade_pickaxe"
+  }
 }

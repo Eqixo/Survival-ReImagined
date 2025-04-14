@@ -4,12 +4,8 @@
   "category": "equipment",
   "group": "cool_chest",
   "key": {
-    "#": {
-      "item": "minecraft:packed_ice"
-    },
-    "L": {
-      "item": "minecraft:golden_chestplate"
-    }
+    "#": "minecraft:packed_ice",
+    "L": "minecraft:golden_chestplate"
   },
   "result": {
     "id": "minecraft:golden_chestplate",

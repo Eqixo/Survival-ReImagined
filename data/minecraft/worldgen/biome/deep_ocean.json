@@ -1,107 +1,110 @@
 {
-  "temperature": 0.2,
-  "downfall": 0.5,
-  "has_precipitation": true,
+  "carvers": [
+    "minecraft:canyon",
+    "minecraft:cave",
+    "minecraft:cave_extra_underground"
+  ],
   "effects": {
-    "sky_color": 8103167,
     "fog_color": 12638463,
-    "water_color": 4159204,
-    "water_fog_color": 329011,
     "mood_sound": {
-      "sound": "minecraft:ambient.cave",
-      "tick_delay": 6000,
       "block_search_extent": 8,
-      "offset": 2
-    }
+      "offset": 2,
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000
+    },
+    "music_volume": 1.0,
+    "sky_color": 8103167,
+    "water_color": 4159204,
+    "water_fog_color": 329011
   },
-  "spawners": {
-    "monster": [
-      {
-        "type": "minecraft:drowned",
-        "weight": 5,
-        "minCount": 1,
-        "maxCount": 1
-      }
+  "features": [
+    [],
+    ["minecraft:lake_lava_underground"],
+    ["minecraft:amethyst_geode"],
+    ["minecraft:monster_room", "minecraft:monster_room_deep"],
+    [],
+    [],
+    [
+      "minecraft:ore_andesite_lower",
+      "minecraft:ore_coal_lower",
+      "minecraft:ore_coal_upper",
+      "minecraft:ore_copper",
+      "minecraft:ore_diamond",
+      "minecraft:ore_diamond_buried",
+      "minecraft:ore_diamond_large",
+      "minecraft:ore_diorite_lower",
+      "minecraft:ore_gold",
+      "minecraft:ore_gold_lower",
+      "minecraft:ore_granite_lower",
+      "minecraft:ore_iron_middle",
+      "minecraft:ore_iron_small",
+      "minecraft:ore_iron_upper",
+      "minecraft:ore_lapis",
+      "minecraft:ore_lapis_buried",
+      "minecraft:ore_redstone",
+      "minecraft:ore_redstone_lower",
+      "minecraft:ore_tuff",
+      "minecraft:underwater_magma"
     ],
+    [],
+    [],
+    [
+      "minecraft:kelp_cold",
+      "minecraft:seagrass_cold",
+      "survival_reimagined:water_biomes/vegetation/patch_vegetation_underwater"
+    ],
+    ["minecraft:freeze_top_layer"]
+  ],
+  "has_precipitation": true,
+  "spawn_costs": {},
+  "spawners": {
     "ambient": [
       {
-        "type": "minecraft:bat",
-        "weight": 10,
+        "maxCount": 24,
         "minCount": 8,
-        "maxCount": 24
+        "type": "minecraft:bat",
+        "weight": 10
+      }
+    ],
+    "monster": [
+      {
+        "maxCount": 1,
+        "minCount": 1,
+        "type": "minecraft:drowned",
+        "weight": 5
       }
     ],
     "underground_water_creature": [
       {
-        "type": "minecraft:glow_squid",
-        "weight": 10,
+        "maxCount": 6,
         "minCount": 4,
-        "maxCount": 6
-      }
-    ],
-    "water_creature": [
-      {
-        "type": "minecraft:squid",
-        "weight": 3,
-        "minCount": 1,
-        "maxCount": 4
+        "type": "minecraft:glow_squid",
+        "weight": 10
       }
     ],
     "water_ambient": [
       {
-        "type": "minecraft:cod",
-        "weight": 15,
+        "maxCount": 6,
         "minCount": 3,
-        "maxCount": 6
+        "type": "minecraft:cod",
+        "weight": 15
       },
       {
-        "type": "minecraft:salmon",
-        "weight": 15,
+        "maxCount": 5,
         "minCount": 1,
-        "maxCount": 5
+        "type": "minecraft:salmon",
+        "weight": 15
+      }
+    ],
+    "water_creature": [
+      {
+        "maxCount": 4,
+        "minCount": 1,
+        "type": "minecraft:squid",
+        "weight": 3
       }
     ]
   },
-  "spawn_costs": {},
-  "carvers": {
-    "air": [
-      "minecraft:cave",
-      "minecraft:cave_extra_underground",
-      "minecraft:canyon"
-    ]
-  },
-  "features": [
-    ["minecraft:lake_lava_underground"],
-    ["minecraft:amethyst_geode"],
-    ["minecraft:monster_room", "minecraft:monster_room_deep"],
-    [
-      "minecraft:ore_granite_lower",
-      "minecraft:ore_diorite_lower",
-      "minecraft:ore_andesite_lower",
-      "minecraft:ore_tuff",
-      "minecraft:ore_coal_upper",
-      "minecraft:ore_coal_lower",
-      "minecraft:ore_iron_upper",
-      "minecraft:ore_iron_middle",
-      "minecraft:ore_iron_small",
-      "minecraft:ore_gold",
-      "minecraft:ore_gold_lower",
-      "minecraft:ore_redstone",
-      "minecraft:ore_redstone_lower",
-      "minecraft:ore_diamond",
-      "minecraft:ore_diamond_large",
-      "minecraft:ore_diamond_buried",
-      "minecraft:ore_lapis",
-      "minecraft:ore_lapis_buried",
-      "minecraft:ore_copper",
-      "minecraft:underwater_magma"
-    ],
-    [
-      "survival_reimagined:water_biomes/vegetation/patch_vegetation_underwater",
-      "minecraft:seagrass_cold",
-      "minecraft:seagrass_simple",
-      "minecraft:kelp_cold"
-    ],
-    ["minecraft:freeze_top_layer"]
-  ]
+  "temperature": 0.2,
+  "downfall": 0.5
 }

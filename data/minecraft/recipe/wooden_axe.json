@@ -3,86 +3,36 @@
   "pattern": ["_SO", " / ", " / "],
   "key": {
     "_": [
-      {
-        "item": "minecraft:oak_slab"
-      },
-      {
-        "item": "minecraft:spruce_slab"
-      },
-      {
-        "item": "minecraft:dark_oak_slab"
-      },
-      {
-        "item": "minecraft:birch_slab"
-      },
-      {
-        "item": "minecraft:mangrove_slab"
-      },
-      {
-        "item": "minecraft:cherry_slab"
-      },
-      {
-        "item": "minecraft:jungle_slab"
-      },
-      {
-        "item": "minecraft:acacia_slab"
-      },
-      {
-        "item": "minecraft:bamboo_slab"
-      },
-      {
-        "item": "minecraft:warped_slab"
-      },
-      {
-        "item": "minecraft:crimson_slab"
-      }
+      "minecraft:oak_slab",
+      "minecraft:spruce_slab",
+      "minecraft:dark_oak_slab",
+      "minecraft:birch_slab",
+      "minecraft:mangrove_slab",
+      "minecraft:cherry_slab",
+      "minecraft:jungle_slab",
+      "minecraft:acacia_slab",
+      "minecraft:bamboo_slab",
+      "minecraft:warped_slab",
+      "minecraft:crimson_slab"
     ],
-    "S": {
-      "item": "minecraft:string"
-    },
+    "S": "minecraft:string",
     "O": [
-      {
-        "item": "minecraft:oak_planks"
-      },
-      {
-        "item": "minecraft:spruce_planks"
-      },
-      {
-        "item": "minecraft:dark_oak_planks"
-      },
-      {
-        "item": "minecraft:birch_planks"
-      },
-      {
-        "item": "minecraft:mangrove_planks"
-      },
-      {
-        "item": "minecraft:cherry_planks"
-      },
-      {
-        "item": "minecraft:jungle_planks"
-      },
-      {
-        "item": "minecraft:acacia_planks"
-      },
-      {
-        "item": "minecraft:bamboo_planks"
-      },
-      {
-        "item": "minecraft:warped_planks"
-      },
-      {
-        "item": "minecraft:crimson_planks"
-      }
+      "minecraft:oak_planks",
+      "minecraft:spruce_planks",
+      "minecraft:dark_oak_planks",
+      "minecraft:birch_planks",
+      "minecraft:mangrove_planks",
+      "minecraft:cherry_planks",
+      "minecraft:jungle_planks",
+      "minecraft:acacia_planks",
+      "minecraft:bamboo_planks",
+      "minecraft:warped_planks",
+      "minecraft:crimson_planks"
     ],
-    "/": {
-      "item": "minecraft:stick"
-    }
+    "/": "minecraft:stick"
   },
   "result": {
     "id": "minecraft:wooden_axe",
     "count": 1
-  },
-  "category": "equipment",
-  "group": "upgrade_axe"
+  }
 }

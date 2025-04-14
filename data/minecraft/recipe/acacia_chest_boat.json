@@ -1,14 +1,7 @@
 {
   "type": "minecraft:crafting_shapeless",
   "group": "chest_boat",
-  "ingredients": [
-    {
-      "item": "minecraft:acacia_boat"
-    },
-    {
-      "item": "minecraft:chest"
-    }
-  ],
+  "ingredients": ["minecraft:acacia_boat", "minecraft:chest"],
   "result": {
     "id": "minecraft:acacia_chest_boat",
     "count": 1

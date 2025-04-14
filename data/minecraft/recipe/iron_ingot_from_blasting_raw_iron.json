@@ -1,9 +1,7 @@
 {
   "type": "minecraft:blasting",
   "category": "misc",
-  "ingredient": {
-    "tag": "minecraft:iron_ores"
-  },
+  "ingredient": "#minecraft:iron_ores",
   "result": {
     "id": "minecraft:iron_ingot"
   },

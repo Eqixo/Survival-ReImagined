@@ -1,150 +1,158 @@
 {
-  "temperature": 0.25,
-  "downfall": 0,
-  "has_precipitation": false,
+  "carvers": [
+    "minecraft:canyon",
+    "minecraft:cave",
+    "minecraft:cave_extra_underground"
+  ],
   "effects": {
-    "sky_color": 7254527,
     "fog_color": 12638463,
-    "water_color": 4159204,
-    "water_fog_color": 329011,
-    "grass_color": 9470285,
     "foliage_color": 10387789,
+    "grass_color": 9470285,
     "mood_sound": {
-      "sound": "minecraft:ambient.cave",
-      "tick_delay": 6000,
       "block_search_extent": 8,
-      "offset": 2
+      "offset": 2,
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000
     },
-    "music": {
-      "sound": "minecraft:music.overworld.badlands",
-      "min_delay": 12000,
-      "max_delay": 24000,
-      "replace_current_music": false
-    }
+    "music": [
+      {
+        "data": {
+          "max_delay": 24000,
+          "min_delay": 12000,
+          "replace_current_music": false,
+          "sound": "minecraft:music.overworld.badlands"
+        },
+        "weight": 1
+      }
+    ],
+    "music_volume": 1.0,
+    "sky_color": 7254527,
+    "water_color": 4159204,
+    "water_fog_color": 329011
   },
+  "features": [
+    [],
+    ["minecraft:lake_lava_underground"],
+    ["minecraft:amethyst_geode"],
+    ["minecraft:monster_room", "minecraft:monster_room_deep"],
+    [],
+    [],
+    [
+      "minecraft:ore_andesite_lower",
+      "minecraft:ore_coal_lower",
+      "minecraft:ore_coal_upper",
+      "minecraft:ore_copper",
+      "minecraft:ore_diamond",
+      "minecraft:ore_diamond_buried",
+      "minecraft:ore_diamond_large",
+      "minecraft:ore_diorite_lower",
+      "minecraft:ore_gold",
+      "minecraft:ore_gold_lower",
+      "minecraft:ore_iron_middle",
+      "minecraft:ore_iron_small",
+      "minecraft:ore_iron_upper",
+      "minecraft:ore_lapis",
+      "minecraft:ore_lapis_buried",
+      "minecraft:ore_redstone",
+      "minecraft:ore_redstone_lower",
+      "minecraft:ore_tuff",
+      "minecraft:underwater_magma"
+    ],
+    [],
+    [],
+    [
+      "minecraft:glow_lichen",
+      "minecraft:patch_cactus_decorated",
+      "minecraft:patch_sugar_cane_badlands",
+      "survival_reimagined:badlands/vegetation/patch_dead_bushes",
+      "survival_reimagined:water_biomes/vegetation/patch_vegetation_underwater"
+    ],
+    ["minecraft:freeze_top_layer"]
+  ],
+  "spawn_costs": {},
   "spawners": {
-    "monster": [
+    "ambient": [
       {
-        "type": "minecraft:spider",
-        "weight": 15,
-        "minCount": 3,
-        "maxCount": 6
-      },
-      {
-        "type": "minecraft:husk",
-        "weight": 15,
-        "minCount": 3,
-        "maxCount": 5
-      },
-      {
-        "type": "minecraft:skeleton",
-        "weight": 20,
-        "minCount": 4,
-        "maxCount": 6
-      },
-      {
-        "type": "minecraft:creeper",
-        "weight": 10,
-        "minCount": 2,
-        "maxCount": 5
-      },
-      {
-        "type": "minecraft:enderman",
-        "weight": 2,
-        "minCount": 2,
-        "maxCount": 5
-      },
-      {
-        "type": "minecraft:witch",
-        "weight": 1,
-        "minCount": 1,
-        "maxCount": 1
+        "maxCount": 24,
+        "minCount": 8,
+        "type": "minecraft:bat",
+        "weight": 10
       }
     ],
     "creature": [
       {
-        "type": "minecraft:sheep",
-        "weight": 12,
+        "maxCount": 3,
         "minCount": 2,
-        "maxCount": 3
-      },
-      {
-        "type": "minecraft:pig",
-        "weight": 10,
-        "minCount": 2,
-        "maxCount": 4
-      },
-      {
         "type": "minecraft:chicken",
-        "weight": 10,
-        "minCount": 4,
-        "maxCount": 8
+        "weight": 10
       },
       {
-        "type": "minecraft:cow",
-        "weight": 8,
+        "maxCount": 4,
         "minCount": 2,
-        "maxCount": 4
+        "type": "minecraft:cow",
+        "weight": 8
+      },
+      {
+        "maxCount": 4,
+        "minCount": 2,
+        "type": "minecraft:pig",
+        "weight": 10
+      },
+      {
+        "maxCount": 3,
+        "minCount": 2,
+        "type": "minecraft:sheep",
+        "weight": 12
       }
     ],
-    "ambient": [
+    "monster": [
       {
-        "type": "minecraft:bat",
-        "weight": 10,
-        "minCount": 8,
-        "maxCount": 24
+        "maxCount": 5,
+        "minCount": 3,
+        "type": "minecraft:creeper",
+        "weight": 10
+      },
+      {
+        "maxCount": 5,
+        "minCount": 2,
+        "type": "minecraft:enderman",
+        "weight": 2
+      },
+      {
+        "maxCount": 6,
+        "minCount": 3,
+        "type": "minecraft:husk",
+        "weight": 15
+      },
+      {
+        "maxCount": 5,
+        "minCount": 4,
+        "type": "minecraft:skeleton",
+        "weight": 20
+      },
+      {
+        "maxCount": 6,
+        "minCount": 3,
+        "type": "minecraft:spider",
+        "weight": 15
+      },
+      {
+        "maxCount": 1,
+        "minCount": 1,
+        "type": "minecraft:witch",
+        "weight": 1
       }
     ],
     "underground_water_creature": [
       {
-        "type": "minecraft:glow_squid",
-        "weight": 10,
+        "maxCount": 6,
         "minCount": 4,
-        "maxCount": 6
+        "type": "minecraft:glow_squid",
+        "weight": 10
       }
     ]
   },
-  "spawn_costs": {},
-  "carvers": {
-    "air": [
-      "minecraft:cave",
-      "minecraft:cave_extra_underground",
-      "minecraft:canyon"
-    ]
-  },
-  "features": [
-    ["minecraft:lake_lava_underground"],
-    ["minecraft:amethyst_geode"],
-    ["minecraft:monster_room", "minecraft:monster_room_deep"],
-    [
-      "minecraft:ore_granite_lower",
-      "minecraft:ore_diorite_lower",
-      "minecraft:ore_andesite_lower",
-      "minecraft:ore_tuff",
-      "minecraft:ore_coal_upper",
-      "minecraft:ore_coal_lower",
-      "minecraft:ore_iron_upper",
-      "minecraft:ore_iron_middle",
-      "minecraft:ore_iron_small",
-      "minecraft:ore_gold",
-      "minecraft:ore_gold_lower",
-      "minecraft:ore_redstone",
-      "minecraft:ore_redstone_lower",
-      "minecraft:ore_diamond",
-      "minecraft:ore_diamond_large",
-      "minecraft:ore_diamond_buried",
-      "minecraft:ore_lapis",
-      "minecraft:ore_lapis_buried",
-      "minecraft:ore_copper",
-      "minecraft:underwater_magma"
-    ],
-    [
-      "survival_reimagined:badlands/vegetation/patch_dead_bushes",
-      "survival_reimagined:water_biomes/vegetation/patch_vegetation_underwater",
-      "minecraft:glow_lichen",
-      "minecraft:patch_sugar_cane_badlands",
-      "minecraft:patch_cactus_decorated"
-    ],
-    ["minecraft:freeze_top_layer"]
-  ]
+  "temperature": 0.25,
+  "downfall": 0,
+  "has_precipitation": false
 }

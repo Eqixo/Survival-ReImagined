@@ -4,12 +4,8 @@
   "category": "equipment",
   "group": "cool_head",
   "key": {
-    "#": {
-      "item": "minecraft:packed_ice"
-    },
-    "L": {
-      "item": "minecraft:golden_helmet"
-    }
+    "#": "minecraft:packed_ice",
+    "L": "minecraft:golden_helmet"
   },
   "result": {
     "id": "minecraft:golden_helmet",

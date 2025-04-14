@@ -4,12 +4,8 @@
   "group": "pad_chest",
   "pattern": ["#L#"],
   "key": {
-    "#": {
-      "tag": "minecraft:wool"
-    },
-    "L": {
-      "item": "minecraft:golden_chestplate"
-    }
+    "#": "#minecraft:wool",
+    "L": "minecraft:golden_chestplate"
   },
   "result": {
     "id": "minecraft:golden_chestplate",

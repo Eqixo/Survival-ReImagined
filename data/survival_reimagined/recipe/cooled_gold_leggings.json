@@ -4,12 +4,8 @@
   "category": "equipment",
   "group": "cool_legs",
   "key": {
-    "#": {
-      "item": "minecraft:packed_ice"
-    },
-    "L": {
-      "item": "minecraft:golden_leggings"
-    }
+    "#": "minecraft:packed_ice",
+    "L": "minecraft:golden_leggings"
   },
   "result": {
     "id": "minecraft:golden_leggings",
