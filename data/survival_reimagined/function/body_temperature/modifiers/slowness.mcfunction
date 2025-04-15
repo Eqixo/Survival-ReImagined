@@ -10,7 +10,7 @@ execute store result score @s debuff run scoreboard players get @s temperature_i
 scoreboard players operation @s debuff *= #multiplier debuff
 scoreboard players operation @s debuff -= #adder debuff
 
-execute store result entity @s[scores={temperature_int=..37}] attributes[{id:"minecraft:generic.movement_speed"}].base double 0.00003584 run scoreboard players get @s debuff
+execute store result entity @s[scores={temperature_int=..37}] attributes[{id:"minecraft:movement_speed"}].base double 0.00003584 run scoreboard players get @s debuff
 
 
 # Setup the temporary values for ax+b
@@ -22,4 +22,4 @@ execute store result score @s debuff run scoreboard players get @s temperature_i
 scoreboard players operation @s debuff *= #multiplier debuff
 scoreboard players operation @s debuff += #adder debuff
 
-execute store result entity @s[scores={temperature_int=38..}] attributes[{id:"minecraft:generic.movement_speed"}].base double 0.01 run scoreboard players get @s debuff
+execute store result entity @s[scores={temperature_int=38..}] attributes[{id:"minecraft:movement_speed"}].base double 0.01 run scoreboard players get @s debuff

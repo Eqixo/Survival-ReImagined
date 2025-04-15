@@ -1,6 +1,6 @@
 # Set the scale of the mob based on the random number
 #   Range: 0.8-1.2
-execute store result entity @s attributes[{id:"minecraft:generic.scale"}].base double 0.1 run random value 8..12
+execute store result entity @s attributes[{id:"minecraft:scale"}].base double 0.1 run random value 8..12
 
 # Set the explosion radius of the creeper based on the random number
 #   Range: 2-10
